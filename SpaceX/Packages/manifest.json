@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.elringus.spriteglow": "https://github.com/Elringus/SpriteGlow.git#package",
     "com.unity.2d.animation": "3.2.3",
     "com.unity.2d.path": "2.0.5",
     "com.unity.2d.pixel-perfect": "2.0.4",
@@ -52,5 +53,11 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
+  },
+  "lock": {
+    "com.elringus.spriteglow": {
+      "revision": "package",
+      "hash": "05442994ffb7f6c679f648d702cdf888bd8c01dc"
+    }
   }
 }
