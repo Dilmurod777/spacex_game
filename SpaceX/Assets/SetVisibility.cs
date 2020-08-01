@@ -20,14 +20,6 @@ public class SetVisibility : MonoBehaviour
         }
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        //if (collision.tag == "Player")
-        //{
-        //    setVisibility(true);
-        //}
-    }
-
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.tag == "PlayerObjectDetector")
