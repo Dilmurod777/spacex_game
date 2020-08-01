@@ -4,22 +4,44 @@ using UnityEngine;
 
 public class SetVisibility : MonoBehaviour
 {
+    private List<Vector2> points;
     
     // Start is called before the first frame update
     private void Start()
     {
-        float width = 100;
-        float height = 100;
-        float offset = 0;
-
-        gameObject.GetComponent<BoxCollider2D>().size = new Vector2(width + offset, height + offset);
         setVisibility(false);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "PlayerObjectDetector")
+        {
+            setVisibility(true);
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        //if (collision.tag == "Player")
+        //{
+        //    setVisibility(true);
+        //}
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "PlayerObjectDetector")
+        {
+            setVisibility(false);
+        }
     }
 
     public void setVisibility(bool state)
     {
-        Debug.Log(state);
-        gameObject.SetActive(state);
+        for(int i=0; i < gameObject.transform.childCount; i++)
+        {
+            transform.GetChild(i).gameObject.SetActive(state);
+        }
     }
 
 }

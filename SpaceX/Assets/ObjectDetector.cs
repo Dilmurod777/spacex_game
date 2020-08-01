@@ -13,23 +13,4 @@ public class ObjectDetector : MonoBehaviour
 
         gameObject.GetComponent<BoxCollider2D>().size = new Vector2(width + offset, height + offset);
     }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        SetVisibility visibility = collision.GetComponent<SetVisibility>();
-        if (visibility != null)
-        {
-            Debug.Log("FOUND trigger");
-            visibility.setVisibility(true);
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        //SetVisibility visibility = collision.GetComponent<SetVisibility>();
-        //if (visibility != null)
-        //{
-        //    visibility.setVisibility(false);
-        //}
-    }
 }
