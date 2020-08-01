@@ -2,8 +2,8 @@
 
 public class MoveByTouch : MonoBehaviour
 {
-    private float speed = 120f;
-    private float rotationSpeed = 5f;
+    private float speed = 125f;
+    private float rotationSpeed = 10f;
     float touchPointX;
     float touchPointY;
 
@@ -15,20 +15,19 @@ public class MoveByTouch : MonoBehaviour
 
             if (touch.phase == TouchPhase.Moved || touch.phase == TouchPhase.Stationary)
             {
-                Camera cam = Camera.main;
-                Vector3 touchPosInWorldSpace = cam.ScreenToWorldPoint(new Vector3(touch.position.x, touch.position.y, cam.farClipPlane));
+                Vector3 touchPosInWorldSpace = Camera.main.ScreenToWorldPoint(new Vector3(touch.position.x, touch.position.y, Camera.main.farClipPlane));
                 // move to the touch point
                 touchPointX = touchPosInWorldSpace.x;
                 touchPointY = touchPosInWorldSpace.y;
 
-                float cameraHeight = 2f * cam.orthographicSize;
-                float cameraWidth = cameraHeight * cam.aspect;
-                float requiredHeight = 25;
-                float requiredWidth = requiredHeight * cam.aspect;
-                float deltaX = touchPointX * requiredWidth / cameraWidth - transform.position.x;
-                float deltaY = touchPointY * requiredHeight / cameraHeight - transform.position.y;
+                float cameraHeight = 2f * Camera.main.orthographicSize;
+                float cameraWidth = cameraHeight * Camera.main.aspect;
+                float requiredHeight = 20;
+                float requiredWidth = requiredHeight * Camera.main.aspect;
+                float deltaX = touchPointX * requiredWidth / cameraWidth;
+                float deltaY = touchPointY * requiredHeight / cameraHeight;
 
-                transform.GetComponent<Rigidbody2D>().AddForce((new Vector3(deltaX, deltaY, 0).normalized * speed));
+                transform.GetComponent<Rigidbody2D>().AddForce(new Vector2(deltaX, deltaY).normalized * speed);
 
                 // rotate to the touch point
                 float angle = Vector3.SignedAngle(transform.up, new Vector3(deltaX, deltaY, transform.position.z).normalized, transform.forward);
