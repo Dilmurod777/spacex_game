@@ -3,7 +3,7 @@
 public class MoveByTouch : MonoBehaviour
 {
     private float speed = 120f;
-    private float rotationSpeed = 10f;
+    private float rotationSpeed = 5f;
     float touchPointX;
     float touchPointY;
 
