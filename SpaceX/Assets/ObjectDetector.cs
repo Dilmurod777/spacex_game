@@ -7,17 +7,29 @@ public class ObjectDetector : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        float requiredHeight = 20;
-        float requiredWidth = requiredHeight * Camera.main.aspect;
+        float height = 2f * Camera.main.orthographicSize;
+        float width = height * Camera.main.aspect;
+        float offset = 15f;
 
-        float height = Camera.main.fieldOfView;
-
-        gameObject.GetComponent<BoxCollider>().size = new Vector3(requiredWidth, requiredHeight, 1);
+        gameObject.GetComponent<BoxCollider2D>().size = new Vector2(width + offset, height + offset);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        SetVisibility visibility = collision.GetComponent<SetVisibility>();
+        if (visibility != null)
+        {
+            Debug.Log("FOUND trigger");
+            visibility.setVisibility(true);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        //SetVisibility visibility = collision.GetComponent<SetVisibility>();
+        //if (visibility != null)
+        //{
+        //    visibility.setVisibility(false);
+        //}
     }
 }
