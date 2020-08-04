@@ -30,7 +30,7 @@ public class SetVisibility : MonoBehaviour
 
     public void setVisibility(bool state)
     {
-        for(int i=0; i < gameObject.transform.childCount; i++)
+        for (int i = 0; i < transform.childCount; i++)
         {
             transform.GetChild(i).gameObject.SetActive(state);
         }

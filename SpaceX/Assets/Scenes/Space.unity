@@ -25442,6 +25442,40 @@ SpriteShapeRenderer:
   m_LocalAABB:
     m_Center: {x: 41.66934, y: -7.464863, z: 0}
     m_Extent: {x: 68.44672, y: 43.824142, z: 0}
+--- !u!1 &1342663464 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6187137422323618718, guid: 029fe5d6fbe0fe5488981e3031e1db86,
+    type: 3}
+  m_PrefabInstance: {fileID: 6187137421002564435}
+  m_PrefabAsset: {fileID: 0}
+--- !u!58 &1342663465
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342663464}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0000038146973, y: 0.000011444092}
+  serializedVersion: 2
+  m_Radius: 4.5
+--- !u!114 &1342663466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342663464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1343854036 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4816322499636436336, guid: db6f1320b05331b49a2b19b8d414346b,
