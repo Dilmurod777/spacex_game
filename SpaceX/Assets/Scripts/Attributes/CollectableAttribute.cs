@@ -1,17 +1,18 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 [AddComponentMenu("Playground/Attributes/Collectable")]
 public class CollectableAttribute : MonoBehaviour
 {
 	public int pointsWorth = 1;
-	
+
 	private UIScript userInterface;
+	private Animator _animator;
 
 	private void Start()
 	{
 		// Find the UI in the scene and store a reference for later use
 		userInterface = GameObject.FindObjectOfType<UIScript>();
+		_animator = GetComponent<Animator>();
 	}
 
 
@@ -38,7 +39,13 @@ public class CollectableAttribute : MonoBehaviour
 			}
 
 			// then destroy this object
-			Destroy(gameObject);
+			_animator.SetTrigger("isDead");
 		}
+	}
+
+	public void destroyAfterAnimation()
+	{
+		_animator.SetTrigger("isDead");
+		Destroy(gameObject);
 	}
 }

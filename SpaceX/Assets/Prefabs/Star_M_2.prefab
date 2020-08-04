@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5001730607687954324}
   - component: {fileID: 1326530951958208695}
-  - component: {fileID: 6573728507677075875}
   m_Layer: 0
   m_Name: Star_M2
   m_TagString: Untagged
@@ -26,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 651852706689917037}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 324.8206}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.62428594, y: 0.62428594, z: 0.62428594}
   m_Children: []
   m_Father: {fileID: 4152344042801358815}
@@ -82,13 +81,49 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &6573728507677075875
+--- !u!1 &8570531419357469170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4152344042801358815}
+  - component: {fileID: 311135709889828798}
+  - component: {fileID: 7662105801101885823}
+  - component: {fileID: 7030287961547969927}
+  - component: {fileID: 3094643320443264638}
+  - component: {fileID: 5239559699511864053}
+  m_Layer: 0
+  m_Name: Star_M_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4152344042801358815
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8570531419357469170}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.66586, y: 0.66586, z: 0.66586}
+  m_Children:
+  - {fileID: 5001730607687954324}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &311135709889828798
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 651852706689917037}
+  m_GameObject: {fileID: 8570531419357469170}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -132,40 +167,25 @@ PolygonCollider2D:
       - {x: 0.095, y: -0.64}
       - {x: 0.305, y: -0.69}
       - {x: 0.415, y: -0.69}
---- !u!1 &8570531419357469170
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4152344042801358815}
-  - component: {fileID: 7030287961547969927}
-  - component: {fileID: 3094643320443264638}
-  - component: {fileID: 5239559699511864053}
-  m_Layer: 0
-  m_Name: Star_M_2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4152344042801358815
-Transform:
+--- !u!95 &7662105801101885823
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8570531419357469170}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -216.28}
-  m_LocalScale: {x: 0.66586, y: 0.66586, z: 0.66586}
-  m_Children:
-  - {fileID: 5001730607687954324}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2099e782f6d3a94b9e70fa276f3560f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!50 &7030287961547969927
 Rigidbody2D:
   serializedVersion: 4
