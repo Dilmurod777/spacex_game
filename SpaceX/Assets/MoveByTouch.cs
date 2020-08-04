@@ -2,7 +2,7 @@
 
 public class MoveByTouch : MonoBehaviour
 {
-    private float speed = 1.2f;
+    private float speed = 1.4f;
     private float rotationSpeed = 5f;
     float touchPointX;
     float touchPointY;
@@ -25,13 +25,8 @@ public class MoveByTouch : MonoBehaviour
             float deltaX = touchPointX * requiredWidth / cameraWidth - transform.position.x;
             float deltaY = touchPointY * requiredHeight / cameraHeight - transform.position.y;
 
-            if (touch.phase == TouchPhase.Began || touch.phase == TouchPhase.Stationary)
-            {
-                // rotate to the touch point
-                float angle = Vector3.SignedAngle(transform.up, new Vector3(deltaX, deltaY, transform.position.z).normalized, transform.forward);
-                transform.Rotate(0, 0, angle * rotationSpeed * Time.fixedDeltaTime);
-            }
-            else if (touch.phase == TouchPhase.Moved)
+            
+            if (touch.phase == TouchPhase.Moved)
             {
                 // move rocket
                 transform.GetComponent<Rigidbody2D>().AddForce(new Vector3(deltaX, deltaY, 0) * speed);

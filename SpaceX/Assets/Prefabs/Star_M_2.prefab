@@ -90,11 +90,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4152344042801358815}
-  - component: {fileID: 311135709889828798}
   - component: {fileID: 7662105801101885823}
   - component: {fileID: 7030287961547969927}
   - component: {fileID: 3094643320443264638}
   - component: {fileID: 5239559699511864053}
+  - component: {fileID: 2342916315579530362}
   m_Layer: 0
   m_Name: Star_M_2
   m_TagString: Untagged
@@ -117,56 +117,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &311135709889828798
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8570531419357469170}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.45, y: 1.38}
-    newSize: {x: 1.45, y: 1.38}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.445, y: -0.66999996}
-      - {x: 0.505, y: -0.61}
-      - {x: 0.53499997, y: -0.32}
-      - {x: 0.72499996, y: -0.01}
-      - {x: 0.72499996, y: 0.17999999}
-      - {x: 0.585, y: 0.31}
-      - {x: 0.385, y: 0.38}
-      - {x: 0.255, y: 0.56}
-      - {x: 0.105, y: 0.69}
-      - {x: -0.055, y: 0.69}
-      - {x: -0.145, y: 0.64}
-      - {x: -0.355, y: 0.41}
-      - {x: -0.59499997, y: 0.29999998}
-      - {x: -0.66499996, y: 0.25}
-      - {x: -0.72499996, y: 0.17999999}
-      - {x: -0.72499996, y: 0.01}
-      - {x: -0.695, y: -0.06}
-      - {x: -0.53499997, y: -0.29999998}
-      - {x: -0.505, y: -0.48999998}
-      - {x: -0.48499998, y: -0.62}
-      - {x: -0.435, y: -0.69}
-      - {x: -0.105, y: -0.69}
-      - {x: 0.095, y: -0.64}
-      - {x: 0.305, y: -0.69}
-      - {x: 0.415, y: -0.69}
 --- !u!95 &7662105801101885823
 Animator:
   serializedVersion: 3
@@ -234,3 +184,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointsWorth: 1
+--- !u!58 &2342916315579530362
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8570531419357469170}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.5
