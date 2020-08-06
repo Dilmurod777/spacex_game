@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SetVisibility : MonoBehaviour
+public class AsteroidVisibility : MonoBehaviour
 {
-    // Start is called before the first frame update
+    SpriteRenderer _spriteRenderer;
+    PolygonCollider2D _polygonCollider;
     private void Start()
     {
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _polygonCollider = GetComponent<PolygonCollider2D>();
         setVisibility(false);
     }
 
@@ -28,10 +31,7 @@ public class SetVisibility : MonoBehaviour
 
     public void setVisibility(bool state)
     {
-        for(int i=0; i < gameObject.transform.childCount; i++)
-        {
-            transform.GetChild(i).gameObject.SetActive(state);
-        }
+        _spriteRenderer.enabled = state;
+        _polygonCollider.enabled = state;
     }
-
 }
