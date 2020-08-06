@@ -83,7 +83,7 @@ public class MoveByTouch : MonoBehaviour
         else
         {
             StopAllCoroutines();
-            StartCoroutine(ChangeCameraView(_cam.fieldOfView, _cameraMinView, 0.5f));
+            StartCoroutine(ChangeCameraView(_cam.fieldOfView, _cameraMinView, 0.1f));
         }
     }
 
@@ -92,8 +92,8 @@ public class MoveByTouch : MonoBehaviour
         float elapsed = 0.0f;
         while (elapsed < duration)
         {
-            _cam.fieldOfView = Mathf.Lerp(v_start, v_end, elapsed / duration);
-            elapsed += Time.deltaTime;
+            _cam.fieldOfView = Mathf.Lerp(v_start, v_end, Time.fixedDeltaTime);
+            elapsed += Time.fixedDeltaTime;
             yield return null;
         }
         _cam.fieldOfView = v_end;
