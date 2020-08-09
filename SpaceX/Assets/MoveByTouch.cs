@@ -62,7 +62,7 @@ public class MoveByTouch : MonoBehaviour
                 //float velocityRatio = (velocity - prevVelocity) / maxVelocity;
                 //float cameraRatio = velocityRatio * (_cameraMaxView - _cameraMinView);
                 //_cam.fieldOfView = Mathf.Clamp(_cam.fieldOfView + cameraRatio, _cameraMinView, _cameraMaxView);
-                if (velocity - prevVelocity > 0)
+                if (velocity - prevVelocity > 1)
                 {
                     // velocity increase -> larger camera view
                     _cam.fieldOfView += Time.fixedDeltaTime * _cameraSpeed;
