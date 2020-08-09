@@ -1,22 +1,25 @@
 ﻿using System;
+using System.Collections;
 using UnityEngine;
 
 public class MoveByTouch : MonoBehaviour
 {
-    private float speed = 1.4f;
+    private float force = 1.4f;
     private float rotationSpeed = 5f;
     float touchPointX;
     float touchPointY;
-    private float _cameraTime = 1f;
-    private float _cameraDefaultValue = 71f;
-    private float _cameraUpperValue = 81f;
-    private float _cameraLowerValue = 61f;
-    private float _velocityUpperValue = 10f;
-    private float _velocityLowerValue = 2f;
+    private float _cameraSpeed = 10f;
+    private float _cameraMinView = 71f;
+    private float _cameraMaxView = 91f;
+    private float maxVelocity = 15f;
+    private float minVelocity = 5f;
+    private float prevVelocity = 0;
 
     private Rigidbody2D _rb;
     private Camera _cam;
     private Touch _touch;
+
+    private Coroutine _couroutine;
 
     private void Start()
     {
@@ -28,6 +31,7 @@ public class MoveByTouch : MonoBehaviour
     {
         if (Input.touchCount > 0)
         {
+            StopAllCoroutines();
             _touch = Input.GetTouch(0);
             Vector3 touchPosInWorldSpace = _cam.ScreenToWorldPoint(new Vector3(_touch.position.x, _touch.position.y, _cam.farClipPlane));
             // move to the touch point
@@ -41,30 +45,35 @@ public class MoveByTouch : MonoBehaviour
             float deltaX = touchPointX * requiredWidth / cameraWidth - transform.position.x;
             float deltaY = touchPointY * requiredHeight / cameraHeight - transform.position.y;
 
-            if (_touch.phase == TouchPhase.Canceled || _touch.phase == TouchPhase.Stationary)
-            {
-                _cam.fieldOfView = Mathf.Lerp(_cam.fieldOfView, _cameraDefaultValue, Time.fixedDeltaTime * _cameraTime);
-            }
-            else if (_touch.phase == TouchPhase.Moved)
+            if (_touch.phase == TouchPhase.Moved || _touch.phase == TouchPhase.Stationary)
             {
                 // move rocket
-                _rb.AddForce(new Vector3(deltaX, deltaY, 0) * speed);
+                _rb.AddForce(new Vector3(deltaX, deltaY, 0) * force);
 
                 // increase/descrease camera due to velocity
                 float velocity = _rb.velocity.magnitude;
-                Debug.Log(velocity);
-                if (velocity > _velocityUpperValue)
+                // limit the velocity
+                if (velocity > maxVelocity)
                 {
-                    _cam.fieldOfView = Mathf.Lerp(_cam.fieldOfView, _cameraUpperValue, Time.fixedDeltaTime * _cameraTime);
+                    _rb.velocity = _rb.velocity.normalized * maxVelocity;
                 }
-                else if (velocity < _velocityUpperValue && velocity > _velocityLowerValue)
+
+
+                //float velocityRatio = (velocity - prevVelocity) / maxVelocity;
+                //float cameraRatio = velocityRatio * (_cameraMaxView - _cameraMinView);
+                //_cam.fieldOfView = Mathf.Clamp(_cam.fieldOfView + cameraRatio, _cameraMinView, _cameraMaxView);
+                if (velocity - prevVelocity > 0)
                 {
-                    _cam.fieldOfView = Mathf.Lerp(_cam.fieldOfView, _cameraLowerValue, Time.fixedDeltaTime * _cameraTime);
+                    // velocity increase -> larger camera view
+                    _cam.fieldOfView += Time.fixedDeltaTime * _cameraSpeed;
                 }
                 else
                 {
-                    _cam.fieldOfView = Mathf.Lerp(_cam.fieldOfView, _cameraDefaultValue, Time.fixedDeltaTime * _cameraTime);
+                    // velocity descrease -> smaller camera view
+                    _cam.fieldOfView -= Time.fixedDeltaTime * _cameraSpeed;
                 }
+                _cam.fieldOfView = Mathf.Clamp(_cam.fieldOfView, _cameraMinView, _cameraMaxView);
+                prevVelocity = velocity;
 
                 // rotate to the touch point
                 float angle = Vector3.SignedAngle(transform.up, new Vector3(deltaX, deltaY, transform.position.z).normalized, transform.forward);
@@ -73,7 +82,20 @@ public class MoveByTouch : MonoBehaviour
         }
         else
         {
-            _cam.fieldOfView = Mathf.Lerp(_cam.fieldOfView, _cameraDefaultValue, Time.fixedDeltaTime * _cameraTime);
+            StopAllCoroutines();
+            StartCoroutine(ChangeCameraView(_cam.fieldOfView, _cameraMinView, 0.1f));
         }
+    }
+
+    IEnumerator ChangeCameraView(float v_start, float v_end, float duration)
+    {
+        float elapsed = 0.0f;
+        while (elapsed < duration)
+        {
+            _cam.fieldOfView = Mathf.Lerp(v_start, v_end, Time.fixedDeltaTime);
+            elapsed += Time.fixedDeltaTime;
+            yield return null;
+        }
+        _cam.fieldOfView = v_end;
     }
 }
