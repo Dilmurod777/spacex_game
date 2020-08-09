@@ -14,6 +14,8 @@ public class SetVisibility : MonoBehaviour
     {
         //setVisibility(false);
         player = FindObjectOfType<Player>().gameObject;
+        polygonCollider2D = GetComponent<PolygonCollider2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void FixedUpdate()
