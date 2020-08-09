@@ -5,22 +5,37 @@ using UnityEngine;
 
 public class SetVisibility : MonoBehaviour
 {
-    private GameObject player;
-    private PolygonCollider2D polygonCollider2D;
-    private SpriteRenderer spriteRenderer;
+    private GameObject _player;
+    private Collider2D _collider;
+    private SpriteRenderer _spriteRenderer;
+    private Animator _animator;
+    private AutoRotate _autoRotate;
 
     // Start is called before the first frame update
     private void Start()
     {
         //setVisibility(false);
-        player = FindObjectOfType<Player>().gameObject;
-        polygonCollider2D = GetComponent<PolygonCollider2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        _player = FindObjectOfType<Player>().gameObject;
+        if (gameObject.tag == "Asteroid")
+        {
+            _collider = GetComponent<EdgeCollider2D>();
+            _spriteRenderer = GetComponent<SpriteRenderer>();
+        }
+        else if (gameObject.tag == "Stars")
+        {
+            _animator = GetComponent<Animator>();
+            _autoRotate = GetComponent<AutoRotate>();
+            _collider = GetComponent<CircleCollider2D>();
+        }
+        else if (gameObject.tag == "Planets")
+        {
+            _collider = GetComponent<CircleCollider2D>();
+        }
     }
 
     private void FixedUpdate()
     {
-        float distance = (player.transform.position - transform.position).magnitude;
+        float distance = (_player.transform.position - transform.position).magnitude;
 
         if (distance < 30)
         {
@@ -34,17 +49,29 @@ public class SetVisibility : MonoBehaviour
 
     public void setVisibility(bool state)
     {
-        if(transform.childCount > 0)
+        if (gameObject.tag == "Asteroid")
         {
-            for (int i = 0; i < gameObject.transform.childCount; i++)
+            _spriteRenderer.enabled = state;
+            _collider.enabled = state;
+        }
+        else if (gameObject.tag == "Stars")
+        {
+            _animator.enabled = state;
+            _autoRotate.enabled = state;
+            _collider.enabled = state;
+            for (int i = 0; i < transform.childCount; i++)
             {
                 transform.GetChild(i).gameObject.SetActive(state);
             }
         }
-        else
+        else if (gameObject.tag == "Planets")
         {
-            spriteRenderer.enabled = state;
-            polygonCollider2D.enabled = state;
+            _collider.enabled = state;
+
+            for (int i = 0; i < gameObject.transform.childCount; i++)
+            {
+                transform.GetChild(i).gameObject.SetActive(state);
+            }
         }
     }
 

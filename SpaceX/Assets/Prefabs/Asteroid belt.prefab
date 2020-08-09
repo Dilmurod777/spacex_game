@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 6187137420594134715}
   - component: {fileID: 6187137420594134709}
   - component: {fileID: 2425954381870695163}
+  - component: {fileID: 4499090348080810651}
   m_Layer: 0
   m_Name: Asteroid_Medium (11)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,6 +130,18 @@ EdgeCollider2D:
   - {x: 1.1114436, y: -0.55904156}
   - {x: 1.1021457, y: 0.026764387}
   - {x: 0.60377353, y: 0.38543195}
+--- !u!114 &4499090348080810651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137420594134711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137420600902975
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,9 +154,10 @@ GameObject:
   - component: {fileID: 6187137420600902947}
   - component: {fileID: 6187137420600902973}
   - component: {fileID: 2659876852055031013}
+  - component: {fileID: 1066322039847632750}
   m_Layer: 0
   m_Name: Asteroid_Medium (14)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -260,6 +274,18 @@ EdgeCollider2D:
   - {x: 1.522443, y: 0.75847083}
   - {x: 0.7953886, y: 0.9981889}
   - {x: 0.2870932, y: 0.5598806}
+--- !u!114 &1066322039847632750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137420600902975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137420616325419
 GameObject:
   m_ObjectHideFlags: 0
@@ -272,9 +298,10 @@ GameObject:
   - component: {fileID: 6187137420616325423}
   - component: {fileID: 6187137420616325417}
   - component: {fileID: 3073409269018143421}
+  - component: {fileID: 7966101878491000601}
   m_Layer: 0
   m_Name: Asteroid_Small (23)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -390,6 +417,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &7966101878491000601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137420616325419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137420619302192
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,9 +441,10 @@ GameObject:
   - component: {fileID: 6187137420619302196}
   - component: {fileID: 6187137420619302198}
   - component: {fileID: 7794398250545449923}
+  - component: {fileID: 6960162547811711656}
   m_Layer: 0
   m_Name: Asteroid_Big (10)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -523,6 +563,18 @@ EdgeCollider2D:
   - {x: 2.1201591, y: -0.6162597}
   - {x: 1.7365476, y: 0.11722751}
   - {x: 0.7492195, y: 0.5504195}
+--- !u!114 &6960162547811711656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137420619302192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137420629617730
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,9 +587,10 @@ GameObject:
   - component: {fileID: 6187137420629617734}
   - component: {fileID: 6187137420629617728}
   - component: {fileID: 3790705281549562493}
+  - component: {fileID: 2231271793483757048}
   m_Layer: 0
   m_Name: Asteroid_Medium (23)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -652,6 +705,18 @@ EdgeCollider2D:
   - {x: 1.0084918, y: -1.5613812}
   - {x: 1.5879817, y: -0.47006658}
   - {x: 1.2037702, y: 0.34552503}
+--- !u!114 &2231271793483757048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137420629617730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137420631237255
 GameObject:
   m_ObjectHideFlags: 0
@@ -664,9 +729,10 @@ GameObject:
   - component: {fileID: 6187137420631237259}
   - component: {fileID: 6187137420631237253}
   - component: {fileID: 3639684764901170158}
+  - component: {fileID: 9014414491897797045}
   m_Layer: 0
   m_Name: Asteroid_Small (26)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -782,6 +848,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &9014414491897797045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137420631237255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137420637354606
 GameObject:
   m_ObjectHideFlags: 0
@@ -794,9 +872,10 @@ GameObject:
   - component: {fileID: 6187137420637354514}
   - component: {fileID: 6187137420637354604}
   - component: {fileID: 7585394937013685760}
+  - component: {fileID: 2398711198889072963}
   m_Layer: 0
   m_Name: Asteroid_Medium (6)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -912,6 +991,18 @@ EdgeCollider2D:
   - {x: 1.5636367, y: 0.9506149}
   - {x: 0.54761565, y: 1.34132}
   - {x: -0.08541781, y: 0.93382454}
+--- !u!114 &2398711198889072963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137420637354606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137420651198904
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,9 +1015,10 @@ GameObject:
   - component: {fileID: 6187137420651198908}
   - component: {fileID: 6187137420651198910}
   - component: {fileID: 3166279538779958336}
+  - component: {fileID: 8428724604546248214}
   m_Layer: 0
   m_Name: Asteroid_Small (29)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1045,6 +1137,18 @@ EdgeCollider2D:
   - {x: 2.1201591, y: -0.6162597}
   - {x: 1.7365476, y: 0.11722751}
   - {x: 0.7492195, y: 0.5504195}
+--- !u!114 &8428724604546248214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137420651198904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137420651799160
 GameObject:
   m_ObjectHideFlags: 0
@@ -1057,9 +1161,10 @@ GameObject:
   - component: {fileID: 6187137420651799164}
   - component: {fileID: 6187137420651799166}
   - component: {fileID: 7211516677837396863}
+  - component: {fileID: 552789054588988967}
   m_Layer: 0
   m_Name: Asteroid_Small (30)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1175,6 +1280,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &552789054588988967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137420651799160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137420692253206
 GameObject:
   m_ObjectHideFlags: 0
@@ -1187,9 +1304,10 @@ GameObject:
   - component: {fileID: 6187137420692253210}
   - component: {fileID: 6187137420692253204}
   - component: {fileID: 5099692670275899723}
+  - component: {fileID: 8912299812249131506}
   m_Layer: 0
   m_Name: Asteroid_Small (21)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1305,6 +1423,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &8912299812249131506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137420692253206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137420706928846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1317,9 +1447,10 @@ GameObject:
   - component: {fileID: 6187137420706928882}
   - component: {fileID: 6187137420706928844}
   - component: {fileID: 2442825718879745631}
+  - component: {fileID: 5219529917402097907}
   m_Layer: 0
   m_Name: Asteroid_Medium (20)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1435,6 +1566,18 @@ EdgeCollider2D:
   - {x: 1.5636367, y: 0.9506149}
   - {x: 0.54761565, y: 1.34132}
   - {x: -0.08541781, y: 0.93382454}
+--- !u!114 &5219529917402097907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137420706928846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137420782837051
 GameObject:
   m_ObjectHideFlags: 0
@@ -1447,9 +1590,10 @@ GameObject:
   - component: {fileID: 6187137420782837055}
   - component: {fileID: 6187137420782837049}
   - component: {fileID: 7111402124659624640}
+  - component: {fileID: 3407789588942267574}
   m_Layer: 0
   m_Name: Asteroid_Small (16)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1564,6 +1708,18 @@ EdgeCollider2D:
   - {x: 1.0084918, y: -1.5613812}
   - {x: 1.5879817, y: -0.47006658}
   - {x: 1.2037702, y: 0.34552503}
+--- !u!114 &3407789588942267574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137420782837051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137420854337942
 GameObject:
   m_ObjectHideFlags: 0
@@ -1576,9 +1732,10 @@ GameObject:
   - component: {fileID: 6187137420854337946}
   - component: {fileID: 6187137420854337940}
   - component: {fileID: 4316363639212069255}
+  - component: {fileID: 5835523586534881938}
   m_Layer: 0
   m_Name: Asteroid_Small (45)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1697,6 +1854,18 @@ EdgeCollider2D:
   - {x: 2.1201591, y: -0.6162597}
   - {x: 1.7365476, y: 0.11722751}
   - {x: 0.7492195, y: 0.5504195}
+--- !u!114 &5835523586534881938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137420854337942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137420857475796
 GameObject:
   m_ObjectHideFlags: 0
@@ -1750,9 +1919,10 @@ GameObject:
   - component: {fileID: 6187137420877056817}
   - component: {fileID: 6187137420877056819}
   - component: {fileID: 1401848665804904332}
+  - component: {fileID: 7087114218202194409}
   m_Layer: 0
   m_Name: Asteroid_Small (46)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1868,6 +2038,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &7087114218202194409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137420877056781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137420892080557
 GameObject:
   m_ObjectHideFlags: 0
@@ -1880,9 +2062,10 @@ GameObject:
   - component: {fileID: 6187137420892080209}
   - component: {fileID: 6187137420892080211}
   - component: {fileID: 7670586328017138301}
+  - component: {fileID: 7714292046780560442}
   m_Layer: 0
   m_Name: Asteroid_Small (9)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1998,6 +2181,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &7714292046780560442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137420892080557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137420894506448
 GameObject:
   m_ObjectHideFlags: 0
@@ -2010,9 +2205,10 @@ GameObject:
   - component: {fileID: 6187137420894506452}
   - component: {fileID: 6187137420894506454}
   - component: {fileID: 4087439870863943073}
+  - component: {fileID: 7633702413103332242}
   m_Layer: 0
   m_Name: Asteroid_Medium (21)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2129,6 +2325,18 @@ EdgeCollider2D:
   - {x: 1.522443, y: 0.75847083}
   - {x: 0.7953886, y: 0.9981889}
   - {x: 0.2870932, y: 0.5598806}
+--- !u!114 &7633702413103332242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137420894506448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137420903166954
 GameObject:
   m_ObjectHideFlags: 0
@@ -2141,9 +2349,10 @@ GameObject:
   - component: {fileID: 6187137420903166958}
   - component: {fileID: 6187137420903166952}
   - component: {fileID: 2887932056060760928}
+  - component: {fileID: 5151233335497764764}
   m_Layer: 0
   m_Name: Asteroid_Small (12)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2259,6 +2468,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &5151233335497764764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137420903166954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137420914224412
 GameObject:
   m_ObjectHideFlags: 0
@@ -2271,9 +2492,10 @@ GameObject:
   - component: {fileID: 6187137420914224384}
   - component: {fileID: 6187137420914224386}
   - component: {fileID: 7942663118599130702}
+  - component: {fileID: 1168294153117418503}
   m_Layer: 0
   m_Name: Asteroid_Big (7)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2388,6 +2610,18 @@ EdgeCollider2D:
   - {x: 1.0084918, y: -1.5613812}
   - {x: 1.5879817, y: -0.47006658}
   - {x: 1.2037702, y: 0.34552503}
+--- !u!114 &1168294153117418503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137420914224412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137420927068250
 GameObject:
   m_ObjectHideFlags: 0
@@ -2400,9 +2634,10 @@ GameObject:
   - component: {fileID: 6187137420927068254}
   - component: {fileID: 6187137420927068248}
   - component: {fileID: 8819581946242848593}
+  - component: {fileID: 5305178063115098779}
   m_Layer: 0
   m_Name: Asteroid_Medium (17)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2518,6 +2753,18 @@ EdgeCollider2D:
   - {x: 0.066820025, y: -1.6191763}
   - {x: -0.80673057, y: -1.103847}
   - {x: -0.89909387, y: -0.42196345}
+--- !u!114 &5305178063115098779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137420927068250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421015120743
 GameObject:
   m_ObjectHideFlags: 0
@@ -2530,9 +2777,10 @@ GameObject:
   - component: {fileID: 6187137421015120747}
   - component: {fileID: 6187137421015120741}
   - component: {fileID: 600582296721770108}
+  - component: {fileID: 4555351606830814901}
   m_Layer: 0
   m_Name: Asteroid_Small (38)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2648,6 +2896,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &4555351606830814901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421015120743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421031783878
 GameObject:
   m_ObjectHideFlags: 0
@@ -2660,9 +2920,10 @@ GameObject:
   - component: {fileID: 6187137421031783882}
   - component: {fileID: 6187137421031783876}
   - component: {fileID: 7226779301272179670}
+  - component: {fileID: 7479026558698236100}
   m_Layer: 0
   m_Name: Asteroid_Big (17)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2781,6 +3042,18 @@ EdgeCollider2D:
   - {x: 2.1201591, y: -0.6162597}
   - {x: 1.7365476, y: 0.11722751}
   - {x: 0.7492195, y: 0.5504195}
+--- !u!114 &7479026558698236100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421031783878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421034926921
 GameObject:
   m_ObjectHideFlags: 0
@@ -2793,9 +3066,10 @@ GameObject:
   - component: {fileID: 6187137421034926925}
   - component: {fileID: 6187137421034926927}
   - component: {fileID: 1107958746162679483}
+  - component: {fileID: 4564881544886408836}
   m_Layer: 0
   m_Name: Asteroid_Big (9)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2912,6 +3186,18 @@ EdgeCollider2D:
   - {x: 1.5857264, y: 1.2677408}
   - {x: 0.40722594, y: 2.0370934}
   - {x: -0.06511275, y: 1.3852004}
+--- !u!114 &4564881544886408836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421034926921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421054510591
 GameObject:
   m_ObjectHideFlags: 0
@@ -2924,9 +3210,10 @@ GameObject:
   - component: {fileID: 6187137421054510563}
   - component: {fileID: 6187137421054510589}
   - component: {fileID: 3309875619470995608}
+  - component: {fileID: 3723556295180373787}
   m_Layer: 0
   m_Name: Asteroid_Small (22)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3042,6 +3329,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &3723556295180373787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421054510591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421125101722
 GameObject:
   m_ObjectHideFlags: 0
@@ -3054,9 +3353,10 @@ GameObject:
   - component: {fileID: 6187137421125101726}
   - component: {fileID: 6187137421125101720}
   - component: {fileID: 4994754701050123020}
+  - component: {fileID: 7719555319708558431}
   m_Layer: 0
   m_Name: Asteroid_Medium (13)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3173,6 +3473,18 @@ EdgeCollider2D:
   - {x: 1.5857264, y: 1.2677408}
   - {x: 0.40722594, y: 2.0370934}
   - {x: -0.06511275, y: 1.3852004}
+--- !u!114 &7719555319708558431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421125101722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421142825286
 GameObject:
   m_ObjectHideFlags: 0
@@ -3185,9 +3497,10 @@ GameObject:
   - component: {fileID: 6187137421142825290}
   - component: {fileID: 6187137421142825284}
   - component: {fileID: 8416096871344266985}
+  - component: {fileID: 6431465098879961520}
   m_Layer: 0
   m_Name: Asteroid_Small (51)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3304,6 +3617,18 @@ EdgeCollider2D:
   - {x: -0.84674835, y: -1.7018745}
   - {x: -1.3075675, y: -1.1597342}
   - {x: -0.9174071, y: -0.08681679}
+--- !u!114 &6431465098879961520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421142825286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421184161787
 GameObject:
   m_ObjectHideFlags: 0
@@ -3316,9 +3641,10 @@ GameObject:
   - component: {fileID: 6187137421184161791}
   - component: {fileID: 6187137421184161785}
   - component: {fileID: 6903357947127818646}
+  - component: {fileID: 2011304680256646211}
   m_Layer: 0
   m_Name: Asteroid_Small (44)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3434,6 +3760,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &2011304680256646211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421184161787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421187072803
 GameObject:
   m_ObjectHideFlags: 0
@@ -3446,9 +3784,10 @@ GameObject:
   - component: {fileID: 6187137421187072807}
   - component: {fileID: 6187137421187072801}
   - component: {fileID: 654730618093998455}
+  - component: {fileID: 242233418687079451}
   m_Layer: 0
   m_Name: Asteroid_Big (12)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3565,6 +3904,18 @@ EdgeCollider2D:
   - {x: 1.522443, y: 0.75847083}
   - {x: 0.7953886, y: 0.9981889}
   - {x: 0.2870932, y: 0.5598806}
+--- !u!114 &242233418687079451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421187072803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421241330707
 GameObject:
   m_ObjectHideFlags: 0
@@ -3577,9 +3928,10 @@ GameObject:
   - component: {fileID: 6187137421241330711}
   - component: {fileID: 6187137421241330705}
   - component: {fileID: 7199138209061158320}
+  - component: {fileID: 4804040914444702937}
   m_Layer: 0
   m_Name: Asteroid_Small (43)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3695,6 +4047,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &4804040914444702937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421241330707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421244430432
 GameObject:
   m_ObjectHideFlags: 0
@@ -3707,9 +4071,10 @@ GameObject:
   - component: {fileID: 6187137421244430436}
   - component: {fileID: 6187137421244430438}
   - component: {fileID: 8680623720160382889}
+  - component: {fileID: 8178917689761925549}
   m_Layer: 0
   m_Name: Asteroid_Small (14)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3825,6 +4190,18 @@ EdgeCollider2D:
   - {x: 1.5636367, y: 0.9506149}
   - {x: 0.54761565, y: 1.34132}
   - {x: -0.08541781, y: 0.93382454}
+--- !u!114 &8178917689761925549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421244430432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421253191393
 GameObject:
   m_ObjectHideFlags: 0
@@ -3837,9 +4214,10 @@ GameObject:
   - component: {fileID: 6187137421253191397}
   - component: {fileID: 6187137421253191399}
   - component: {fileID: 3312359305009245380}
+  - component: {fileID: 7685084101093403946}
   m_Layer: 0
   m_Name: Asteroid_Small (27)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3955,6 +4333,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &7685084101093403946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421253191393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421316151488
 GameObject:
   m_ObjectHideFlags: 0
@@ -3967,9 +4357,10 @@ GameObject:
   - component: {fileID: 6187137421316151492}
   - component: {fileID: 6187137421316151494}
   - component: {fileID: 2243479118235879108}
+  - component: {fileID: 3966559307060239604}
   m_Layer: 0
   m_Name: Asteroid_Small (58)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4086,6 +4477,18 @@ EdgeCollider2D:
   - {x: 1.5857264, y: 1.2677408}
   - {x: 0.40722594, y: 2.0370934}
   - {x: -0.06511275, y: 1.3852004}
+--- !u!114 &3966559307060239604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421316151488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421328745896
 GameObject:
   m_ObjectHideFlags: 0
@@ -4098,9 +4501,10 @@ GameObject:
   - component: {fileID: 6187137421328745900}
   - component: {fileID: 6187137421328745902}
   - component: {fileID: 9099318332650531510}
+  - component: {fileID: 4872008811196993986}
   m_Layer: 0
   m_Name: Asteroid_Medium (9)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4216,6 +4620,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &4872008811196993986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421328745896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421338285659
 GameObject:
   m_ObjectHideFlags: 0
@@ -4228,9 +4644,10 @@ GameObject:
   - component: {fileID: 6187137421338285663}
   - component: {fileID: 6187137421338285657}
   - component: {fileID: 1060267847695517331}
+  - component: {fileID: 5202060114034561108}
   m_Layer: 0
   m_Name: Asteroid_Medium (7)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4347,6 +4764,18 @@ EdgeCollider2D:
   - {x: -0.84674835, y: -1.7018745}
   - {x: -1.3075675, y: -1.1597342}
   - {x: -0.9174071, y: -0.08681679}
+--- !u!114 &5202060114034561108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421338285659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421376548854
 GameObject:
   m_ObjectHideFlags: 0
@@ -4359,9 +4788,10 @@ GameObject:
   - component: {fileID: 6187137421376548858}
   - component: {fileID: 6187137421376548852}
   - component: {fileID: 8272402818559099495}
+  - component: {fileID: 6401986847715408503}
   m_Layer: 0
   m_Name: Asteroid_Small (36)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4477,6 +4907,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &6401986847715408503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421376548854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421379925255
 GameObject:
   m_ObjectHideFlags: 0
@@ -4489,9 +4931,10 @@ GameObject:
   - component: {fileID: 6187137421379925259}
   - component: {fileID: 6187137421379925253}
   - component: {fileID: 2264489887447913329}
+  - component: {fileID: 1239936233570001512}
   m_Layer: 0
   m_Name: Asteroid_Medium (4)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4607,6 +5050,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &1239936233570001512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421379925255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421429173334
 GameObject:
   m_ObjectHideFlags: 0
@@ -4619,9 +5074,10 @@ GameObject:
   - component: {fileID: 6187137421429173338}
   - component: {fileID: 6187137421429173332}
   - component: {fileID: 2739981748448372421}
+  - component: {fileID: 5766912106329183816}
   m_Layer: 0
   m_Name: Asteroid_Small (32)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4736,6 +5192,18 @@ EdgeCollider2D:
   - {x: 1.0084918, y: -1.5613812}
   - {x: 1.5879817, y: -0.47006658}
   - {x: 1.2037702, y: 0.34552503}
+--- !u!114 &5766912106329183816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421429173334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421490574685
 GameObject:
   m_ObjectHideFlags: 0
@@ -4781,9 +5249,10 @@ GameObject:
   - component: {fileID: 6187137421491709111}
   - component: {fileID: 6187137421491709105}
   - component: {fileID: 2970846993865509170}
+  - component: {fileID: 8843877472581752216}
   m_Layer: 0
   m_Name: Asteroid_Small (42)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4900,6 +5369,18 @@ EdgeCollider2D:
   - {x: 1.522443, y: 0.75847083}
   - {x: 0.7953886, y: 0.9981889}
   - {x: 0.2870932, y: 0.5598806}
+--- !u!114 &8843877472581752216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421491709107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421497761650
 GameObject:
   m_ObjectHideFlags: 0
@@ -4912,9 +5393,10 @@ GameObject:
   - component: {fileID: 6187137421497761654}
   - component: {fileID: 6187137421497761648}
   - component: {fileID: 4927791381648165953}
+  - component: {fileID: 437409007105179727}
   m_Layer: 0
   m_Name: Asteroid_Medium (16)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5030,6 +5512,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &437409007105179727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421497761650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421510899646
 GameObject:
   m_ObjectHideFlags: 0
@@ -5042,9 +5536,10 @@ GameObject:
   - component: {fileID: 6187137421510899618}
   - component: {fileID: 6187137421510899644}
   - component: {fileID: 2448171286807697803}
+  - component: {fileID: 2808718875423139540}
   m_Layer: 0
   m_Name: Asteroid_Medium (10)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5160,6 +5655,18 @@ EdgeCollider2D:
   - {x: 0.066820025, y: -1.6191763}
   - {x: -0.80673057, y: -1.103847}
   - {x: -0.89909387, y: -0.42196345}
+--- !u!114 &2808718875423139540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421510899646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421549627677
 GameObject:
   m_ObjectHideFlags: 0
@@ -5246,9 +5753,10 @@ GameObject:
   - component: {fileID: 6187137421550756332}
   - component: {fileID: 6187137421550756334}
   - component: {fileID: 97354591074265904}
+  - component: {fileID: 812913185840499171}
   m_Layer: 0
   m_Name: Asteroid_Small (19)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5364,6 +5872,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &812913185840499171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421550756328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421565284072
 GameObject:
   m_ObjectHideFlags: 0
@@ -5376,9 +5896,10 @@ GameObject:
   - component: {fileID: 6187137421565284076}
   - component: {fileID: 6187137421565284078}
   - component: {fileID: 7329612249224822211}
+  - component: {fileID: 4962134206120545682}
   m_Layer: 0
   m_Name: Asteroid_Big (8)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5493,6 +6014,18 @@ EdgeCollider2D:
   - {x: 1.1114436, y: -0.55904156}
   - {x: 1.1021457, y: 0.026764387}
   - {x: 0.60377353, y: 0.38543195}
+--- !u!114 &4962134206120545682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421565284072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421567182073
 GameObject:
   m_ObjectHideFlags: 0
@@ -5505,9 +6038,10 @@ GameObject:
   - component: {fileID: 6187137421567182077}
   - component: {fileID: 6187137421567182079}
   - component: {fileID: 807990711247728787}
+  - component: {fileID: 6548365971053752449}
   m_Layer: 0
   m_Name: Asteroid_Small (56)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5623,6 +6157,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &6548365971053752449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421567182073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421598986734
 GameObject:
   m_ObjectHideFlags: 0
@@ -5635,9 +6181,10 @@ GameObject:
   - component: {fileID: 6187137421598986642}
   - component: {fileID: 6187137421598986732}
   - component: {fileID: 5948508628527786724}
+  - component: {fileID: 3124085747800415155}
   m_Layer: 0
   m_Name: Asteroid_Medium (18)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5752,6 +6299,18 @@ EdgeCollider2D:
   - {x: 1.1114436, y: -0.55904156}
   - {x: 1.1021457, y: 0.026764387}
   - {x: 0.60377353, y: 0.38543195}
+--- !u!114 &3124085747800415155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421598986734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421653713756
 GameObject:
   m_ObjectHideFlags: 0
@@ -5764,9 +6323,10 @@ GameObject:
   - component: {fileID: 6187137421653713728}
   - component: {fileID: 6187137421653713730}
   - component: {fileID: 2604726912179091289}
+  - component: {fileID: 4927014089096608392}
   m_Layer: 0
   m_Name: Asteroid_Small (33)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5881,6 +6441,18 @@ EdgeCollider2D:
   - {x: 1.1114436, y: -0.55904156}
   - {x: 1.1021457, y: 0.026764387}
   - {x: 0.60377353, y: 0.38543195}
+--- !u!114 &4927014089096608392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421653713756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421662469773
 GameObject:
   m_ObjectHideFlags: 0
@@ -5893,9 +6465,10 @@ GameObject:
   - component: {fileID: 6187137421662469809}
   - component: {fileID: 6187137421662469811}
   - component: {fileID: 8783942667213360786}
+  - component: {fileID: 6424125561610071200}
   m_Layer: 0
   m_Name: Asteroid_Big (5)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6011,6 +6584,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &6424125561610071200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421662469773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421673280510
 GameObject:
   m_ObjectHideFlags: 0
@@ -6023,9 +6608,10 @@ GameObject:
   - component: {fileID: 6187137421673280482}
   - component: {fileID: 6187137421673280508}
   - component: {fileID: 7899608734927741967}
+  - component: {fileID: 3957290024882919948}
   m_Layer: 0
   m_Name: Asteroid_Small (34)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6142,6 +6728,18 @@ EdgeCollider2D:
   - {x: 1.522443, y: 0.75847083}
   - {x: 0.7953886, y: 0.9981889}
   - {x: 0.2870932, y: 0.5598806}
+--- !u!114 &3957290024882919948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421673280510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421688393036
 GameObject:
   m_ObjectHideFlags: 0
@@ -6154,9 +6752,10 @@ GameObject:
   - component: {fileID: 6187137421688393072}
   - component: {fileID: 6187137421688393074}
   - component: {fileID: 8336807403465750321}
+  - component: {fileID: 3501062908451317941}
   m_Layer: 0
   m_Name: Asteroid_Medium (25)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6271,6 +6870,18 @@ EdgeCollider2D:
   - {x: 1.1114436, y: -0.55904156}
   - {x: 1.1021457, y: 0.026764387}
   - {x: 0.60377353, y: 0.38543195}
+--- !u!114 &3501062908451317941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421688393036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421740438856
 GameObject:
   m_ObjectHideFlags: 0
@@ -6283,9 +6894,10 @@ GameObject:
   - component: {fileID: 6187137421740438860}
   - component: {fileID: 6187137421740438862}
   - component: {fileID: 1795972822646712726}
+  - component: {fileID: 59645748123196967}
   m_Layer: 0
   m_Name: Asteroid_Small (50)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6401,6 +7013,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &59645748123196967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421740438856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421833936300
 GameObject:
   m_ObjectHideFlags: 0
@@ -6413,9 +7037,10 @@ GameObject:
   - component: {fileID: 6187137421833935952}
   - component: {fileID: 6187137421833935954}
   - component: {fileID: 4055419698901234690}
+  - component: {fileID: 550574341516379264}
   m_Layer: 0
   m_Name: Asteroid_Small (13)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6530,6 +7155,18 @@ EdgeCollider2D:
   - {x: 1.0084918, y: -1.5613812}
   - {x: 1.5879817, y: -0.47006658}
   - {x: 1.2037702, y: 0.34552503}
+--- !u!114 &550574341516379264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421833936300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421836628993
 GameObject:
   m_ObjectHideFlags: 0
@@ -6542,9 +7179,10 @@ GameObject:
   - component: {fileID: 6187137421836628997}
   - component: {fileID: 6187137421836628999}
   - component: {fileID: 8018221035922486699}
+  - component: {fileID: 7559817328213092354}
   m_Layer: 0
   m_Name: Asteroid_Small (54)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6660,6 +7298,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &7559817328213092354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421836628993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421881242299
 GameObject:
   m_ObjectHideFlags: 0
@@ -6672,9 +7322,10 @@ GameObject:
   - component: {fileID: 6187137421881242303}
   - component: {fileID: 6187137421881242297}
   - component: {fileID: 3458046540750829667}
+  - component: {fileID: 7640017322231510757}
   m_Layer: 0
   m_Name: Asteroid_Small (40)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6790,6 +7441,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &7640017322231510757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421881242299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137421935146071
 GameObject:
   m_ObjectHideFlags: 0
@@ -6802,9 +7465,10 @@ GameObject:
   - component: {fileID: 6187137421935146075}
   - component: {fileID: 6187137421935146069}
   - component: {fileID: 7814256375699320132}
+  - component: {fileID: 5337836668325100208}
   m_Layer: 0
   m_Name: Asteroid_Medium (19)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6920,6 +7584,18 @@ EdgeCollider2D:
   - {x: 1.5636367, y: 0.9506149}
   - {x: 0.54761565, y: 1.34132}
   - {x: -0.08541781, y: 0.93382454}
+--- !u!114 &5337836668325100208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137421935146071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422043209853
 GameObject:
   m_ObjectHideFlags: 0
@@ -6932,9 +7608,10 @@ GameObject:
   - component: {fileID: 6187137422043209825}
   - component: {fileID: 6187137422043209827}
   - component: {fileID: 8187996306475004108}
+  - component: {fileID: 6741620170297967579}
   m_Layer: 0
   m_Name: Asteroid_Medium (27)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7049,6 +7726,18 @@ EdgeCollider2D:
   - {x: 1.1114436, y: -0.55904156}
   - {x: 1.1021457, y: 0.026764387}
   - {x: 0.60377353, y: 0.38543195}
+--- !u!114 &6741620170297967579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422043209853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422065040836
 GameObject:
   m_ObjectHideFlags: 0
@@ -7061,9 +7750,10 @@ GameObject:
   - component: {fileID: 6187137422065040840}
   - component: {fileID: 6187137422065040842}
   - component: {fileID: 7013774116631812023}
+  - component: {fileID: 2037468595862079807}
   m_Layer: 0
   m_Name: Asteroid_Medium (5)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7178,6 +7868,18 @@ EdgeCollider2D:
   - {x: 1.1114436, y: -0.55904156}
   - {x: 1.1021457, y: 0.026764387}
   - {x: 0.60377353, y: 0.38543195}
+--- !u!114 &2037468595862079807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422065040836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422097375501
 GameObject:
   m_ObjectHideFlags: 0
@@ -7190,10 +7892,10 @@ GameObject:
   - component: {fileID: 6187137422097375537}
   - component: {fileID: 6187137422097375539}
   - component: {fileID: 861493793578131111}
-  - component: {fileID: 750843017944372948}
+  - component: {fileID: 6498015138167435615}
   m_Layer: 0
   m_Name: Asteroid_Small (63)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7308,30 +8010,18 @@ EdgeCollider2D:
   - {x: 1.1114436, y: -0.55904156}
   - {x: 1.1021457, y: 0.026764387}
   - {x: 0.60377353, y: 0.38543195}
---- !u!68 &750843017944372948
-EdgeCollider2D:
+--- !u!114 &6498015138167435615
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6187137422097375501}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: 0.58737826, y: 0.4014933}
-  - {x: -0.04303003, y: 1.2257198}
-  - {x: -1.0902889, y: 1.1998883}
-  - {x: -1.1169217, y: -0.7915922}
-  - {x: 0.011032402, y: -1.3979558}
-  - {x: 1.1114436, y: -0.55904156}
-  - {x: 1.1021457, y: 0.026764387}
-  - {x: 0.60377353, y: 0.38543195}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422098809696
 GameObject:
   m_ObjectHideFlags: 0
@@ -7344,9 +8034,10 @@ GameObject:
   - component: {fileID: 6187137422098809700}
   - component: {fileID: 6187137422098809702}
   - component: {fileID: 921038830471556003}
+  - component: {fileID: 8776069212885599445}
   m_Layer: 0
   m_Name: Asteroid_Medium (24)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7462,6 +8153,18 @@ EdgeCollider2D:
   - {x: 0.066820025, y: -1.6191763}
   - {x: -0.80673057, y: -1.103847}
   - {x: -0.89909387, y: -0.42196345}
+--- !u!114 &8776069212885599445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422098809696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422128693025
 GameObject:
   m_ObjectHideFlags: 0
@@ -7474,9 +8177,10 @@ GameObject:
   - component: {fileID: 6187137422128693029}
   - component: {fileID: 6187137422128693031}
   - component: {fileID: 2661432385539132062}
+  - component: {fileID: 341086129792808230}
   m_Layer: 0
   m_Name: Asteroid_Small (37)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7593,6 +8297,18 @@ EdgeCollider2D:
   - {x: 1.5857264, y: 1.2677408}
   - {x: 0.40722594, y: 2.0370934}
   - {x: -0.06511275, y: 1.3852004}
+--- !u!114 &341086129792808230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422128693025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422152758057
 GameObject:
   m_ObjectHideFlags: 0
@@ -7605,9 +8321,10 @@ GameObject:
   - component: {fileID: 6187137422152758061}
   - component: {fileID: 6187137422152758063}
   - component: {fileID: 7021319306837081900}
+  - component: {fileID: 3757634474648656046}
   m_Layer: 0
   m_Name: Asteroid_Small (10)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7724,6 +8441,18 @@ EdgeCollider2D:
   - {x: -0.84674835, y: -1.7018745}
   - {x: -1.3075675, y: -1.1597342}
   - {x: -0.9174071, y: -0.08681679}
+--- !u!114 &3757634474648656046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422152758057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422152985620
 GameObject:
   m_ObjectHideFlags: 0
@@ -7736,9 +8465,10 @@ GameObject:
   - component: {fileID: 6187137422152985624}
   - component: {fileID: 6187137422152985626}
   - component: {fileID: 84056259660454170}
+  - component: {fileID: 2029277770386006021}
   m_Layer: 0
   m_Name: Asteroid_Small (57)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7854,6 +8584,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &2029277770386006021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422152985620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422180229167
 GameObject:
   m_ObjectHideFlags: 0
@@ -7866,9 +8608,10 @@ GameObject:
   - component: {fileID: 6187137422180229331}
   - component: {fileID: 6187137422180229165}
   - component: {fileID: 346820562198288580}
+  - component: {fileID: 2209074835554614402}
   m_Layer: 0
   m_Name: Asteroid_Small (24)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7984,6 +8727,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &2209074835554614402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422180229167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422229669088
 GameObject:
   m_ObjectHideFlags: 0
@@ -7996,9 +8751,10 @@ GameObject:
   - component: {fileID: 6187137422229669092}
   - component: {fileID: 6187137422229669094}
   - component: {fileID: 233671001098253620}
+  - component: {fileID: 6562095648428202699}
   m_Layer: 0
   m_Name: Asteroid_Big (16)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8115,6 +8871,18 @@ EdgeCollider2D:
   - {x: 1.522443, y: 0.75847083}
   - {x: 0.7953886, y: 0.9981889}
   - {x: 0.2870932, y: 0.5598806}
+--- !u!114 &6562095648428202699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422229669088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422259520773
 GameObject:
   m_ObjectHideFlags: 0
@@ -8127,9 +8895,10 @@ GameObject:
   - component: {fileID: 6187137422259520777}
   - component: {fileID: 6187137422259520779}
   - component: {fileID: 2171964537388854154}
+  - component: {fileID: 512744329407147734}
   m_Layer: 0
   m_Name: Asteroid_Medium (28)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8245,6 +9014,18 @@ EdgeCollider2D:
   - {x: 0.066820025, y: -1.6191763}
   - {x: -0.80673057, y: -1.103847}
   - {x: -0.89909387, y: -0.42196345}
+--- !u!114 &512744329407147734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422259520773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422311201318
 GameObject:
   m_ObjectHideFlags: 0
@@ -8257,9 +9038,10 @@ GameObject:
   - component: {fileID: 6187137422311201322}
   - component: {fileID: 6187137422311201316}
   - component: {fileID: 8994629337173862844}
+  - component: {fileID: 281471955607209213}
   m_Layer: 0
   m_Name: Asteroid_Small (52)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8374,6 +9156,18 @@ EdgeCollider2D:
   - {x: 1.1114436, y: -0.55904156}
   - {x: 1.1021457, y: 0.026764387}
   - {x: 0.60377353, y: 0.38543195}
+--- !u!114 &281471955607209213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422311201318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422311367292
 GameObject:
   m_ObjectHideFlags: 0
@@ -8439,9 +9233,10 @@ GameObject:
   - component: {fileID: 6187137422323607294}
   - component: {fileID: 6187137422323607288}
   - component: {fileID: 4182926756467603509}
+  - component: {fileID: 3694922458177739436}
   m_Layer: 0
   m_Name: Asteroid_Small (20)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8558,6 +9353,18 @@ EdgeCollider2D:
   - {x: -0.84674835, y: -1.7018745}
   - {x: -1.3075675, y: -1.1597342}
   - {x: -0.9174071, y: -0.08681679}
+--- !u!114 &3694922458177739436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422323607290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422323618718
 GameObject:
   m_ObjectHideFlags: 0
@@ -8570,9 +9377,10 @@ GameObject:
   - component: {fileID: 6187137422323618690}
   - component: {fileID: 6187137422323618716}
   - component: {fileID: 5604673518367379395}
+  - component: {fileID: 2075042390223934116}
   m_Layer: 0
   m_Name: Asteroid_Big (3)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8689,6 +9497,18 @@ EdgeCollider2D:
   - {x: -0.84674835, y: -1.7018745}
   - {x: -1.3075675, y: -1.1597342}
   - {x: -0.9174071, y: -0.08681679}
+--- !u!114 &2075042390223934116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422323618718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422332025734
 GameObject:
   m_ObjectHideFlags: 0
@@ -8700,9 +9520,11 @@ GameObject:
   - component: {fileID: 6187137422332025733}
   - component: {fileID: 6187137422332025738}
   - component: {fileID: 6187137422332025732}
+  - component: {fileID: 8256928524435125343}
+  - component: {fileID: 7394623011419576431}
   m_Layer: 0
   m_Name: Asteroid_Medium (2)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8793,6 +9615,42 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &8256928524435125343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422332025734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!68 &7394623011419576431
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422332025734}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -1.1970474, y: 0.8699377}
+  - {x: -0.8335754, y: 1.353638}
+  - {x: 0.024704713, y: 1.2839382}
+  - {x: 1.3539382, y: -0.26390976}
+  - {x: 0.45800677, y: -1.3361214}
+  - {x: -0.29554313, y: -1.3887618}
+  - {x: -1.2252802, y: -0.7993247}
+  - {x: -1.2062821, y: 0.84744054}
 --- !u!1 &6187137422361658576
 GameObject:
   m_ObjectHideFlags: 0
@@ -8805,9 +9663,10 @@ GameObject:
   - component: {fileID: 6187137422361658580}
   - component: {fileID: 6187137422361658582}
   - component: {fileID: 2815035106344609822}
+  - component: {fileID: 6038992578760691014}
   m_Layer: 0
   m_Name: Asteroid_Small (25)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8923,6 +9782,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &6038992578760691014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422361658576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422366006996
 GameObject:
   m_ObjectHideFlags: 0
@@ -8935,9 +9806,10 @@ GameObject:
   - component: {fileID: 6187137422366007000}
   - component: {fileID: 6187137422366007002}
   - component: {fileID: 761052904270931481}
+  - component: {fileID: 4479803356048688491}
   m_Layer: 0
   m_Name: Asteroid_Small (15)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9054,6 +9926,18 @@ EdgeCollider2D:
   - {x: -0.84674835, y: -1.7018745}
   - {x: -1.3075675, y: -1.1597342}
   - {x: -0.9174071, y: -0.08681679}
+--- !u!114 &4479803356048688491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422366006996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422383117311
 GameObject:
   m_ObjectHideFlags: 0
@@ -9066,9 +9950,10 @@ GameObject:
   - component: {fileID: 6187137422383117283}
   - component: {fileID: 6187137422383117309}
   - component: {fileID: 4303790671381829451}
+  - component: {fileID: 2158675307112859975}
   m_Layer: 0
   m_Name: Asteroid_Small (47)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9185,6 +10070,18 @@ EdgeCollider2D:
   - {x: -1.599638, y: -1.4702965}
   - {x: -1.5062447, y: 0.33901796}
   - {x: -1.015168, y: 0.6713533}
+--- !u!114 &2158675307112859975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422383117311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422475985663
 GameObject:
   m_ObjectHideFlags: 0
@@ -9197,9 +10094,10 @@ GameObject:
   - component: {fileID: 6187137422475985635}
   - component: {fileID: 6187137422475985661}
   - component: {fileID: 6156139035427296059}
+  - component: {fileID: 1362764407823480269}
   m_Layer: 0
   m_Name: Asteroid_Big (13)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9314,6 +10212,18 @@ EdgeCollider2D:
   - {x: 1.0084918, y: -1.5613812}
   - {x: 1.5879817, y: -0.47006658}
   - {x: 1.2037702, y: 0.34552503}
+--- !u!114 &1362764407823480269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422475985663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422521631668
 GameObject:
   m_ObjectHideFlags: 0
@@ -9326,9 +10236,10 @@ GameObject:
   - component: {fileID: 6187137422521631672}
   - component: {fileID: 6187137422521631674}
   - component: {fileID: 3462527876631851828}
+  - component: {fileID: 6905804190065249551}
   m_Layer: 0
   m_Name: Asteroid_Big (14)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9444,6 +10355,18 @@ EdgeCollider2D:
   - {x: 1.5636367, y: 0.9506149}
   - {x: 0.54761565, y: 1.34132}
   - {x: -0.08541781, y: 0.93382454}
+--- !u!114 &6905804190065249551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422521631668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422523827920
 GameObject:
   m_ObjectHideFlags: 0
@@ -9456,9 +10379,10 @@ GameObject:
   - component: {fileID: 6187137422523827924}
   - component: {fileID: 6187137422523827926}
   - component: {fileID: 3874911789468661117}
+  - component: {fileID: 4659737344001867120}
   m_Layer: 0
   m_Name: Asteroid_Small (70)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9574,6 +10498,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &4659737344001867120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422523827920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422528987350
 GameObject:
   m_ObjectHideFlags: 0
@@ -9586,9 +10522,10 @@ GameObject:
   - component: {fileID: 6187137422528987354}
   - component: {fileID: 6187137422528987348}
   - component: {fileID: 6575101412522936775}
+  - component: {fileID: 8796900225504091875}
   m_Layer: 0
   m_Name: Asteroid_Small (28)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9704,6 +10641,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &8796900225504091875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422528987350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422583781235
 GameObject:
   m_ObjectHideFlags: 0
@@ -9716,9 +10665,10 @@ GameObject:
   - component: {fileID: 6187137422583781239}
   - component: {fileID: 6187137422583781233}
   - component: {fileID: 8817059427540982406}
+  - component: {fileID: 71039415845141476}
   m_Layer: 0
   m_Name: Asteroid_Medium (15)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9833,6 +10783,18 @@ EdgeCollider2D:
   - {x: 1.1114436, y: -0.55904156}
   - {x: 1.1021457, y: 0.026764387}
   - {x: 0.60377353, y: 0.38543195}
+--- !u!114 &71039415845141476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422583781235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422587273959
 GameObject:
   m_ObjectHideFlags: 0
@@ -9845,9 +10807,10 @@ GameObject:
   - component: {fileID: 6187137422587273963}
   - component: {fileID: 6187137422587273957}
   - component: {fileID: 4935621235230272055}
+  - component: {fileID: 7580614758387277276}
   m_Layer: 0
   m_Name: Asteroid_Small (55)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9964,6 +10927,18 @@ EdgeCollider2D:
   - {x: -0.84674835, y: -1.7018745}
   - {x: -1.3075675, y: -1.1597342}
   - {x: -0.9174071, y: -0.08681679}
+--- !u!114 &7580614758387277276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422587273959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422672425429
 GameObject:
   m_ObjectHideFlags: 0
@@ -9976,9 +10951,10 @@ GameObject:
   - component: {fileID: 6187137422672425433}
   - component: {fileID: 6187137422672425435}
   - component: {fileID: 6565646492257742781}
+  - component: {fileID: 9059665271533558756}
   m_Layer: 0
   m_Name: Asteroid_Medium (22)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10093,6 +11069,18 @@ EdgeCollider2D:
   - {x: 1.1114436, y: -0.55904156}
   - {x: 1.1021457, y: 0.026764387}
   - {x: 0.60377353, y: 0.38543195}
+--- !u!114 &9059665271533558756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422672425429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422675342802
 GameObject:
   m_ObjectHideFlags: 0
@@ -10105,9 +11093,10 @@ GameObject:
   - component: {fileID: 6187137422675342806}
   - component: {fileID: 6187137422675342800}
   - component: {fileID: 8888846913253236893}
+  - component: {fileID: 2929478312851628254}
   m_Layer: 0
   m_Name: Asteroid_Small (41)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10223,6 +11212,18 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &2929478312851628254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422675342802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6187137422682136327
 GameObject:
   m_ObjectHideFlags: 0
@@ -10235,9 +11236,10 @@ GameObject:
   - component: {fileID: 6187137422682136331}
   - component: {fileID: 6187137422682136325}
   - component: {fileID: 8770301086789055122}
+  - component: {fileID: 5195459359841728504}
   m_Layer: 0
   m_Name: Asteroid_Small (53)
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10353,3 +11355,15 @@ EdgeCollider2D:
   - {x: 0.28394514, y: -1.2209777}
   - {x: 1.0520209, y: -0.7365674}
   - {x: 1.1170127, y: -0.074883536}
+--- !u!114 &5195459359841728504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187137422682136327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b13976a03d2514cb2f55fdb16af257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
