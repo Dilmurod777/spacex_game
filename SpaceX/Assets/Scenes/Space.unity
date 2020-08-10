@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -10781,7 +10781,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1445195593
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: -24
   m_Sprite: {fileID: 21300000, guid: 0a46e32cd78945c45a110b9d2f9a7339, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12907,7 +12907,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1445195593
   m_SortingLayer: 0
-  m_SortingOrder: 100
+  m_SortingOrder: 300
   m_Sprite: {fileID: -5033784541785224969, guid: bc8518087ecfada4b9f4cc61af380e67,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -12993,10 +12993,10 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1445195593
   m_SortingLayer: 0
-  m_SortingOrder: 100
+  m_SortingOrder: 300
   m_Sprite: {fileID: -5033784541785224969, guid: bc8518087ecfada4b9f4cc61af380e67,
     type: 3}
-  m_Color: {r: 0.7294118, g: 0.6862745, b: 0.8235294, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -20806,9 +20806,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1445195593
   m_SortingLayer: 0
-  m_SortingOrder: 100
+  m_SortingOrder: 300
   m_Sprite: {fileID: 21300000, guid: 7dac53535e10859459657aba422b31f3, type: 3}
-  m_Color: {r: 0.72837025, g: 0.6852527, b: 0.8207547, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -22778,9 +22778,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1445195593
   m_SortingLayer: 0
-  m_SortingOrder: 100
+  m_SortingOrder: 300
   m_Sprite: {fileID: 21300000, guid: 0a46e32cd78945c45a110b9d2f9a7339, type: 3}
-  m_Color: {r: 0.7294118, g: 0.6862745, b: 0.8235294, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

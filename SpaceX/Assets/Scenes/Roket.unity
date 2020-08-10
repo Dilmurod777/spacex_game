@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -588,6 +588,50 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7846724231964260148, guid: a8a0ae976f4431f4580e2981e408fedf,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7817829216449540852, guid: d82796c7279108f4d9741d60fed2c4b7,
+        type: 3}
+    - target: {fileID: 7846724231964260148, guid: a8a0ae976f4431f4580e2981e408fedf,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846724232036754360, guid: a8a0ae976f4431f4580e2981e408fedf,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8098669060640478308, guid: d82796c7279108f4d9741d60fed2c4b7,
+        type: 3}
+    - target: {fileID: 7846724232036754360, guid: a8a0ae976f4431f4580e2981e408fedf,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846724232956453390, guid: a8a0ae976f4431f4580e2981e408fedf,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7817829216449540852, guid: d82796c7279108f4d9741d60fed2c4b7,
+        type: 3}
+    - target: {fileID: 7846724232956453390, guid: a8a0ae976f4431f4580e2981e408fedf,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846724233297265383, guid: a8a0ae976f4431f4580e2981e408fedf,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8098669060640478308, guid: d82796c7279108f4d9741d60fed2c4b7,
+        type: 3}
+    - target: {fileID: 7846724233297265383, guid: a8a0ae976f4431f4580e2981e408fedf,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7846724233507241562, guid: a8a0ae976f4431f4580e2981e408fedf,
         type: 3}
       propertyPath: m_LocalPosition.x
