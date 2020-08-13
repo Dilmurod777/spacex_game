@@ -21,6 +21,7 @@ public class CameraFollow : MonoBehaviour
 
     private void Awake() {
         _camera = GetComponent<Camera>();
+        _camera.transform.position = target.position;
     }
 
     // FixedUpdate is called every frame, when the physics are calculated

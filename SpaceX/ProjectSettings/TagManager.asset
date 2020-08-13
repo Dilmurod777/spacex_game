@@ -13,6 +13,8 @@ TagManager:
   - Asteroid
   - Stars
   - Planets
+  - IceCream
+  - Alien
   layers:
   - Default
   - TransparentFX
@@ -55,4 +57,7 @@ TagManager:
     locked: 0
   - name: Gameplay
     uniqueID: 1087635889
+    locked: 0
+  - name: Player
+    uniqueID: 812912051
     locked: 0
