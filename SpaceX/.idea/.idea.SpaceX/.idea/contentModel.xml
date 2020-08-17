@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Dilmurod\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Dilmurod\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_SpaceX.1755873821.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Dilmurod\Desktop\Projects\SpaceX\SpaceX" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="_INTERNAL_" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="BaseClasses" t="Include">
+              <e p="Action.cs" t="Include" />
+              <e p="ConditionBase.cs" t="Include" />
+              <e p="Physics2DObject.cs" t="Include" />
+            </e>
+            <e p="Editor" t="Include">
+              <e p="Attributes" t="Include">
+                <e p="BulletAttrInspector.cs" t="Include" />
+                <e p="CollectableAttrInspector.cs" t="Include" />
+                <e p="DestroyForPointsAttrInspector.cs" t="Include" />
+                <e p="HealthSystemInspector.cs" t="Include" />
+                <e p="ModifyHealthAttributeInspector.cs" t="Include" />
+                <e p="ResourceAttrInspector.cs" t="Include" />
+              </e>
+              <e p="BaseClasses" t="Include">
+                <e p="ConditionInspectorBase.cs" t="Include" />
+                <e p="InspectorBase.cs" t="Include" />
+              </e>
+              <e p="Conditions" t="Include">
+                <e p="Actions" t="Include">
+                  <e p="ConsumeResourceActionInspector.cs" t="Include" />
+                  <e p="CreateObjectActionInspector.cs" t="Include" />
+                  <e p="DestroyActionInspector.cs" t="Include" />
+                  <e p="DialogueBalloonActionInspector.cs" t="Include" />
+                  <e p="LoadLevelActionInspector.cs" t="Include" />
+                  <e p="OnOffActionInspector.cs" t="Include" />
+                  <e p="TeleportActionInspector.cs" t="Include" />
+                </e>
+                <e p="ConditionAreaInspector.cs" t="Include" />
+                <e p="ConditionCollisionInspector.cs" t="Include" />
+                <e p="ConditionKeyPressInspector.cs" t="Include" />
+                <e p="ConditionRepeatInspector.cs" t="Include" />
+              </e>
+              <e p="DefaultComponents" t="Include">
+                <e p="BoxCollider2DInspector.cs" t="Include" />
+                <e p="CameraInspector.cs" t="Include" />
+                <e p="CapsuleCollider2DInspector.cs" t="Include" />
+                <e p="CircleCollider2DInspector.cs" t="Include" />
+                <e p="Collider2DInspectorBase.cs" t="Include" />
+                <e p="ComponentInspector.cs" t="Include" />
+                <e p="EdgeCollider2DInspector.cs" t="Include" />
+                <e p="GameObjectInspector.cs" t="Include" />
+                <e p="PolygonCollider2DInspector.cs" t="Include" />
+                <e p="Rigidbody2DInspector.cs" t="Include" />
+                <e p="SpriteRendererInspector.cs" t="Include" />
+                <e p="TilemapCollider2DInspector.cs" t="Include" />
+                <e p="TransformInspector.cs" t="Include" />
+              </e>
+              <e p="Gameplay" t="Include">
+                <e p="ObjectCreatorAreaInspector.cs" t="Include" />
+                <e p="ObjectShooterInspector.cs" t="Include" />
+                <e p="PickUpAndHoldInspector.cs" t="Include" />
+                <e p="TimedSelfDestructInspector.cs" t="Include" />
+              </e>
+              <e p="MenuItemFunctions.cs" t="Include" />
+              <e p="Movement" t="Include">
+                <e p="AutoMoveInspector.cs" t="Include" />
+                <e p="AutoRotationInspector.cs" t="Include" />
+                <e p="CameraFollowInspector.cs" t="Include" />
+                <e p="FollowTargetInspector.cs" t="Include" />
+                <e p="JumpInspector.cs" t="Include" />
+                <e p="MoveWithArrowsInspector.cs" t="Include" />
+                <e p="PatrolInspector.cs" t="Include" />
+                <e p="PushWithButtonInspector.cs" t="Include" />
+                <e p="RotateWithArrowsInspector.cs" t="Include" />
+                <e p="WanderInspector.cs" t="Include" />
+              </e>
+              <e p="ScriptableObjects" t="Include">
+                <e p="InventoryResourcesInspector.cs" t="Include" />
+              </e>
+              <e p="UI" t="Include">
+                <e p="DialogueSystemInspector.cs" t="Include" />
+                <e p="UIScriptInspector.cs" t="Include" />
+              </e>
+            </e>
+            <e p="UserInterface" t="Include">
+              <e p="BalloonScript.cs" t="Include" />
+              <e p="DialogueSystem.cs" t="Include" />
+              <e p="UIItemScript.cs" t="Include" />
+              <e p="UIScript.cs" t="Include" />
+            </e>
+            <e p="Utilities" t="Include">
+              <e p="Enums.cs" t="Include" />
+              <e p="InventoryResources.cs" t="Include" />
+              <e p="Utils.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Alien.cs" t="Include" />
+        <e p="AlienDestroyer.cs" t="Include" />
+        <e p="AlienSpawner.cs" t="Include" />
+        <e p="AsteroidVisibility.cs" t="Include" />
+        <e p="AsteroidWrapperPosition.cs" t="Include" />
+        <e p="CanvasHandler.cs" t="Include" />
+        <e p="cometFalling.cs" t="Include" />
+        <e p="DestroyIceCreams.cs" t="Include" />
+        <e p="findPlayer.cs" t="Include" />
+        <e p="IceCreamChooser.cs" t="Include" />
+        <e p="IceCreamScriptController.cs" t="Include" />
+        <e p="MoveByTouch.cs" t="Include" />
+        <e p="ObjectDetector.cs" t="Include" />
+        <e p="Player.cs" t="Include" />
+        <e p="PlayMiniGame.cs" t="Include" />
+        <e p="Scrippts" t="Include">
+          <e p="SpaceShipController.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Attributes" t="Include">
+            <e p="BulletAttribute.cs" t="Include" />
+            <e p="CollectableAttribute.cs" t="Include" />
+            <e p="DestroyForPointsAttribute.cs" t="Include" />
+            <e p="HealthSystemAttribute.cs" t="Include" />
+            <e p="ModifyHealthAttribute.cs" t="Include" />
+            <e p="ResourceAttribute.cs" t="Include" />
+          </e>
+          <e p="Conditions" t="Include">
+            <e p="Actions" t="Include">
+              <e p="ConsumeResourceAction.cs" t="Include" />
+              <e p="CreateObjectAction.cs" t="Include" />
+              <e p="DestroyAction.cs" t="Include" />
+              <e p="DialogueBalloonAction.cs" t="Include" />
+              <e p="LoadLevelAction.cs" t="Include" />
+              <e p="OnOffAction.cs" t="Include" />
+              <e p="TeleportAction.cs" t="Include" />
+            </e>
+            <e p="ConditionArea.cs" t="Include" />
+            <e p="ConditionCollision.cs" t="Include" />
+            <e p="ConditionKeyPress.cs" t="Include" />
+            <e p="ConditionRepeat.cs" t="Include" />
+          </e>
+          <e p="Gameplay" t="Include">
+            <e p="ObjectCreatorArea.cs" t="Include" />
+            <e p="ObjectShooter.cs" t="Include" />
+            <e p="PickUpAndHold.cs" t="Include" />
+            <e p="TimedSelfDestruct.cs" t="Include" />
+          </e>
+          <e p="Movement" t="Include">
+            <e p="AutoMove.cs" t="Include" />
+            <e p="AutoRotate.cs" t="Include" />
+            <e p="CameraFollow.cs" t="Include" />
+            <e p="FollowTarget.cs" t="Include" />
+            <e p="Jump.cs" t="Include" />
+            <e p="Move.cs" t="Include" />
+            <e p="Patrol.cs" t="Include" />
+            <e p="Push.cs" t="Include" />
+            <e p="Rotate.cs" t="Include" />
+            <e p="Wander.cs" t="Include" />
+          </e>
+        </e>
+        <e p="SetVisibility.cs" t="Include" />
+        <e p="ShowPlayButton.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="SpaceX.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
