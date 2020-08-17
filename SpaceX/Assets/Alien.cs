@@ -14,13 +14,14 @@ public class Alien : MonoBehaviour
     private GameObject _selectedIceCream;
     public static int selectedIceCreamIndex = -1;
     public static GameObject currentAlien;
-    
+
+    private Coroutine _movingCoroutine;
 
 
     // Start is called before the first frame update
     private void Start()
     {
-        StartCoroutine(MoveOverSeconds(gameObject, new Vector3(endPoint.position.x, transform.position.y, 0), walkingTime));
+        StartMovingAlien();
     }
 
     // Update is called once per frame
@@ -35,9 +36,18 @@ public class Alien : MonoBehaviour
         {
             currentAlien = gameObject;
             selectedIceCreamIndex = new Random().Next(0, iceCreams.Count);
-            _selectedIceCream = Instantiate(iceCreams[selectedIceCreamIndex], transform.position + new Vector3(0, 5, 0), Quaternion.identity);
+            _selectedIceCream = Instantiate(iceCreams[selectedIceCreamIndex], transform.position + new Vector3(0, 5, 0),
+                Quaternion.identity);
             _selectedIceCream.transform.SetParent(transform);
         }
+    }
+
+    public void StartMovingAlien()
+    {
+        _stopMoving = false;
+        _cameToShop = false;
+        _movingCoroutine = StartCoroutine(MoveOverSeconds(gameObject, new Vector3(endPoint.position.x, transform.position.y, 0),
+            walkingTime));
     }
 
     public IEnumerator MoveOverSeconds(GameObject objectToMove, Vector3 end, float seconds)
@@ -53,6 +63,10 @@ public class Alien : MonoBehaviour
                 elapsedTime += Time.deltaTime;
                 yield return new WaitForEndOfFrame();
             }
+            else
+            {
+                StopCoroutine(_movingCoroutine);
+            }
         }
 
         objectToMove.transform.position = end;
@@ -62,15 +76,6 @@ public class Alien : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Alien"))
-        {
-            _stopMoving = true;
-        }
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Debug.Log("COLLISION");
-        if (collision.gameObject.CompareTag("Alien"))
         {
             _stopMoving = true;
         }
