@@ -7,11 +7,11 @@ public class AlienSpawner : MonoBehaviour
     public List<GameObject> aliens;
 
     private readonly List<float> _yOffsets = new List<float>();
-    private readonly List<int> _notSpawnedAliens = new List<int>();
+    public static readonly List<int> _notSpawnedAliens = new List<int>();
     public List<GameObject> spawnedAliens = new List<GameObject>();
 
-    private const float InitialDelay = 2f;
-    private const float TimeBetweenSpawns = 5f;
+    public const float InitialDelay = 2f;
+    public const float TimeBetweenSpawns = 5f;
 
 
     // Start is called before the first frame update
@@ -31,7 +31,7 @@ public class AlienSpawner : MonoBehaviour
         StartCoroutine(SpawnAlien(InitialDelay));
     }
 
-    private IEnumerator SpawnAlien(float seconds)
+    public IEnumerator SpawnAlien(float seconds)
     {
         float elapsedTime = 0;
 
@@ -42,10 +42,9 @@ public class AlienSpawner : MonoBehaviour
         }
 
         var randomAlienIndex = Random.Range(0, _notSpawnedAliens.Count); // 0 - 4
+        randomAlienIndex = 3;
         var position = transform.position + new Vector3(0, _yOffsets[randomAlienIndex], 0);
         var spawnedAlien = Instantiate(aliens[_notSpawnedAliens[randomAlienIndex]], position, Quaternion.identity);
         _notSpawnedAliens.RemoveAt(randomAlienIndex);
-
-        spawnedAliens.Add(spawnedAlien);
     }
 }

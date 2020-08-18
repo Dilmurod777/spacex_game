@@ -20,10 +20,16 @@ public class IceCreamScriptController : MonoBehaviour
         if (Alien.selectedIceCreamIndex == index)
         {
             Debug.Log("Correct");
-            GameObject alien = Alien.currentAlien;
-            Vector3 endPoint = new Vector3(25f, alien.transform.position.y, 0);
+            var alien = Alien.currentAlien;
+            var endPoint = new Vector3(25f, alien.transform.position.y, 0);
             StartCoroutine(alien.GetComponent<Alien>().MoveOverSeconds(alien, endPoint, 10));
             Destroy(alien.transform.GetChild(0).gameObject); // destroy ice cream above alien
+
+            Alien.selectedIceCreamIndex = -1;
+            if (AlienSpawner._notSpawnedAliens.Count > 0)
+            {
+                StartCoroutine(_alienSpawner.SpawnAlien(0f));
+            }
         }
         else
         {
@@ -31,10 +37,16 @@ public class IceCreamScriptController : MonoBehaviour
             _wrongChoiceCount += 1;
             if (_wrongChoiceCount == 3)
             {
-                GameObject alien = Alien.currentAlien;
-                Vector3 endPoint = new Vector3(25f, alien.transform.position.y, 0);
-                StartCoroutine(alien.GetComponent<Alien>().MoveOverSeconds(alien, endPoint, 10));
+                var alien = Alien.currentAlien;
+                var endPoint = new Vector3(25f, alien.transform.position.y, 0);
+                StartCoroutine(alien.GetComponent<Alien>().MoveOverSeconds(alien, endPoint, 15));
                 Destroy(alien.transform.GetChild(0).gameObject); // destroy Ice cream alien
+                
+                Alien.selectedIceCreamIndex = -1;
+                if (AlienSpawner._notSpawnedAliens.Count > 0)
+                {
+                    StartCoroutine(_alienSpawner.SpawnAlien(0f));
+                }
             }
         }
     }
