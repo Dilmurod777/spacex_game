@@ -41,8 +41,7 @@ public class AlienSpawner : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
 
-        var randomAlienIndex = Random.Range(0, _notSpawnedAliens.Count); // 0 - 4
-        randomAlienIndex = 3;
+        var randomAlienIndex = Random.Range(0, _notSpawnedAliens.Count); // 0 - 3
         var position = transform.position + new Vector3(0, _yOffsets[randomAlienIndex], 0);
         var spawnedAlien = Instantiate(aliens[_notSpawnedAliens[randomAlienIndex]], position, Quaternion.identity);
         _notSpawnedAliens.RemoveAt(randomAlienIndex);
