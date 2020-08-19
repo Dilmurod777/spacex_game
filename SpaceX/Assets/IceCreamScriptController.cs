@@ -9,19 +9,23 @@ public class IceCreamScriptController : MonoBehaviour
     private int _chosenIceCream;
     private int _wrongChoiceCount = 0;
     private AlienSpawner _alienSpawner;
+    public Alien alien;
+    private GameObject _alienGameObject;
 
     private void Start()
     {
         _alienSpawner = FindObjectOfType<AlienSpawner>();
     }
 
+    private void FixedUpdate()
+    {
+        alien = Alien.currentAlien;
+        _alienGameObject = alien.gameObject;
+    }
+
     public void IceCreamClickHandler(int index)
     {
-        var alien = Alien.currentAlien;
-        var alienGameObject = alien.gameObject;
-        var endPoint = new Vector3(25f, alienGameObject.transform.position.y, 0);
-
-        Debug.Log(alien.name);
+        var endPoint = new Vector3(25f, _alienGameObject.transform.position.y, 0);
         
         if (Alien.currentAlien.selectedIceCreamIndex == -1)
         {
@@ -30,16 +34,16 @@ public class IceCreamScriptController : MonoBehaviour
 
         if (Alien.currentAlien.selectedIceCreamIndex == index)
         {
-            StartCoroutine(alienGameObject.GetComponent<Alien>().MoveOverSeconds(alienGameObject, endPoint, 10));
-            MoveAlienDestroyIceCream(alienGameObject);
+            StartCoroutine(_alienGameObject.GetComponent<Alien>().MoveOverSeconds(_alienGameObject, endPoint, 10));
+            MoveAlienDestroyIceCream(_alienGameObject);
         }
         else
         {
             _wrongChoiceCount += 1;
             if (_wrongChoiceCount == 3)
             {
-                StartCoroutine(alienGameObject.GetComponent<Alien>().MoveOverSeconds(alienGameObject, endPoint, 15));
-                MoveAlienDestroyIceCream(alienGameObject);
+                StartCoroutine(_alienGameObject.GetComponent<Alien>().MoveOverSeconds(_alienGameObject, endPoint, 15));
+                MoveAlienDestroyIceCream(_alienGameObject);
             }
         }
     }
