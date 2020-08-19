@@ -10,7 +10,8 @@ public class AlienDestroyer : MonoBehaviour
         Debug.Log(other.tag);
         if (other.CompareTag("Alien"))
         {
-            Destroy(other.gameObject, 2f);
+            other.GetComponent<Alien>().StopMovingCoroutine();
+            Destroy(other.gameObject);
         }
     }
 }

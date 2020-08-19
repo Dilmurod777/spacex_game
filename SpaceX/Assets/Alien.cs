@@ -16,15 +16,12 @@ public class Alien : MonoBehaviour
     public static Alien currentAlien;
 
     private Coroutine _movingCoroutine;
-    private Alien _alien;
-
-
+    
     // Start is called before the first frame update
     private void Start()
     {
         // set current Alien as the one that was instantiated
-        currentAlien = GetComponent<Alien>();
-        StartMovingAlien();
+        StartMovingAlien(new Vector3(endPoint.position.x, transform.position.y), walkingTime);
     }
 
     // Update is called once per frame
@@ -44,15 +41,14 @@ public class Alien : MonoBehaviour
         }
     }
 
-    private void StartMovingAlien()
+    public void StartMovingAlien(Vector3 pointToGo, float seconds = 0f, float delay = 2f)
     {
         _stopMoving = false;
         _cameToShop = false;
-        _movingCoroutine = StartCoroutine(MoveOverSeconds(gameObject, new Vector3(endPoint.position.x, transform.position.y, 0),
-            walkingTime));
+        StartCoroutine(StartMovingCoroutine(pointToGo, seconds, delay));
     }
 
-    public IEnumerator MoveOverSeconds(GameObject objectToMove, Vector3 end, float seconds)
+    private IEnumerator MoveOverSeconds(GameObject objectToMove, Vector3 end, float seconds)
     {
         float elapsedTime = 0;
         var startingPos = objectToMove.transform.position;
@@ -61,7 +57,7 @@ public class Alien : MonoBehaviour
         {
             if (objectToMove)
             {
-                objectToMove.transform.position = Vector3.Lerp(startingPos, end, (elapsedTime / seconds));
+                objectToMove.transform.position = Vector3.Lerp(startingPos, new Vector3(end.x, startingPos.y, startingPos.z), (elapsedTime / seconds));
                 elapsedTime += Time.deltaTime;
                 yield return new WaitForEndOfFrame();
             }
@@ -71,8 +67,19 @@ public class Alien : MonoBehaviour
             }
         }
 
-        objectToMove.transform.position = end;
+        // objectToMove.transform.position = new Vector3(end.x, startingPos.y, startingPos.z);
         _cameToShop = true;
+    }
+
+    public IEnumerator StartMovingCoroutine(Vector3 pointToGo, float seconds, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        _movingCoroutine = StartCoroutine(MoveOverSeconds(gameObject, pointToGo, seconds));
+    }
+    
+    public void StopMovingCoroutine()
+    {
+        StopCoroutine(_movingCoroutine);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
