@@ -7,7 +7,6 @@ public class AlienDestroyer : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log(other.tag);
         if (other.CompareTag("Alien"))
         {
             other.GetComponent<Alien>().StopMovingCoroutine();
