@@ -17,37 +17,39 @@ public class IceCreamScriptController : MonoBehaviour
 
     public void IceCreamClickHandler(int index)
     {
-        if (Alien.selectedIceCreamIndex == index)
-        {
-            Debug.Log("Correct");
-            var alien = Alien.currentAlien;
-            var endPoint = new Vector3(25f, alien.transform.position.y, 0);
-            StartCoroutine(alien.GetComponent<Alien>().MoveOverSeconds(alien, endPoint, 10));
-            Destroy(alien.transform.GetChild(0).gameObject); // destroy ice cream above alien
+        var alien = Alien.currentAlien;
+        var alienGameObject = alien.gameObject;
+        var endPoint = new Vector3(25f, alienGameObject.transform.position.y, 0);
 
-            Alien.selectedIceCreamIndex = -1;
-            if (AlienSpawner._notSpawnedAliens.Count > 0)
-            {
-                StartCoroutine(_alienSpawner.SpawnAlien(0f));
-            }
+        Debug.Log(alien.name);
+        
+        if (Alien.currentAlien.selectedIceCreamIndex == -1)
+        {
+            return;
+        }
+
+        if (Alien.currentAlien.selectedIceCreamIndex == index)
+        {
+            StartCoroutine(alienGameObject.GetComponent<Alien>().MoveOverSeconds(alienGameObject, endPoint, 10));
+            MoveAlienDestroyIceCream(alienGameObject);
         }
         else
         {
-            Debug.Log("Wrong");
             _wrongChoiceCount += 1;
             if (_wrongChoiceCount == 3)
             {
-                var alien = Alien.currentAlien;
-                var endPoint = new Vector3(25f, alien.transform.position.y, 0);
-                StartCoroutine(alien.GetComponent<Alien>().MoveOverSeconds(alien, endPoint, 15));
-                Destroy(alien.transform.GetChild(0).gameObject); // destroy Ice cream alien
-                
-                Alien.selectedIceCreamIndex = -1;
-                if (AlienSpawner._notSpawnedAliens.Count > 0)
-                {
-                    StartCoroutine(_alienSpawner.SpawnAlien(0f));
-                }
+                StartCoroutine(alienGameObject.GetComponent<Alien>().MoveOverSeconds(alienGameObject, endPoint, 15));
+                MoveAlienDestroyIceCream(alienGameObject);
             }
+        }
+    }
+
+    private void MoveAlienDestroyIceCream(GameObject alien)
+    {
+        // Destroy(alien.transform.GetChild(0).gameObject); // destroy ice cream above alien
+        if (AlienSpawner.notSpawnedAliens.Count > 0)
+        {
+            StartCoroutine(_alienSpawner.SpawnAlien(0f));
         }
     }
 }

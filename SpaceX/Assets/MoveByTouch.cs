@@ -1,26 +1,22 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 
 public class MoveByTouch : MonoBehaviour
 {
-    private float force = 1.4f;
-    private float rotationSpeed = 5f;
-    float touchPointX;
-    float touchPointY;
-    private float _cameraSpeed = 10f;
-    private float _cameraMinView = 71f;
-    private float _cameraMaxView = 91f;
-    private float maxVelocity = 15f;
-    private float minVelocity = 5f;
-    private float prevVelocity = 0;
+    private const float Force = 1.4f;
+    private const float RotationSpeed = 5f;
+    private float _touchPointX;
+    private float _touchPointY;
+    private const float CameraSpeed = 10f;
+    private const float CameraMinView = 71f;
+    private const float CameraMaxView = 91f;
+    private const float MAXVelocity = 15f;
+    private float _prevVelocity;
 
     private Rigidbody2D _rb;
     private Camera _cam;
     private Touch _touch;
-
-    private Coroutine _couroutine;
-
+    
     private void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
@@ -33,69 +29,72 @@ public class MoveByTouch : MonoBehaviour
         {
             StopAllCoroutines();
             _touch = Input.GetTouch(0);
-            Vector3 touchPosInWorldSpace = _cam.ScreenToWorldPoint(new Vector3(_touch.position.x, _touch.position.y, _cam.farClipPlane));
+            var touchPosInWorldSpace = _cam.ScreenToWorldPoint(new Vector3(_touch.position.x, _touch.position.y, _cam.farClipPlane));
             // move to the touch point
-            touchPointX = touchPosInWorldSpace.x;
-            touchPointY = touchPosInWorldSpace.y;
+            _touchPointX = touchPosInWorldSpace.x;
+            _touchPointY = touchPosInWorldSpace.y;
 
-            float cameraHeight = 2f * _cam.orthographicSize;
-            float cameraWidth = cameraHeight * _cam.aspect;
-            float requiredHeight = 25;
-            float requiredWidth = requiredHeight * _cam.aspect;
-            float deltaX = touchPointX * requiredWidth / cameraWidth - transform.position.x;
-            float deltaY = touchPointY * requiredHeight / cameraHeight - transform.position.y;
+            var cameraHeight = 2f * _cam.orthographicSize;
+            var aspect = _cam.aspect;
+            var cameraWidth = cameraHeight * aspect;
+            const int requiredHeight = 25;
+            var requiredWidth = requiredHeight * aspect;
+            var position = transform.position;
+            var deltaX = _touchPointX * requiredWidth / cameraWidth - position.x;
+            var deltaY = _touchPointY * requiredHeight / cameraHeight - position.y;
 
             if (_touch.phase == TouchPhase.Moved || _touch.phase == TouchPhase.Stationary)
             {
                 // move rocket
-                _rb.AddForce(new Vector3(deltaX, deltaY, 0) * force);
+                _rb.AddForce(new Vector3(deltaX, deltaY, 0) * Force);
 
-                // increase/descrease camera due to velocity
-                float velocity = _rb.velocity.magnitude;
+                // increase/decrease camera due to velocity
+                var velocity = _rb.velocity.magnitude;
                 // limit the velocity
-                if (velocity > maxVelocity)
+                if (velocity > MAXVelocity)
                 {
-                    _rb.velocity = _rb.velocity.normalized * maxVelocity;
+                    _rb.velocity = _rb.velocity.normalized * MAXVelocity;
                 }
 
 
                 //float velocityRatio = (velocity - prevVelocity) / maxVelocity;
                 //float cameraRatio = velocityRatio * (_cameraMaxView - _cameraMinView);
                 //_cam.fieldOfView = Mathf.Clamp(_cam.fieldOfView + cameraRatio, _cameraMinView, _cameraMaxView);
-                if (velocity - prevVelocity > 1)
+                if (velocity - _prevVelocity > 1)
                 {
                     // velocity increase -> larger camera view
-                    _cam.fieldOfView += Time.fixedDeltaTime * _cameraSpeed;
+                    _cam.fieldOfView += Time.fixedDeltaTime * CameraSpeed;
                 }
                 else
                 {
-                    // velocity descrease -> smaller camera view
-                    _cam.fieldOfView -= Time.fixedDeltaTime * _cameraSpeed;
+                    // velocity decrease -> smaller camera view
+                    _cam.fieldOfView -= Time.fixedDeltaTime * CameraSpeed;
                 }
-                _cam.fieldOfView = Mathf.Clamp(_cam.fieldOfView, _cameraMinView, _cameraMaxView);
-                prevVelocity = velocity;
+                _cam.fieldOfView = Mathf.Clamp(_cam.fieldOfView, CameraMinView, CameraMaxView);
+                _prevVelocity = velocity;
 
                 // rotate to the touch point
-                float angle = Vector3.SignedAngle(transform.up, new Vector3(deltaX, deltaY, transform.position.z).normalized, transform.forward);
-                transform.Rotate(0, 0, angle * rotationSpeed * Time.fixedDeltaTime);
+                var rocketTransform = transform;
+                var angle = Vector3.SignedAngle(rocketTransform.up, new Vector3(deltaX, deltaY, rocketTransform.position.z).normalized, rocketTransform.forward);
+                rocketTransform.Rotate(0, 0, angle * RotationSpeed * Time.fixedDeltaTime);
             }
         }
         else
         {
             StopAllCoroutines();
-            StartCoroutine(ChangeCameraView(_cam.fieldOfView, _cameraMinView, 0.1f));
+            StartCoroutine(ChangeCameraView(_cam.fieldOfView, CameraMinView, 0.1f));
         }
     }
 
-    IEnumerator ChangeCameraView(float v_start, float v_end, float duration)
+    private IEnumerator ChangeCameraView(float vStart, float vEnd, float duration)
     {
-        float elapsed = 0.0f;
+        var elapsed = 0.0f;
         while (elapsed < duration)
         {
-            _cam.fieldOfView = Mathf.Lerp(v_start, v_end, Time.fixedDeltaTime);
+            _cam.fieldOfView = Mathf.Lerp(vStart, vEnd, Time.fixedDeltaTime);
             elapsed += Time.fixedDeltaTime;
             yield return null;
         }
-        _cam.fieldOfView = v_end;
+        _cam.fieldOfView = vEnd;
     }
 }

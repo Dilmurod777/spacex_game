@@ -12,15 +12,18 @@ public class Alien : MonoBehaviour
     private bool _stopMoving = false;
     private bool _cameToShop = false;
     private GameObject _selectedIceCream;
-    public static int selectedIceCreamIndex = -1;
-    public static GameObject currentAlien;
+    public int selectedIceCreamIndex = -1;
+    public static Alien currentAlien;
 
     private Coroutine _movingCoroutine;
+    private Alien _alien;
 
 
     // Start is called before the first frame update
     private void Start()
     {
+        // set current Alien as the one that was instantiated
+        currentAlien = GetComponent<Alien>();
         StartMovingAlien();
     }
 
@@ -34,7 +37,6 @@ public class Alien : MonoBehaviour
 
         if (_cameToShop && selectedIceCreamIndex == -1)
         {
-            currentAlien = gameObject;
             selectedIceCreamIndex = new Random().Next(0, iceCreams.Count);
             _selectedIceCream = Instantiate(iceCreams[selectedIceCreamIndex], transform.position + new Vector3(0, 5, 0),
                 Quaternion.identity);
@@ -42,7 +44,7 @@ public class Alien : MonoBehaviour
         }
     }
 
-    public void StartMovingAlien()
+    private void StartMovingAlien()
     {
         _stopMoving = false;
         _cameToShop = false;

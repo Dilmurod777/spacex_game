@@ -397,8 +397,8 @@ MonoBehaviour:
   - {fileID: 4679497252143743904}
   - {fileID: 4332978654283984326}
   m_Bounds:
-    m_Center: {x: 0.0000064074993, y: 0.9246758, z: 0}
-    m_Extent: {x: 0.48499537, y: 0.92467576, z: 0}
+    m_Center: {x: 0.18846077, y: 0.85395706, z: 0}
+    m_Extent: {x: 0.6659587, y: 0.9310289, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &4635766958706845188
@@ -502,8 +502,8 @@ MonoBehaviour:
   - {fileID: 7001003388387234896}
   - {fileID: 4626432523970739612}
   m_Bounds:
-    m_Center: {x: 0.000005096197, y: 0.9246752, z: 0}
-    m_Extent: {x: 0.48499507, y: 0.9246753, z: 0}
+    m_Center: {x: -0.34647834, y: 0.638239, z: 0}
+    m_Extent: {x: 0.719941, y: 0.97627723, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &4944380911736357202
@@ -750,8 +750,8 @@ MonoBehaviour:
   - {fileID: 3576752938348084267}
   - {fileID: 5930199817790619670}
   m_Bounds:
-    m_Center: {x: -0.47644925, y: -1.1716148, z: 0}
-    m_Extent: {x: 0.72268474, y: 1.4859649, z: 0}
+    m_Center: {x: 0.6535752, y: -1.1217406, z: 0}
+    m_Extent: {x: 0.94995886, y: 1.3819292, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &5742599920434079122
@@ -1130,6 +1130,7 @@ MonoBehaviour:
   endPoint: {fileID: 2027845670980199529, guid: 10c368a3072ac6a44b15e9c98d394f24,
     type: 3}
   walkingTime: 5
+  selectedIceCreamIndex: -1
 --- !u!61 &8518945705797251748
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1327,7 +1328,7 @@ MonoBehaviour:
   - {fileID: 5530071995479441963}
   - {fileID: 3203402773428451430}
   m_Bounds:
-    m_Center: {x: -0.47644848, y: -1.1716148, z: 0}
-    m_Extent: {x: 0.7226849, y: 1.4859649, z: 0}
+    m_Center: {x: -0.30546266, y: -1.2786235, z: 0.000000018782188}
+    m_Extent: {x: 0.625882, y: 1.5534557, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
