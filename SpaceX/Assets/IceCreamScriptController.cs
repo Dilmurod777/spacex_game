@@ -28,13 +28,13 @@ public class IceCreamScriptController : MonoBehaviour
     public void IceCreamClickHandler(int index)
     {
         var endPoint = new Vector3(25f, _alienGameObject.transform.position.y, 0);
-
+        
         if (!Alien.currentAlien || Alien.currentAlien.selectedIceCreamIndex == -1)
         {
             return;
         }
-
-        if (Alien.currentAlien.selectedIceCreamIndex == index)
+        
+        if ( Alien.currentAlien.selectedIceCreamIndex == index)
         {
             // StartCoroutine(_alienGameObject.GetComponent<Alien>().MoveOverSeconds(_alienGameObject, endPoint, 10));
             alien.StartMovingAlien(endPoint, 10, 0);
