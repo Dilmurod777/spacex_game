@@ -54,7 +54,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1320633145500178441}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -2, z: -0.9601251}
+  m_LocalPosition: {x: 0, y: 1.12, z: -0.9601251}
   m_LocalScale: {x: 1, y: 1, z: 1.4600946}
   m_Children:
   - {fileID: 1498363699181149596}
@@ -397,8 +397,8 @@ MonoBehaviour:
   - {fileID: 4679497252143743904}
   - {fileID: 4332978654283984326}
   m_Bounds:
-    m_Center: {x: 0.18846077, y: 0.85395706, z: 0}
-    m_Extent: {x: 0.6659587, y: 0.9310289, z: 0}
+    m_Center: {x: 0.000005930662, y: 0.9246758, z: 0}
+    m_Extent: {x: 0.48499537, y: 0.92467606, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &4635766958706845188
@@ -502,8 +502,8 @@ MonoBehaviour:
   - {fileID: 7001003388387234896}
   - {fileID: 4626432523970739612}
   m_Bounds:
-    m_Center: {x: -0.34647834, y: 0.638239, z: 0}
-    m_Extent: {x: 0.719941, y: 0.97627723, z: 0}
+    m_Center: {x: 0.000005096197, y: 0.9246749, z: 0}
+    m_Extent: {x: 0.48499507, y: 0.92467517, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &4944380911736357202
@@ -750,8 +750,8 @@ MonoBehaviour:
   - {fileID: 3576752938348084267}
   - {fileID: 5930199817790619670}
   m_Bounds:
-    m_Center: {x: 0.6535752, y: -1.1217406, z: 0}
-    m_Extent: {x: 0.94995886, y: 1.3819292, z: 0}
+    m_Center: {x: -0.4764489, y: -1.1716144, z: 0}
+    m_Extent: {x: 0.7226845, y: 1.4859648, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &5742599920434079122
@@ -1082,7 +1082,6 @@ GameObject:
   - component: {fileID: 8705832733358487070}
   - component: {fileID: 1604382284381017233}
   - component: {fileID: 8518945705797251748}
-  - component: {fileID: -8671721786077998551}
   - component: {fileID: -2882522357742246294}
   m_Layer: 0
   m_Name: Alien (1)
@@ -1144,7 +1143,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 3.14}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1157,27 +1156,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.22, y: 5.73}
   m_EdgeRadius: 0
---- !u!50 &-8671721786077998551
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8705832733358487071}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 0
 --- !u!95 &-2882522357742246294
 Animator:
   serializedVersion: 3
@@ -1191,7 +1169,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: fd064b57e99df144b8319f339a83341e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -1328,7 +1306,7 @@ MonoBehaviour:
   - {fileID: 5530071995479441963}
   - {fileID: 3203402773428451430}
   m_Bounds:
-    m_Center: {x: -0.30546266, y: -1.2786235, z: 0.000000018782188}
-    m_Extent: {x: 0.625882, y: 1.5534557, z: 0}
+    m_Center: {x: -0.47644824, y: -1.1716144, z: 0}
+    m_Extent: {x: 0.7226848, y: 1.4859648, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1

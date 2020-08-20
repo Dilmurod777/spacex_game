@@ -23,6 +23,8 @@ public class Alien : MonoBehaviour
     private void Start()
     {
         _animator = GetComponent<Animator>();
+        _animator.ResetTrigger("startWalking");
+        _animator.ResetTrigger("cameToShop");
         // set current Alien as the one that was instantiated
         StartMovingAlien(new Vector3(endPoint.position.x, transform.position.y), walkingTime);
     }
@@ -61,7 +63,7 @@ public class Alien : MonoBehaviour
             if (objectToMove)
             {
                 objectToMove.transform.position = Vector3.Lerp(startingPos, new Vector3(end.x, startingPos.y, startingPos.z), (elapsedTime / seconds));
-                elapsedTime += Time.deltaTime;
+                elapsedTime += Time.fixedDeltaTime;
                 yield return new WaitForEndOfFrame();
             }
             else
@@ -70,13 +72,21 @@ public class Alien : MonoBehaviour
             }
         }
 
-        objectToMove.transform.position = new Vector3(end.x, startingPos.y, startingPos.z);
+        // objectToMove.transform.position = new Vector3(end.x, startingPos.y, startingPos.z);
         _cameToShop = true;
+        _animator.SetTrigger("cameToShop");
     }
 
     public IEnumerator StartMovingCoroutine(Vector3 pointToGo, float seconds, float delay)
     {
-        yield return new WaitForSeconds(delay);
+        var elapsed = 0.0f;
+        while (elapsed < delay)
+        {
+            elapsed += Time.fixedDeltaTime;
+            yield return new WaitForEndOfFrame();
+        }
+        
+        _animator.SetTrigger("startWalking");
         _movingCoroutine = StartCoroutine(MoveOverSeconds(gameObject, pointToGo, seconds));
     }
     
