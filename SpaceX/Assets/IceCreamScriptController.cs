@@ -14,20 +14,20 @@ public class IceCreamScriptController : MonoBehaviour
 
     private void Start()
     {
-        _alienSpawner = FindObjectOfType<AlienSpawner>();
+        // _alienSpawner = FindObjectOfType<AlienSpawner>();
     }
 
     private void FixedUpdate()
     {
-        if (!Alien.currentAlien) return;
-
-        alien = Alien.currentAlien;
-        _alienGameObject = alien.gameObject;
+        // if (!Alien.currentAlien) return;
+        //
+        // alien = Alien.currentAlien;
+        // _alienGameObject = alien.gameObject;
     }
 
     public void IceCreamClickHandler(int index)
     {
-        var endPoint = new Vector3(25f, _alienGameObject.transform.position.y, 0);
+        // var endPoint = new Vector3(25f, _alienGameObject.transform.position.y, 0);
         
         if (!Alien.currentAlien || Alien.currentAlien.selectedIceCreamIndex == -1)
         {
@@ -36,29 +36,32 @@ public class IceCreamScriptController : MonoBehaviour
         
         if ( Alien.currentAlien.selectedIceCreamIndex == index)
         {
+            Debug.Log("CORRECT");
             // StartCoroutine(_alienGameObject.GetComponent<Alien>().MoveOverSeconds(_alienGameObject, endPoint, 10));
-            alien.StartMovingAlien(endPoint, 10, 0);
-            MoveAlienDestroyIceCream(_alienGameObject);
+            // alien.StartMovingAlien(endPoint, 10, 0);
+            // MoveAlienDestroyIceCream(_alienGameObject);
         }
         else
         {
-            _wrongChoiceCount += 1;
+            Debug.Log("Wrong");
             if (_wrongChoiceCount == 3)
             {
                 // StartCoroutine(_alienGameObject.GetComponent<Alien>().MoveOverSeconds(_alienGameObject, endPoint, 15));
-                alien.StartMovingAlien(endPoint, 15, 0);
-                MoveAlienDestroyIceCream(_alienGameObject);
+                // alien.StartMovingAlien(endPoint, 15, 0);
+                // MoveAlienDestroyIceCream(_alienGameObject);
                 _wrongChoiceCount = 0;
             }
+
+            _wrongChoiceCount += 1;
         }
     }
 
     private void MoveAlienDestroyIceCream(GameObject alien)
     {
-        // need to remove Ice Cream
-        if (AlienSpawner.notSpawnedAliens.Count > 0)
-        {
-            StartCoroutine(_alienSpawner.SpawnAlien(0f));
-        }
+        // // need to remove Ice Cream
+        // if (AlienSpawner.notSpawnedAliens.Count > 0)
+        // {
+        //     StartCoroutine(_alienSpawner.SpawnAlien(0f));
+        // }
     }
 }

@@ -23,28 +23,36 @@ public class Alien : MonoBehaviour
     private void Start()
     {
         _animator = GetComponent<Animator>();
-        _animator.ResetTrigger("startWalking");
-        _animator.ResetTrigger("cameToShop");
+        _animator.SetTrigger("startWalking");
         // set current Alien as the one that was instantiated
-        StartMovingAlien(new Vector3(endPoint.position.x, transform.position.y), walkingTime);
+        // StartMovingAlien(new Vector3(endPoint.position.x, transform.position.y), walkingTime);
+    }
+
+    public void SelectIceCream()
+    {
+        selectedIceCreamIndex = new Random().Next(0, iceCreams.Count);
+        _selectedIceCream = Instantiate(iceCreams[selectedIceCreamIndex], transform.position,
+            Quaternion.identity);
+        _selectedIceCream.transform.SetParent(transform);
+        _selectedIceCream.transform.localPosition = transform.GetChild(0).transform.localPosition + new Vector3(0, 8f, 0);
     }
 
     // Update is called once per frame
     private void FixedUpdate()
     {
-        if (_stopMoving)
-        {
-            StopAllCoroutines();
-        }
-
-        if (_cameToShop && selectedIceCreamIndex == -1)
-        {
-            selectedIceCreamIndex = new Random().Next(0, iceCreams.Count);
-            _selectedIceCream = Instantiate(iceCreams[selectedIceCreamIndex], transform.position,
-                Quaternion.identity);
-            _selectedIceCream.transform.SetParent(transform);
-            _selectedIceCream.transform.localPosition = new Vector3(0, 8f, 0);
-        }
+        // if (_stopMoving)
+        // {
+        //     StopAllCoroutines();
+        // }
+        //
+        // if (_cameToShop && selectedIceCreamIndex == -1)
+        // {
+        //     selectedIceCreamIndex = new Random().Next(0, iceCreams.Count);
+        //     _selectedIceCream = Instantiate(iceCreams[selectedIceCreamIndex], transform.position,
+        //         Quaternion.identity);
+        //     _selectedIceCream.transform.SetParent(transform);
+        //     _selectedIceCream.transform.localPosition = new Vector3(0, 8f, 0);
+        // }
     }
 
     public void StartMovingAlien(Vector3 pointToGo, float seconds = 0f, float delay = 0f)
