@@ -18,11 +18,13 @@ public class Alien : MonoBehaviour
 
     private Coroutine _movingCoroutine;
     private Animator _animator;
+    private BoxCollider2D _collider;
 
     // Start is called before the first frame update
     private void Start()
     {
         _animator = GetComponent<Animator>();
+        _collider = transform.GetChild(0).GetComponent<BoxCollider2D>();
         _animator.SetTrigger("startWalking");
         // set current Alien as the one that was instantiated
         // StartMovingAlien(new Vector3(endPoint.position.x, transform.position.y), walkingTime);
@@ -34,7 +36,7 @@ public class Alien : MonoBehaviour
         _selectedIceCream = Instantiate(iceCreams[selectedIceCreamIndex], transform.position,
             Quaternion.identity);
         _selectedIceCream.transform.SetParent(transform);
-        _selectedIceCream.transform.localPosition = transform.GetChild(0).transform.localPosition + new Vector3(0, 8f, 0);
+        _selectedIceCream.transform.localPosition = transform.GetChild(0).transform.localPosition + new Vector3(0, _collider.size.y + 2f, 0);
     }
 
     // Update is called once per frame
