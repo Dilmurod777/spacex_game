@@ -9,7 +9,7 @@ public class Alien : MonoBehaviour
 {
     public List<GameObject> iceCreams;
     public Transform endPoint;
-    private const float walkingTime = 4.5f;
+    private const float walkingTime = 5.0f;
     private bool _stopMoving = false;
     private bool _cameToShop = false;
     private GameObject _selectedIceCream;

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ScrollTutorial : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class ScrollTutorial : MonoBehaviour
     void Start()
     {
         _animator = GetComponent<Animator>();
-        Invoke(nameof(StartTutorial), 1);
+        Invoke("StartTutorial", 1);
     }
 
     private void StartTutorial()
