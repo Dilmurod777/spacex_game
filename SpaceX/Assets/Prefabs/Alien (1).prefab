@@ -1123,8 +1123,8 @@ MonoBehaviour:
   - {fileID: 9081030937539801795, guid: 7293484227d5b3440bf04327e5accf51, type: 3}
   - {fileID: 9207743618215653790, guid: f8a38f32355d7d24f9d80ca49b01ad25, type: 3}
   - {fileID: 8859836901917843715, guid: b819f3ee8613aad43995adfa7effd336, type: 3}
-  - {fileID: 4969615798270260144, guid: d65803870585abe4ba72ac7097521c81, type: 3}
   - {fileID: 890020334803356568, guid: 6b418c9548c4734439ce9ca3ed7da2a4, type: 3}
+  - {fileID: 4969615798270260144, guid: d65803870585abe4ba72ac7097521c81, type: 3}
   - {fileID: 4780869682722013992, guid: 4df01362e8df9134583c28f499afbb01, type: 3}
   - {fileID: 488454030201465763, guid: 359a9e8718d9b3c449f4d8890f5a26ab, type: 3}
   endPoint: {fileID: 2027845670980199529, guid: 10c368a3072ac6a44b15e9c98d394f24,
@@ -1176,7 +1176,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!95 &-2882522357742246294
 Animator:

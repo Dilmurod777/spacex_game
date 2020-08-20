@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using Random = System.Random;
 
@@ -16,10 +17,12 @@ public class Alien : MonoBehaviour
     public static Alien currentAlien;
 
     private Coroutine _movingCoroutine;
+    private Animator _animator;
     
     // Start is called before the first frame update
     private void Start()
     {
+        _animator = GetComponent<Animator>();
         // set current Alien as the one that was instantiated
         StartMovingAlien(new Vector3(endPoint.position.x, transform.position.y), walkingTime);
     }
@@ -67,7 +70,7 @@ public class Alien : MonoBehaviour
             }
         }
 
-        // objectToMove.transform.position = new Vector3(end.x, startingPos.y, startingPos.z);
+        objectToMove.transform.position = new Vector3(end.x, startingPos.y, startingPos.z);
         _cameToShop = true;
     }
 

@@ -258,7 +258,7 @@ GameObject:
   - component: {fileID: 1434120370582574289}
   - component: {fileID: 6416441672179274365}
   - component: {fileID: 8139617196278113220}
-  - component: {fileID: 1476867528846823449}
+  - component: {fileID: 2410207934338183304}
   m_Layer: 0
   m_Name: Alien (3)
   m_TagString: Alien
@@ -319,7 +319,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 7.78}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -351,9 +351,9 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
---- !u!95 &1476867528846823449
+--- !u!95 &2410207934338183304
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -1252,8 +1252,8 @@ MonoBehaviour:
   - {fileID: 1855655077735865269}
   - {fileID: 6059482674063505255}
   m_Bounds:
-    m_Center: {x: 0.15698963, y: -2.637662, z: 0}
-    m_Extent: {x: 0.746079, y: 2.7851734, z: 0}
+    m_Center: {x: 0.15698963, y: -2.637661, z: 0}
+    m_Extent: {x: 0.746079, y: 2.785174, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &5069588833087458354
@@ -1521,8 +1521,8 @@ MonoBehaviour:
   - {fileID: 6199273400400236667}
   - {fileID: 5266794400920635723}
   m_Bounds:
-    m_Center: {x: 0.15699273, y: -2.6376612, z: 0}
-    m_Extent: {x: 0.7460783, y: 2.7851727, z: 0}
+    m_Center: {x: 0.15699309, y: -2.63766, z: 0}
+    m_Extent: {x: 0.74607825, y: 2.785173, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &6208623174267582139
@@ -2012,7 +2012,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7625747783146300646}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.81, z: 0}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1.4600946}
   m_Children:
   - {fileID: 113608908774416683}
