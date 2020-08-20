@@ -18,7 +18,7 @@ public class Alien : MonoBehaviour
 
     private Coroutine _movingCoroutine;
     private Animator _animator;
-    
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -40,9 +40,10 @@ public class Alien : MonoBehaviour
         if (_cameToShop && selectedIceCreamIndex == -1)
         {
             selectedIceCreamIndex = new Random().Next(0, iceCreams.Count);
-            _selectedIceCream = Instantiate(iceCreams[selectedIceCreamIndex], transform.position + new Vector3(0, 5, 0),
+            _selectedIceCream = Instantiate(iceCreams[selectedIceCreamIndex], transform.position,
                 Quaternion.identity);
             _selectedIceCream.transform.SetParent(transform);
+            _selectedIceCream.transform.localPosition = new Vector3(0, 8f, 0);
         }
     }
 
@@ -62,7 +63,8 @@ public class Alien : MonoBehaviour
         {
             if (objectToMove)
             {
-                objectToMove.transform.position = Vector3.Lerp(startingPos, new Vector3(end.x, startingPos.y, startingPos.z), (elapsedTime / seconds));
+                objectToMove.transform.position = Vector3.Lerp(startingPos,
+                    new Vector3(end.x, startingPos.y, startingPos.z), (elapsedTime / seconds));
                 elapsedTime += Time.fixedDeltaTime;
                 yield return new WaitForEndOfFrame();
             }
@@ -85,11 +87,11 @@ public class Alien : MonoBehaviour
             elapsed += Time.fixedDeltaTime;
             yield return new WaitForEndOfFrame();
         }
-        
+
         _animator.SetTrigger("startWalking");
         _movingCoroutine = StartCoroutine(MoveOverSeconds(gameObject, pointToGo, seconds));
     }
-    
+
     public void StopMovingCoroutine()
     {
         StopCoroutine(_movingCoroutine);
