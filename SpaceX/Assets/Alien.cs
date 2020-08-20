@@ -9,7 +9,7 @@ public class Alien : MonoBehaviour
 {
     public List<GameObject> iceCreams;
     public Transform endPoint;
-    public float walkingTime = 5;
+    private float walkingTime = 3.2f;
     private bool _stopMoving = false;
     private bool _cameToShop = false;
     private GameObject _selectedIceCream;
@@ -47,11 +47,11 @@ public class Alien : MonoBehaviour
         }
     }
 
-    public void StartMovingAlien(Vector3 pointToGo, float seconds = 0f, float delay = 2f)
+    public void StartMovingAlien(Vector3 pointToGo, float seconds = 0f, float delay = 0f)
     {
         _stopMoving = false;
         _cameToShop = false;
-        StartCoroutine(StartMovingCoroutine(pointToGo, seconds, delay));
+        StartMovingCoroutine(pointToGo, seconds, delay);
     }
 
     private IEnumerator MoveOverSeconds(GameObject objectToMove, Vector3 end, float seconds)
@@ -76,17 +76,13 @@ public class Alien : MonoBehaviour
 
         // objectToMove.transform.position = new Vector3(end.x, startingPos.y, startingPos.z);
         _cameToShop = true;
+        StartCoroutine(Delay(5f));
         _animator.SetTrigger("cameToShop");
     }
 
-    public IEnumerator StartMovingCoroutine(Vector3 pointToGo, float seconds, float delay)
+    public void StartMovingCoroutine(Vector3 pointToGo, float seconds, float delay)
     {
-        var elapsed = 0.0f;
-        while (elapsed < delay)
-        {
-            elapsed += Time.fixedDeltaTime;
-            yield return new WaitForEndOfFrame();
-        }
+        StartCoroutine(Delay(delay));
 
         _animator.SetTrigger("startWalking");
         _movingCoroutine = StartCoroutine(MoveOverSeconds(gameObject, pointToGo, seconds));
@@ -95,6 +91,11 @@ public class Alien : MonoBehaviour
     public void StopMovingCoroutine()
     {
         StopCoroutine(_movingCoroutine);
+    }
+
+    private IEnumerator Delay(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
