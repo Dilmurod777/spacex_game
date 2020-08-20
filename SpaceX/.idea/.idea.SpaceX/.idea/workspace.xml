@@ -21,7 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b0265033-01b2-4fff-a339-b6368c8667d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Alien.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Alien.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AlienSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AlienSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2).controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien (2).controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Test2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Test2.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Test3.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Test3.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Walk_1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Walk_1.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Alien (2).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Alien (2).prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +49,10 @@
         <option value="$PROJECT_DIR$/Assets/AlienDestroyer.cs" />
         <option value="$PROJECT_DIR$/Assets/ShowPlayButton.cs" />
         <option value="$PROJECT_DIR$/Assets/CanvasHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/AlienSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/ScrollTutorial.cs" />
         <option value="$PROJECT_DIR$/Assets/IceCreamScriptController.cs" />
         <option value="$PROJECT_DIR$/Assets/Alien.cs" />
+        <option value="$PROJECT_DIR$/Assets/AlienSpawner.cs" />
       </list>
     </option>
   </component>
