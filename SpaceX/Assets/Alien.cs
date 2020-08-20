@@ -9,7 +9,7 @@ public class Alien : MonoBehaviour
 {
     public List<GameObject> iceCreams;
     public Transform endPoint;
-    private float walkingTime = 3.2f;
+    private const float walkingTime = 4.5f;
     private bool _stopMoving = false;
     private bool _cameToShop = false;
     private GameObject _selectedIceCream;
@@ -75,9 +75,9 @@ public class Alien : MonoBehaviour
         }
 
         // objectToMove.transform.position = new Vector3(end.x, startingPos.y, startingPos.z);
-        _cameToShop = true;
         StartCoroutine(Delay(5f));
         _animator.SetTrigger("cameToShop");
+        _cameToShop = true;
     }
 
     public void StartMovingCoroutine(Vector3 pointToGo, float seconds, float delay)

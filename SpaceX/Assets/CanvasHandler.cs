@@ -7,7 +7,6 @@ public class CanvasHandler : MonoBehaviour
 {
     public void UranusPlayBtnHandler()
     {
-        Debug.Log("URANUS");
         SceneManager.LoadScene("Uranus");
     }
 }

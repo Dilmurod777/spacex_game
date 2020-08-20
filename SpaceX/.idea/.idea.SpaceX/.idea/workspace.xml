@@ -22,6 +22,12 @@
     <list default="true" id="b0265033-01b2-4fff-a339-b6368c8667d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Alien.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Alien.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AlienSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AlienSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (3).controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien (3).controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CanvasHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CanvasHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Space.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Space.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Uranus.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Uranus.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShowPlayButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShowPlayButton.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,14 +44,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/ShowPlayButton.cs" />
         <option value="$PROJECT_DIR$/Assets/ScrollTutorial.cs" />
         <option value="$PROJECT_DIR$/Assets/FindPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/MoveByTouch.cs" />
         <option value="$PROJECT_DIR$/Assets/IceCreamScriptController.cs" />
         <option value="$PROJECT_DIR$/Assets/AlienDestroyer.cs" />
-        <option value="$PROJECT_DIR$/Assets/AlienSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/ShowPlayButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/CanvasHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Alien.cs" />
+        <option value="$PROJECT_DIR$/Assets/AlienSpawner.cs" />
       </list>
     </option>
   </component>
@@ -97,7 +104,7 @@
       <workItem from="1597745644731" duration="309000" />
       <workItem from="1597746336195" duration="709000" />
       <workItem from="1597847572045" duration="12834000" />
-      <workItem from="1597900251415" duration="14704000" />
+      <workItem from="1597900251415" duration="16223000" />
     </task>
     <servers />
   </component>

@@ -20,6 +20,6 @@ public class ShowPlayButton : MonoBehaviour
     {
         var distance = (_player.transform.position - transform.position).magnitude;
 
-        playBtn.SetActive(distance < 15);
+        playBtn.SetActive(distance < 25);
     }
 }
