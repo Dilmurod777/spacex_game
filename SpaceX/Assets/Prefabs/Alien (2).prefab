@@ -238,7 +238,7 @@ MonoBehaviour:
   - {fileID: 3574300346934731913}
   - {fileID: 1847714727178216592}
   m_Bounds:
-    m_Center: {x: 0.0016849935, y: -0.0037248135, z: 0}
+    m_Center: {x: 0.0016855001, y: -0.0037248135, z: 0}
     m_Extent: {x: 0.4533152, y: 1.1028949, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -630,8 +630,8 @@ MonoBehaviour:
   - {fileID: 6241185316250585373}
   - {fileID: 8428729618129288077}
   m_Bounds:
-    m_Center: {x: 0.0016850233, y: -0.0037248135, z: 0}
-    m_Extent: {x: 0.4533152, y: 1.102895, z: 0}
+    m_Center: {x: 0.0016850233, y: -0.0037249327, z: 0}
+    m_Extent: {x: 0.4533152, y: 1.1028948, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &4065962197106677187
@@ -892,7 +892,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1991574495378479639}
-  - component: {fileID: 5748206974640919674}
+  - component: {fileID: 6767914458272527107}
   m_Layer: 0
   m_Name: Alien (2)_Folder
   m_TagString: Untagged
@@ -908,7 +908,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6138976871378437316}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.07, z: -0.09761598}
+  m_LocalPosition: {x: 0, y: 0, z: -0.09761598}
   m_LocalScale: {x: 1, y: 1, z: 1.4600946}
   m_Children:
   - {fileID: 4812368551984813402}
@@ -923,7 +923,7 @@ Transform:
   m_Father: {fileID: 4422916158699776731}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &5748206974640919674
+--- !u!61 &6767914458272527107
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

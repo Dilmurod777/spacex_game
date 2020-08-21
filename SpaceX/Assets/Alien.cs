@@ -36,7 +36,16 @@ public class Alien : MonoBehaviour
         _selectedIceCream = Instantiate(iceCreams[selectedIceCreamIndex], transform.position,
             Quaternion.identity);
         _selectedIceCream.transform.SetParent(transform);
-        _selectedIceCream.transform.localPosition = transform.GetChild(0).transform.localPosition + new Vector3(0, _collider.size.y + 2f, 0);
+
+        Debug.Log(_animator.name);
+        if (_animator.name.StartsWith("Alien (4)"))
+        {
+            _selectedIceCream.transform.localPosition = transform.GetChild(0).transform.localPosition + new Vector3(0, _collider.size.y / 2 + 2f, 0);
+        }
+        else
+        {
+            _selectedIceCream.transform.localPosition = transform.GetChild(0).transform.localPosition + new Vector3(0, _collider.size.y + 2f, 0);
+        }
     }
 
     // Update is called once per frame
