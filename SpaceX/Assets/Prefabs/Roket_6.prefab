@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 75547235}
   - component: {fileID: 75547236}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Trail (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,7 +147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 97883577}
   - component: {fileID: 97883578}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Trail (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -285,7 +285,7 @@ GameObject:
   - component: {fileID: 1886204613}
   - component: {fileID: 1886204615}
   - component: {fileID: 1886204614}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5038,7 +5038,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118742214279215}
   - component: {fileID: 760118742214279200}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Captain_America_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5120,7 +5120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118742216869283}
   - component: {fileID: 760118742216869284}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Light_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5202,7 +5202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118742269484287}
   - component: {fileID: 760118742269484272}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Foot_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5284,7 +5284,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118742296595584}
   - component: {fileID: 760118742296595585}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Body_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5366,7 +5366,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118742312757027}
   - component: {fileID: 760118742312757028}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5424,8 +5424,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 122
   m_Sprite: {fileID: 9214655703755878958, guid: 06bc9a57b8a924c42b5b11ef73a38818,
     type: 3}
@@ -5449,7 +5449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118742337501899}
   - component: {fileID: 760118742337501900}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Fire (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5531,7 +5531,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118742428416975}
   - component: {fileID: 760118742428416960}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Foot_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5589,8 +5589,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 118
   m_Sprite: {fileID: 517199797257441341, guid: 06bc9a57b8a924c42b5b11ef73a38818, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5613,7 +5613,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118742478066142}
   - component: {fileID: 760118742478066143}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Cyrcle (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5670,8 +5670,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 127
   m_Sprite: {fileID: 516733482812169289, guid: 06bc9a57b8a924c42b5b11ef73a38818, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5694,7 +5694,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118742540583354}
   - component: {fileID: 760118742540583355}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Camouflage_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5751,8 +5751,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 124
   m_Sprite: {fileID: 4266745383440255211, guid: 06bc9a57b8a924c42b5b11ef73a38818,
     type: 3}
@@ -5776,7 +5776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118742567959016}
   - component: {fileID: 760118742567959017}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Cyrcle (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5833,8 +5833,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 127
   m_Sprite: {fileID: 516733482812169289, guid: 06bc9a57b8a924c42b5b11ef73a38818, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5857,7 +5857,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118742642189637}
   - component: {fileID: 760118742642189638}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Foot_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5939,7 +5939,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118742662720168}
   - component: {fileID: 760118742662720169}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Techno_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5996,8 +5996,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 126
   m_Sprite: {fileID: 9090263983391555469, guid: 06bc9a57b8a924c42b5b11ef73a38818,
     type: 3}
@@ -6021,7 +6021,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118742664154431}
   - component: {fileID: 760118742664154416}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Body_3 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6103,7 +6103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118742708450666}
   - component: {fileID: 760118742708450667}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Camouflage_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6160,8 +6160,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 124
   m_Sprite: {fileID: -886239071165884254, guid: 06bc9a57b8a924c42b5b11ef73a38818,
     type: 3}
@@ -6185,7 +6185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118742755182983}
   - component: {fileID: 760118742755183032}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Frame_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6267,7 +6267,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118742803317227}
   - component: {fileID: 760118742803317228}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Window (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6349,7 +6349,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118742845128989}
   - component: {fileID: 760118742845128990}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Frame_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6407,8 +6407,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 124
   m_Sprite: {fileID: -5178789324954587743, guid: 06bc9a57b8a924c42b5b11ef73a38818,
     type: 3}
@@ -6432,7 +6432,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118742966452384}
   - component: {fileID: 760118742966452385}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Cyrcle (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6489,8 +6489,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 127
   m_Sprite: {fileID: 516733482812169289, guid: 06bc9a57b8a924c42b5b11ef73a38818, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6513,7 +6513,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118742987016534}
   - component: {fileID: 760118742987016535}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Body_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6595,7 +6595,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118743052884659}
   - component: {fileID: 760118743052884660}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Light_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6677,7 +6677,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118743156943510}
   - component: {fileID: 760118743156943511}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Body_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6735,8 +6735,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 120
   m_Sprite: {fileID: 4773240049122396602, guid: 06bc9a57b8a924c42b5b11ef73a38818,
     type: 3}
@@ -6763,7 +6763,7 @@ GameObject:
   - component: {fileID: 5647470164223680130}
   - component: {fileID: 613855830493336771}
   - component: {fileID: 1540677779}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -6887,7 +6887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118743257049578}
   - component: {fileID: 760118743257049579}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Frame_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6969,7 +6969,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118743275288185}
   - component: {fileID: 760118743275288186}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Frame_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7027,8 +7027,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 121
   m_Sprite: {fileID: 4678089525405306107, guid: 06bc9a57b8a924c42b5b11ef73a38818,
     type: 3}
@@ -7052,7 +7052,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118743288039792}
   - component: {fileID: 760118743288039793}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Body_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7110,8 +7110,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 125
   m_Sprite: {fileID: -1477585675451730426, guid: 06bc9a57b8a924c42b5b11ef73a38818,
     type: 3}
@@ -7135,7 +7135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118743296236508}
   - component: {fileID: 760118743296236509}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Captain_America_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7193,8 +7193,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 127
   m_Sprite: {fileID: 8340230033013401936, guid: 06bc9a57b8a924c42b5b11ef73a38818,
     type: 3}
@@ -7218,7 +7218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118743309701617}
   - component: {fileID: 760118743309701618}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Light_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7276,8 +7276,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 121
   m_Sprite: {fileID: 2151891477452912752, guid: 06bc9a57b8a924c42b5b11ef73a38818,
     type: 3}
@@ -7301,7 +7301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118743323867522}
   - component: {fileID: 760118743323867523}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Foot_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7359,8 +7359,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 116
   m_Sprite: {fileID: -758127302458289298, guid: 06bc9a57b8a924c42b5b11ef73a38818,
     type: 3}
@@ -7384,7 +7384,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118743454385644}
   - component: {fileID: 760118743454385645}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Foot_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7442,8 +7442,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 117
   m_Sprite: {fileID: -4708790953112470823, guid: 06bc9a57b8a924c42b5b11ef73a38818,
     type: 3}
@@ -7467,7 +7467,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118743549690554}
   - component: {fileID: 760118743549690555}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Techno_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7524,8 +7524,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 126
   m_Sprite: {fileID: 2734661502445024152, guid: 06bc9a57b8a924c42b5b11ef73a38818,
     type: 3}
@@ -7549,7 +7549,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118743558104429}
   - component: {fileID: 760118743558104430}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_2x2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7606,8 +7606,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 119
   m_Sprite: {fileID: -2464018997925328283, guid: 06bc9a57b8a924c42b5b11ef73a38818,
     type: 3}
@@ -7631,7 +7631,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118743598222352}
   - component: {fileID: 760118743598222353}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Light_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7689,8 +7689,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 123
   m_Sprite: {fileID: -8375995428877591448, guid: 06bc9a57b8a924c42b5b11ef73a38818,
     type: 3}
@@ -7714,7 +7714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118743619029404}
   - component: {fileID: 760118743619029405}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Light_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7772,8 +7772,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 123
   m_Sprite: {fileID: -4370169282320378871, guid: 06bc9a57b8a924c42b5b11ef73a38818,
     type: 3}
@@ -7797,7 +7797,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118743621488791}
   - component: {fileID: 760118743621488776}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Techno_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7854,8 +7854,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 126
   m_Sprite: {fileID: -8890169260001890402, guid: 06bc9a57b8a924c42b5b11ef73a38818,
     type: 3}
@@ -7879,7 +7879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118743710773517}
   - component: {fileID: 760118743710773518}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Body_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7961,7 +7961,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118743716807977}
   - component: {fileID: 760118743716807978}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Cyrcle (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8018,8 +8018,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 127
   m_Sprite: {fileID: 516733482812169289, guid: 06bc9a57b8a924c42b5b11ef73a38818, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8042,7 +8042,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118743847974326}
   - component: {fileID: 760118743847974327}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Body_3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8100,8 +8100,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 120
   m_Sprite: {fileID: 4773240049122396602, guid: 06bc9a57b8a924c42b5b11ef73a38818,
     type: 3}
@@ -8125,7 +8125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118743866970343}
   - component: {fileID: 760118743866970136}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Foot_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8206,7 +8206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118744001137739}
   - component: {fileID: 760118744001137740}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Cyrcle (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8263,8 +8263,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 127
   m_Sprite: {fileID: 516733482812169289, guid: 06bc9a57b8a924c42b5b11ef73a38818, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8287,7 +8287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118744072771866}
   - component: {fileID: 760118744072771867}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Body_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8345,8 +8345,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 120
   m_Sprite: {fileID: 6083710766035175106, guid: 06bc9a57b8a924c42b5b11ef73a38818,
     type: 3}
@@ -8370,7 +8370,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118744083309556}
   - component: {fileID: 760118744083309557}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Light_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8452,7 +8452,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118744117856920}
   - component: {fileID: 760118744117856921}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Folder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8528,7 +8528,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760118744274161570}
   - component: {fileID: 760118744274161571}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roket_6_Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8586,8 +8586,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 812912051
+  m_SortingLayer: 2
   m_SortingOrder: 100
   m_Sprite: {fileID: -8374915588180917738, guid: 06bc9a57b8a924c42b5b11ef73a38818,
     type: 3}

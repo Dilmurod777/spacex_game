@@ -20,7 +20,105 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0265033-01b2-4fff-a339-b6368c8667d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/AlienSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AlienSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Alien.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Alien.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AlienDestroyer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AlienDestroyer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AlienSpawner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AlienSpawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (1).controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (1).controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (1)_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (1)_Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (1)_Test1.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (1)_Test1.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (1)_Test2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (1)_Test2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (1)_Test3.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (1)_Test3.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (1)_Walk_1.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (1)_Walk_1.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2).controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2).controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Folder.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Folder.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Test1.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Test1.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Test2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Test2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Test3.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Test3.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Walk_1.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Walk_1.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (3).controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (3).controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (3)_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (3)_Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (3)_Idle2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (3)_Idle2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (3)_Test1.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (3)_Test1.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (3)_Test2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (3)_Test2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (3)_Test3.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (3)_Test3.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (3)_Walk_1.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (3)_Walk_1.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (4).controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (4).controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (4)_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (4)_Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (4)_Test1.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (4)_Test1.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (4)_Test2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (4)_Test2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (4)_Test3.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (4)_Test3.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (4)_Walk_1.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (4)_Walk_1.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AsteroidVisibility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AsteroidVisibility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AsteroidWrapperPosition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AsteroidWrapperPosition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CanvasHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CanvasHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CometFalling.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DestroyIceCreams.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DestroyIceCreams.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FindPlayer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/IceCreamChooser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/IceCreamChooser.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/IceCreamScriptController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/IceCreamScriptController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MoveByTouch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MoveByTouch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObjectDetector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObjectDetector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayMiniGame.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayMiniGame.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Alien (2).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Alien (2).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Asteroid belt.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Asteroid belt.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Roket_6.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Roket_6.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Space.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Space.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrippts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrippts/SpaceShipController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrippts/SpaceShipController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScrollTutorial.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScrollTutorial.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SetVisibility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SetVisibility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShowPlayButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShowPlayButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/cometFalling.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/findPlayer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +129,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/ScrollTutorial.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AlienDestroyer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -43,9 +140,11 @@
         <option value="$PROJECT_DIR$/Assets/ShowPlayButton.cs" />
         <option value="$PROJECT_DIR$/Assets/CanvasHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/ScrollTutorial.cs" />
-        <option value="$PROJECT_DIR$/Assets/IceCreamScriptController.cs" />
         <option value="$PROJECT_DIR$/Assets/Alien.cs" />
+        <option value="$PROJECT_DIR$/Assets/IceCreamScriptController.cs" />
         <option value="$PROJECT_DIR$/Assets/AlienSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectDetector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IceCreamScriptController.cs" />
       </list>
     </option>
   </component>
@@ -99,7 +198,8 @@
       <workItem from="1597746336195" duration="709000" />
       <workItem from="1597847572045" duration="12834000" />
       <workItem from="1597900251415" duration="20134000" />
-      <workItem from="1598001681008" duration="2707000" />
+      <workItem from="1598001681008" duration="3308000" />
+      <workItem from="1598089012680" duration="3988000" />
     </task>
     <servers />
   </component>

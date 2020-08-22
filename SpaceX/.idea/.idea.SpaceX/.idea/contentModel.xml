@@ -97,25 +97,11 @@
             </e>
           </e>
         </e>
-        <e p="Alien.cs" t="Include" />
-        <e p="AlienDestroyer.cs" t="Include" />
-        <e p="AlienSpawner.cs" t="Include" />
-        <e p="AsteroidVisibility.cs" t="Include" />
-        <e p="AsteroidWrapperPosition.cs" t="Include" />
-        <e p="CanvasHandler.cs" t="Include" />
-        <e p="cometFalling.cs" t="Include" />
-        <e p="DestroyIceCreams.cs" t="Include" />
-        <e p="findPlayer.cs" t="Include" />
-        <e p="IceCreamChooser.cs" t="Include" />
-        <e p="IceCreamScriptController.cs" t="Include" />
-        <e p="MoveByTouch.cs" t="Include" />
-        <e p="ObjectDetector.cs" t="Include" />
-        <e p="Player.cs" t="Include" />
-        <e p="PlayMiniGame.cs" t="Include" />
-        <e p="Scrippts" t="Include">
-          <e p="SpaceShipController.cs" t="Include" />
-        </e>
         <e p="Scripts" t="Include">
+          <e p="Alien.cs" t="Include" />
+          <e p="AlienDestroyer.cs" t="Include" />
+          <e p="AlienSpawner.cs" t="Include" />
+          <e p="AsteroidVisibility.cs" t="Include" />
           <e p="Attributes" t="Include">
             <e p="BulletAttribute.cs" t="Include" />
             <e p="CollectableAttribute.cs" t="Include" />
@@ -124,6 +110,8 @@
             <e p="ModifyHealthAttribute.cs" t="Include" />
             <e p="ResourceAttribute.cs" t="Include" />
           </e>
+          <e p="CanvasHandler.cs" t="Include" />
+          <e p="cometFalling.cs" t="Include" />
           <e p="Conditions" t="Include">
             <e p="Actions" t="Include">
               <e p="ConsumeResourceAction.cs" t="Include" />
@@ -145,6 +133,8 @@
             <e p="PickUpAndHold.cs" t="Include" />
             <e p="TimedSelfDestruct.cs" t="Include" />
           </e>
+          <e p="IceCreamScriptController.cs" t="Include" />
+          <e p="MoveByTouch.cs" t="Include" />
           <e p="Movement" t="Include">
             <e p="AutoMove.cs" t="Include" />
             <e p="AutoRotate.cs" t="Include" />
@@ -157,10 +147,11 @@
             <e p="Rotate.cs" t="Include" />
             <e p="Wander.cs" t="Include" />
           </e>
+          <e p="Player.cs" t="Include" />
+          <e p="ScrollTutorial.cs" t="Include" />
+          <e p="SetVisibility.cs" t="Include" />
+          <e p="ShowPlayButton.cs" t="Include" />
         </e>
-        <e p="ScrollTutorial.cs" t="Include" />
-        <e p="SetVisibility.cs" t="Include" />
-        <e p="ShowPlayButton.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
