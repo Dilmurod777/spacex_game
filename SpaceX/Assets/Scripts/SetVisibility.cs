@@ -18,7 +18,7 @@ public class SetVisibility : MonoBehaviour
         _player = FindObjectOfType<Player>().gameObject;
         if (gameObject.tag == "Asteroid")
         {
-            _collider = GetComponent<EdgeCollider2D>();
+            _collider = GetComponent<PolygonCollider2D>();
             _spriteRenderer = GetComponent<SpriteRenderer>();
         }
         else if (gameObject.tag == "Stars")
