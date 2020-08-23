@@ -21,10 +21,30 @@
   <component name="ChangeListManager">
     <list default="true" id="b0265033-01b2-4fff-a339-b6368c8667d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Asteroid belt.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Asteroid belt.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Space.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Space.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Test3_2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Test3_2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Walk_Obida.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Walk_Obida.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Walk_Obida_Start.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Walk_Obida_Start.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Walk_Radost.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Walk_Radost.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Walk_Radost_Start.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (2)_Walk_Radost_Start.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (3)_Walk_Obida.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (3)_Walk_Obida.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (3)_Walk_Radost.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien (3)_Walk_Radost.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 2/Body.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 2/Body.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 2/Body_Walk_To_Shop.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 2/Body_Walk_To_Shop.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 2/Body_Walk_To_Shop_End.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 2/Body_Walk_To_Shop_End.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 3/Alien.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 3/Alien.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 4/Alien (4).controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 4/Alien (4).controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 4/Alien (4)_Walk_1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 4/Alien (4)_Walk_1.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 4/Alien (4)_Walk_Obida_Start.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 4/Alien (4)_Walk_Obida_Start.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 4/Alien (4)_Walk_Radost_Start.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 4/Alien (4)_Walk_Radost_Start.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 4/Alien (4)_Walk_test.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 4/Alien (4)_Walk_test.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/AlienSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AlienSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SetVisibility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SetVisibility.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +56,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DropOutSlot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DropInSlot.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -51,8 +73,8 @@
         <option value="$PROJECT_DIR$/Assets/AlienSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectDetector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IceCreamScriptController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AlienSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SetVisibility.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AlienSpawner.cs" />
       </list>
     </option>
   </component>
