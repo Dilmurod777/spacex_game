@@ -21,13 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b0265033-01b2-4fff-a339-b6368c8667d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 2/Body.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 2/Body.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Space.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Space.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/BackgroundScroll/Background.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/BackgroundScroll/Background.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/BackgroundScroll/idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/BackgroundScroll/idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/BackgroundScroll/tutorial.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/BackgroundScroll/tutorial.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DragDropIceCream.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DragDropIceCream.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Uranus.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Uranus.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IceCreamScriptController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IceCreamScriptController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DropOutSlot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scroll.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DropInSlot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ChangeScene.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -61,6 +62,8 @@
         <option value="$PROJECT_DIR$/Assets/ChangeScene.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IceCreamScriptController.cs" />
         <option value="$PROJECT_DIR$/Assets/InfinityScroll.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scroll.cs" />
+        <option value="$PROJECT_DIR$/Assets/DragDropIceCream.cs" />
       </list>
     </option>
   </component>
