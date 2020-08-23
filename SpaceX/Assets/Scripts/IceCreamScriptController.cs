@@ -30,6 +30,8 @@ public class IceCreamScriptController : MonoBehaviour
         }
         else
         {
+            _wrongChoiceCount += 1;
+            
             Debug.Log("Wrong");
             if (_wrongChoiceCount == NumberOfFails)
             {
@@ -38,7 +40,6 @@ public class IceCreamScriptController : MonoBehaviour
                 _wrongChoiceCount = 0;
             }
 
-            _wrongChoiceCount += 1;
         }
     }
 

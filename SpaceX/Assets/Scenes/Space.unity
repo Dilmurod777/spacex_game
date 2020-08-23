@@ -22304,7 +22304,7 @@ GameObject:
   - component: {fileID: 1160079254}
   - component: {fileID: 1160079253}
   m_Layer: 0
-  m_Name: CanvarHandler
+  m_Name: SceneManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22319,7 +22319,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1160079252}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 796f9916280f60042a4614956e3d2c76, type: 3}
+  m_Script: {fileID: 11500000, guid: 998a041ecade24546ab3f43989c4680d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1160079254
@@ -22334,7 +22334,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1160867117
 GameObject:
@@ -28429,7 +28429,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1805933013
 GameObject:
@@ -34235,7 +34235,7 @@ RectTransform:
   m_Children:
   - {fileID: 186482479}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}

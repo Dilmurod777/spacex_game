@@ -21,6 +21,7 @@
     "com.unity.textmeshpro": "2.0.1",
     "com.unity.timeline": "1.2.14",
     "com.unity.ugui": "1.0.0",
+    "com.unity.uiextensions": "https://bitbucket.org/UnityUIExtensions/unity-ui-extensions.git",
     "com.unity.xr.legacyinputhelpers": "2.0.2",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
@@ -58,6 +59,10 @@
     "com.elringus.spriteglow": {
       "revision": "package",
       "hash": "05442994ffb7f6c679f648d702cdf888bd8c01dc"
+    },
+    "com.unity.uiextensions": {
+      "revision": "HEAD",
+      "hash": "214b4a1a6965559b13f5363bbddb380b86f45c13"
     }
   }
 }
