@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -413,10 +413,10 @@ RectTransform:
   m_Father: {fileID: 1596362655}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -110, y: 0}
-  m_SizeDelta: {x: 221.42963, y: 720}
+  m_SizeDelta: {x: 221.42963, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &111598660
 MonoBehaviour:
@@ -13712,16 +13712,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a829ce7ae83736d44aaba59b45378162, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  iceCreams:
-  - {fileID: 2114041450}
-  - {fileID: 201975346}
-  - {fileID: 338698946}
-  - {fileID: 748857964}
-  - {fileID: 567320553}
-  - {fileID: 893987637}
-  - {fileID: 220554262}
-  - {fileID: 1853111420}
-  alien: {fileID: 0}
 --- !u!4 &1349931828
 Transform:
   m_ObjectHideFlags: 0
