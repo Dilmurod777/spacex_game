@@ -47,6 +47,9 @@ TextureImporter:
   - first:
       213: -9203391157615796916
     second: Uranus_Hero_2_Hand
+  - first:
+      213: 2132892861217173036
+    second: Uranus__15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -4934,6 +4937,27 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
+    - serializedVersion: 2
+      name: Uranus__15
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 549
+        width: 238
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ee0d8b1ce899d10800000000000000
+      internalID: 2132892861217173036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
