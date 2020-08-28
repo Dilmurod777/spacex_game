@@ -176,7 +176,6 @@ GameObject:
   - component: {fileID: 43887926}
   - component: {fileID: 43887925}
   - component: {fileID: 43887924}
-  - component: {fileID: 43887927}
   - component: {fileID: 43887928}
   m_Layer: 5
   m_Name: IceCreamBtn (8)
@@ -296,19 +295,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 43887922}
   m_CullTransparentMesh: 0
---- !u!114 &43887927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 43887922}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c093b0f64f6fee438e33f14f86f2d23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 1596362654}
 --- !u!95 &43887928
 Animator:
   serializedVersion: 3
@@ -317,7 +303,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 43887922}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 03a0008cc52e8ba4194b19381d3112e4, type: 2}
   m_CullingMode: 0
@@ -340,7 +326,6 @@ GameObject:
   - component: {fileID: 61367063}
   - component: {fileID: 61367062}
   - component: {fileID: 61367061}
-  - component: {fileID: 61367064}
   - component: {fileID: 61367065}
   m_Layer: 5
   m_Name: IceCreamBtn (5)
@@ -460,19 +445,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 61367059}
   m_CullTransparentMesh: 0
---- !u!114 &61367064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 61367059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c093b0f64f6fee438e33f14f86f2d23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 1596362654}
 --- !u!95 &61367065
 Animator:
   serializedVersion: 3
@@ -481,7 +453,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 61367059}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 03a0008cc52e8ba4194b19381d3112e4, type: 2}
   m_CullingMode: 0
@@ -1857,7 +1829,7 @@ PrefabInstance:
     - target: {fileID: 8886405633529748866, guid: e8c1cb0ee480a8147869055338d9eb18,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8c1cb0ee480a8147869055338d9eb18, type: 3}
@@ -2516,7 +2488,6 @@ GameObject:
   - component: {fileID: 658808976}
   - component: {fileID: 658808975}
   - component: {fileID: 658808974}
-  - component: {fileID: 658808977}
   - component: {fileID: 658808978}
   m_Layer: 5
   m_Name: IceCreamBtn (6)
@@ -2636,19 +2607,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 658808972}
   m_CullTransparentMesh: 0
---- !u!114 &658808977
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 658808972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c093b0f64f6fee438e33f14f86f2d23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 1596362654}
 --- !u!95 &658808978
 Animator:
   serializedVersion: 3
@@ -2657,7 +2615,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 658808972}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 03a0008cc52e8ba4194b19381d3112e4, type: 2}
   m_CullingMode: 0
@@ -2916,7 +2874,6 @@ GameObject:
   - component: {fileID: 756445326}
   - component: {fileID: 756445325}
   - component: {fileID: 756445324}
-  - component: {fileID: 756445327}
   - component: {fileID: 756445328}
   m_Layer: 5
   m_Name: IceCreamBtn (2)
@@ -3036,19 +2993,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756445322}
   m_CullTransparentMesh: 0
---- !u!114 &756445327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 756445322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c093b0f64f6fee438e33f14f86f2d23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 1596362654}
 --- !u!95 &756445328
 Animator:
   serializedVersion: 3
@@ -3057,7 +3001,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756445322}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 03a0008cc52e8ba4194b19381d3112e4, type: 2}
   m_CullingMode: 0
@@ -8143,7 +8087,6 @@ GameObject:
   - component: {fileID: 941599747}
   - component: {fileID: 941599746}
   - component: {fileID: 941599745}
-  - component: {fileID: 941599748}
   - component: {fileID: 941599749}
   m_Layer: 5
   m_Name: IceCreamBtn (4)
@@ -8263,19 +8206,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 941599743}
   m_CullTransparentMesh: 0
---- !u!114 &941599748
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 941599743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c093b0f64f6fee438e33f14f86f2d23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 1596362654}
 --- !u!95 &941599749
 Animator:
   serializedVersion: 3
@@ -8284,7 +8214,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 941599743}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 03a0008cc52e8ba4194b19381d3112e4, type: 2}
   m_CullingMode: 0
@@ -8564,7 +8494,6 @@ GameObject:
   - component: {fileID: 997896147}
   - component: {fileID: 997896146}
   - component: {fileID: 997896145}
-  - component: {fileID: 997896148}
   - component: {fileID: 997896149}
   m_Layer: 5
   m_Name: IceCreamBtn (3)
@@ -8684,19 +8613,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 997896143}
   m_CullTransparentMesh: 0
---- !u!114 &997896148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 997896143}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c093b0f64f6fee438e33f14f86f2d23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 1596362654}
 --- !u!95 &997896149
 Animator:
   serializedVersion: 3
@@ -8705,7 +8621,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 997896143}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 03a0008cc52e8ba4194b19381d3112e4, type: 2}
   m_CullingMode: 0
@@ -14264,7 +14180,6 @@ GameObject:
   - component: {fileID: 1424607247}
   - component: {fileID: 1424607246}
   - component: {fileID: 1424607245}
-  - component: {fileID: 1424607248}
   - component: {fileID: 1424607249}
   m_Layer: 5
   m_Name: IceCreamBtn (7)
@@ -14384,19 +14299,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1424607243}
   m_CullTransparentMesh: 0
---- !u!114 &1424607248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1424607243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c093b0f64f6fee438e33f14f86f2d23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 1596362654}
 --- !u!95 &1424607249
 Animator:
   serializedVersion: 3
@@ -14405,7 +14307,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1424607243}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 03a0008cc52e8ba4194b19381d3112e4, type: 2}
   m_CullingMode: 0
@@ -16683,7 +16585,6 @@ GameObject:
   - component: {fileID: 1870704020}
   - component: {fileID: 1870704019}
   - component: {fileID: 1870704018}
-  - component: {fileID: 1870704021}
   - component: {fileID: 1870704022}
   m_Layer: 5
   m_Name: IceCreamBtn (1)
@@ -16803,19 +16704,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1870704016}
   m_CullTransparentMesh: 0
---- !u!114 &1870704021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870704016}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c093b0f64f6fee438e33f14f86f2d23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 1596362654}
 --- !u!95 &1870704022
 Animator:
   serializedVersion: 3
@@ -16824,7 +16712,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1870704016}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 03a0008cc52e8ba4194b19381d3112e4, type: 2}
   m_CullingMode: 0

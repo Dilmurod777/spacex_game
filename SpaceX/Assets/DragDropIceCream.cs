@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class DragDropIceCream : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler, IDropHandler
+public class DragDropIceCream : MonoBehaviour, IPointerClickHandler
 {
     public Canvas canvas;
     private RectTransform _rectTransform;
@@ -15,9 +12,16 @@ public class DragDropIceCream : MonoBehaviour, IPointerDownHandler, IBeginDragHa
         _rectTransform = GetComponent<RectTransform>();
         _canvasGroup = GetComponent<CanvasGroup>();
     }
+    
+    
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        
+    }
 
     public void OnPointerDown(PointerEventData eventData)
     {
+        
     }
 
     public void OnDrag(PointerEventData eventData)
