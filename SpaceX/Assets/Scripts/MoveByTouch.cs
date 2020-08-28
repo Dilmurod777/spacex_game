@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class MoveByTouch : MonoBehaviour
 {
-    private const float Force = 1.4f;
+    private const float Force = 1.1f;
     private const float RotationSpeed = 5f;
     private float _touchPointX;
     private float _touchPointY;

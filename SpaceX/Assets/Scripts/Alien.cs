@@ -1,22 +1,14 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using Random = System.Random;
 
 public class Alien : MonoBehaviour
 {
     public List<GameObject> iceCreams;
-    public Transform endPoint;
-    private const float walkingTime = 5.0f;
-    private bool _stopMoving = false;
-    private bool _cameToShop = false;
     private GameObject _selectedIceCream;
     public int selectedIceCreamIndex = -1;
     public static Alien currentAlien;
 
-    private Coroutine _movingCoroutine;
     private Animator _animator;
     private BoxCollider2D _collider;
 
@@ -25,9 +17,6 @@ public class Alien : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
         _collider = transform.GetChild(0).GetComponent<BoxCollider2D>();
-        _animator.SetTrigger("startWalking");
-        // set current Alien as the one that was instantiated
-        // StartMovingAlien(new Vector3(endPoint.position.x, transform.position.y), walkingTime);
     }
 
     public void SelectIceCream()
@@ -45,83 +34,6 @@ public class Alien : MonoBehaviour
         else
         {
             _selectedIceCream.transform.localPosition = transform.GetChild(0).transform.localPosition + new Vector3(0, _collider.size.y + 2f, 0);
-        }
-    }
-
-    // Update is called once per frame
-    private void FixedUpdate()
-    {
-        // if (_stopMoving)
-        // {
-        //     StopAllCoroutines();
-        // }
-        //
-        // if (_cameToShop && selectedIceCreamIndex == -1)
-        // {
-        //     selectedIceCreamIndex = new Random().Next(0, iceCreams.Count);
-        //     _selectedIceCream = Instantiate(iceCreams[selectedIceCreamIndex], transform.position,
-        //         Quaternion.identity);
-        //     _selectedIceCream.transform.SetParent(transform);
-        //     _selectedIceCream.transform.localPosition = new Vector3(0, 8f, 0);
-        // }
-    }
-
-    public void StartMovingAlien(Vector3 pointToGo, float seconds = 0f, float delay = 0f)
-    {
-        _stopMoving = false;
-        _cameToShop = false;
-        StartMovingCoroutine(pointToGo, seconds, delay);
-    }
-
-    private IEnumerator MoveOverSeconds(GameObject objectToMove, Vector3 end, float seconds)
-    {
-        float elapsedTime = 0;
-        var startingPos = objectToMove.transform.position;
-
-        while (elapsedTime < seconds)
-        {
-            if (objectToMove)
-            {
-                objectToMove.transform.position = Vector3.Lerp(startingPos,
-                    new Vector3(end.x, startingPos.y, startingPos.z), (elapsedTime / seconds));
-                elapsedTime += Time.fixedDeltaTime;
-                yield return new WaitForEndOfFrame();
-            }
-            else
-            {
-                StopCoroutine(_movingCoroutine);
-            }
-        }
-
-        // objectToMove.transform.position = new Vector3(end.x, startingPos.y, startingPos.z);
-        StartCoroutine(Delay(5f));
-        _animator.SetTrigger("cameToShop");
-        _cameToShop = true;
-    }
-
-    public void StartMovingCoroutine(Vector3 pointToGo, float seconds, float delay)
-    {
-        StartCoroutine(Delay(delay));
-
-        _animator.SetTrigger("startWalking");
-        _movingCoroutine = StartCoroutine(MoveOverSeconds(gameObject, pointToGo, seconds));
-    }
-
-    public void StopMovingCoroutine()
-    {
-        StopCoroutine(_movingCoroutine);
-    }
-
-    private IEnumerator Delay(float seconds)
-    {
-        yield return new WaitForSeconds(seconds);
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Alien"))
-        {
-            _stopMoving = true;
         }
     }
 }

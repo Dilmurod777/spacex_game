@@ -20,14 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0265033-01b2-4fff-a339-b6368c8667d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/BackgroundScroll/Background.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/BackgroundScroll/Background.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/BackgroundScroll/idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/BackgroundScroll/idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/BackgroundScroll/tutorial.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/BackgroundScroll/tutorial.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DragDropIceCream.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DragDropIceCream.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Uranus.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Uranus.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 1/Alien (1).controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 1/Alien (1).controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 1/Alien (1)_Walk_Obida.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 1/Alien (1)_Walk_Obida.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 1/Alien (1)_Walk_Obida_Start.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 1/Alien (1)_Walk_Obida_Start.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/2x2 Podium.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/2x2 Podium.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Alien.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Alien.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AlienDestroyer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AlienDestroyer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IceCreamScriptController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IceCreamScriptController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoveByTouch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoveByTouch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,10 +63,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SetVisibility.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlienSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/ChangeScene.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IceCreamScriptController.cs" />
         <option value="$PROJECT_DIR$/Assets/InfinityScroll.cs" />
         <option value="$PROJECT_DIR$/Assets/Scroll.cs" />
         <option value="$PROJECT_DIR$/Assets/DragDropIceCream.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveByTouch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AlienDestroyer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Alien.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IceCreamScriptController.cs" />
       </list>
     </option>
   </component>
@@ -119,6 +125,7 @@
       <workItem from="1597900251415" duration="20134000" />
       <workItem from="1598001681008" duration="3308000" />
       <workItem from="1598089012680" duration="7699000" />
+      <workItem from="1598623092858" duration="1081000" />
     </task>
     <servers />
   </component>

@@ -24,7 +24,6 @@ public class IceCreamScriptController : MonoBehaviour
 
         if (Alien.currentAlien.selectedIceCreamIndex == index)
         {
-            Debug.Log("CORRECT");
             Alien.currentAlien.GetComponent<Animator>().SetTrigger("gotIceCream");
             MoveAlienDestroyIceCream();
         }
@@ -32,7 +31,6 @@ public class IceCreamScriptController : MonoBehaviour
         {
             _wrongChoiceCount += 1;
             
-            Debug.Log("Wrong");
             if (_wrongChoiceCount == NumberOfFails)
             {
                 Alien.currentAlien.GetComponent<Animator>().SetTrigger("failedIceCream");

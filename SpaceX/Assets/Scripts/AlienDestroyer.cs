@@ -9,7 +9,6 @@ public class AlienDestroyer : MonoBehaviour
     {
         if (other.CompareTag("Alien"))
         {
-            other.GetComponent<Alien>().StopMovingCoroutine();
             Destroy(other.gameObject);
         }
     }
