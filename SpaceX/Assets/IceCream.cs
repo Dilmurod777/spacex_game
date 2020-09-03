@@ -34,40 +34,41 @@ public class IceCream : MonoBehaviour, IPointerDownHandler, IPointerClickHandler
 
     void FixedUpdate()
     {
-        if (Input.touchCount > 0)
-        {
-            if (_touchState == TouchState.Holding)
-            {
-                var angle = Vector2.Angle(Vector2.up,
-                    (Input.touches[0].position - new Vector2(transform.position.x, transform.position.y)).normalized);
-                if (angle > 75 && angle < 105)
-                {
-                    _touchState = TouchState.Dragging;
-                    scrollRect.vertical = false;
-                    StartDragging();
-                }
-                else
-                {
-                    scrollRect.vertical = true;
-                }
-            }
-
-            // if (_touchState == TouchState.Holding)
-            // {
-            //     IceCreamClicked();
-            // }
-            // _touchState = TouchState.Released;
-        }
-        else
-        {
-            scrollRect.vertical = true;
-            _touchState = TouchState.Released;
-            // if (scrollRect.velocity.y < -0.08f || scrollRect.velocity.y > 0.08f)
-            // {
-            //     StopAllCoroutines();
-            //     StartCoroutine(CheckHoldingPeriod());
-            // }
-        }
+        // Drag & Drop functionality
+        // if (Input.touchCount > 0)
+        // {
+        //     if (_touchState == TouchState.Holding)
+        //     {
+        //         var angle = Vector2.Angle(Vector2.up,
+        //             (Input.touches[0].position - new Vector2(transform.position.x, transform.position.y)).normalized);
+        //         if (angle > 75 && angle < 105)
+        //         {
+        //             _touchState = TouchState.Dragging;
+        //             scrollRect.vertical = false;
+        //             StartDragging();
+        //         }
+        //         else
+        //         {
+        //             scrollRect.vertical = true;
+        //         }
+        //     }
+        //
+        //     // if (_touchState == TouchState.Holding)
+        //     // {
+        //     //     IceCreamClicked();
+        //     // }
+        //     // _touchState = TouchState.Released;
+        // }
+        // else
+        // {
+        //     scrollRect.vertical = true;
+        //     _touchState = TouchState.Released;
+        //     // if (scrollRect.velocity.y < -0.08f || scrollRect.velocity.y > 0.08f)
+        //     // {
+        //     //     StopAllCoroutines();
+        //     //     StartCoroutine(CheckHoldingPeriod());
+        //     // }
+        // }
 
         // DebugLogTouchState();
     }
