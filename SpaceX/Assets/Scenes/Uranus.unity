@@ -307,8 +307,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100e0477a6994d4284563c0d31c54e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvas: {fileID: 1596362654}
   scrollRect: {fileID: 945197093}
-  draggable: {fileID: 1730076648}
+  draggable: {fileID: 554563966808528763, guid: 56a44100f94aedf449f09364371892e0,
+    type: 3}
   sprite: {fileID: 21300000, guid: ce3db1d6c2700ac40ad42d510e000de1, type: 3}
   index: 7
 --- !u!1 &61367059
@@ -454,8 +456,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100e0477a6994d4284563c0d31c54e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvas: {fileID: 1596362654}
   scrollRect: {fileID: 945197093}
-  draggable: {fileID: 1730076648}
+  draggable: {fileID: 554563966808528763, guid: 56a44100f94aedf449f09364371892e0,
+    type: 3}
   sprite: {fileID: 21300000, guid: 97fba02dc61d56c4fabf12b2f55da185, type: 3}
   index: 4
 --- !u!1 &111598658
@@ -2613,8 +2617,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100e0477a6994d4284563c0d31c54e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvas: {fileID: 1596362654}
   scrollRect: {fileID: 945197093}
-  draggable: {fileID: 1730076648}
+  draggable: {fileID: 554563966808528763, guid: 56a44100f94aedf449f09364371892e0,
+    type: 3}
   sprite: {fileID: 21300000, guid: 5d8d90ae638c55547ad9b72deca363c4, type: 3}
   index: 5
 --- !u!1 &670352066
@@ -2996,8 +3002,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100e0477a6994d4284563c0d31c54e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvas: {fileID: 1596362654}
   scrollRect: {fileID: 945197093}
-  draggable: {fileID: 1730076648}
+  draggable: {fileID: 554563966808528763, guid: 56a44100f94aedf449f09364371892e0,
+    type: 3}
   sprite: {fileID: 21300000, guid: 6043c46160eced14dae4b96a3d33f09e, type: 3}
   index: 1
 --- !u!1 &850980765
@@ -8206,8 +8214,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100e0477a6994d4284563c0d31c54e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvas: {fileID: 1596362654}
   scrollRect: {fileID: 945197093}
-  draggable: {fileID: 1730076648}
+  draggable: {fileID: 554563966808528763, guid: 56a44100f94aedf449f09364371892e0,
+    type: 3}
   sprite: {fileID: 21300000, guid: 67d65052a1a871347a8e0d50becb552e, type: 3}
   index: 3
 --- !u!1 &945197091
@@ -8224,7 +8234,7 @@ GameObject:
   - component: {fileID: 945197095}
   m_Layer: 5
   m_Name: Scoll
-  m_TagString: Untagged
+  m_TagString: IceCreamScroll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8610,8 +8620,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100e0477a6994d4284563c0d31c54e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvas: {fileID: 1596362654}
   scrollRect: {fileID: 945197093}
-  draggable: {fileID: 1730076648}
+  draggable: {fileID: 554563966808528763, guid: 56a44100f94aedf449f09364371892e0,
+    type: 3}
   sprite: {fileID: 21300000, guid: 968b648ff7453ee43aa64387c99f7f13, type: 3}
   index: 2
 --- !u!1 &1085272002
@@ -14293,8 +14305,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100e0477a6994d4284563c0d31c54e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvas: {fileID: 1596362654}
   scrollRect: {fileID: 945197093}
-  draggable: {fileID: 1730076648}
+  draggable: {fileID: 554563966808528763, guid: 56a44100f94aedf449f09364371892e0,
+    type: 3}
   sprite: {fileID: 21300000, guid: 974b51d063e54b14aa8881e039b78cb4, type: 3}
   index: 6
 --- !u!1 &1439330423
@@ -15496,7 +15510,6 @@ RectTransform:
   - {fileID: 111598659}
   - {fileID: 344692663}
   - {fileID: 1474095422}
-  - {fileID: 1730076647}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15946,107 +15959,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1730076646
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1730076647}
-  - component: {fileID: 1730076650}
-  - component: {fileID: 1730076649}
-  - component: {fileID: 1730076648}
-  - component: {fileID: 1730076651}
-  m_Layer: 5
-  m_Name: Draggable
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1730076647
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730076646}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1596362655}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 277, y: 45}
-  m_SizeDelta: {x: 100, y: 165}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1730076648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730076646}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4358f0e9de7c97b478b31d57c4362e98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scrollRect: {fileID: 945197093}
---- !u!114 &1730076649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730076646}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1730076650
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730076646}
-  m_CullTransparentMesh: 0
---- !u!225 &1730076651
-CanvasGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730076646}
-  m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 0
 --- !u!1 &1766508951
 GameObject:
   m_ObjectHideFlags: 0
@@ -16797,8 +16709,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100e0477a6994d4284563c0d31c54e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvas: {fileID: 1596362654}
   scrollRect: {fileID: 945197093}
-  draggable: {fileID: 1730076648}
+  draggable: {fileID: 554563966808528763, guid: 56a44100f94aedf449f09364371892e0,
+    type: 3}
   sprite: {fileID: 21300000, guid: 68a3c1b1b5ebae64193a6e2cafe4a3d8, type: 3}
   index: 0
 --- !u!1 &1903443182
@@ -17845,25 +17759,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1707392154}
     m_Modifications:
-    - target: {fileID: 3307818495351965119, guid: a2150abc7cd189741922f94465cfedd9,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.7495
-      objectReference: {fileID: 0}
-    - target: {fileID: 3307818495351965119, guid: a2150abc7cd189741922f94465cfedd9,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.9892298
-      objectReference: {fileID: 0}
     - target: {fileID: 3778764876808397328, guid: a2150abc7cd189741922f94465cfedd9,
         type: 3}
       propertyPath: m_Name
       value: Hero
-      objectReference: {fileID: 0}
-    - target: {fileID: 3778764876808397328, guid: a2150abc7cd189741922f94465cfedd9,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3778764876808397330, guid: a2150abc7cd189741922f94465cfedd9,
         type: 3}
@@ -17920,83 +17819,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180.116
       objectReference: {fileID: 0}
-    - target: {fileID: 3778764876808397330, guid: a2150abc7cd189741922f94465cfedd9,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.219895
-      objectReference: {fileID: 0}
-    - target: {fileID: 3778764876808397330, guid: a2150abc7cd189741922f94465cfedd9,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.219895
-      objectReference: {fileID: 0}
-    - target: {fileID: 3778764876808397330, guid: a2150abc7cd189741922f94465cfedd9,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.44807303
-      objectReference: {fileID: 0}
-    - target: {fileID: 5582455278365479048, guid: a2150abc7cd189741922f94465cfedd9,
-        type: 3}
-      propertyPath: m_Name
-      value: Hero_Folder
-      objectReference: {fileID: 0}
-    - target: {fileID: 6303487301346478330, guid: a2150abc7cd189741922f94465cfedd9,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6303487301346478330, guid: a2150abc7cd189741922f94465cfedd9,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0.5943396
-      objectReference: {fileID: 0}
-    - target: {fileID: 6303487301346478330, guid: a2150abc7cd189741922f94465cfedd9,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.5943396
-      objectReference: {fileID: 0}
-    - target: {fileID: 6303487301346478330, guid: a2150abc7cd189741922f94465cfedd9,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.5943396
-      objectReference: {fileID: 0}
-    - target: {fileID: 7113567058612153616, guid: a2150abc7cd189741922f94465cfedd9,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.7495
-      objectReference: {fileID: 0}
-    - target: {fileID: 7113567058612153616, guid: a2150abc7cd189741922f94465cfedd9,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.9892298
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2150abc7cd189741922f94465cfedd9, type: 3}
---- !u!1 &3778764876570241454 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3778764876808397328, guid: a2150abc7cd189741922f94465cfedd9,
-    type: 3}
-  m_PrefabInstance: {fileID: 3778764876570241453}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &3778764876570241455
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3778764876570241454}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ff4c8f36a70d4e94280a9b2c498232c5, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &5499565942203758125
 Transform:
   m_ObjectHideFlags: 0
