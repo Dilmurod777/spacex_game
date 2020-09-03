@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
@@ -11,13 +12,14 @@ enum TouchState
     Released
 }
 
-public class IceCream : MonoBehaviour, IPointerDownHandler
+public class IceCream : MonoBehaviour, IPointerDownHandler, IPointerClickHandler
 {
+    public Canvas canvas;
     public ScrollRect scrollRect;
-    public Draggable draggable;
+    public GameObject draggable;
     public Sprite sprite;
     public int index;
-    
+
     private AlienSpawner _alienSpawner;
     private TouchState _touchState = TouchState.Released;
     private float _holdingTime = 0.75f;
@@ -32,31 +34,49 @@ public class IceCream : MonoBehaviour, IPointerDownHandler
 
     void FixedUpdate()
     {
-        if (Input.touchCount == 0)
+        if (Input.touchCount > 0)
         {
             if (_touchState == TouchState.Holding)
             {
-                IceCreamClicked();
-                _wrongChoiceCount = 0;
+                var angle = Vector2.Angle(Vector2.up,
+                    (Input.touches[0].position - new Vector2(transform.position.x, transform.position.y)).normalized);
+                if (angle > 75 && angle < 105)
+                {
+                    _touchState = TouchState.Dragging;
+                    scrollRect.vertical = false;
+                    StartDragging();
+                }
             }
-            _touchState = TouchState.Released;
+
+            // if (_touchState == TouchState.Holding)
+            // {
+            //     IceCreamClicked();
+            // }
+            // _touchState = TouchState.Released;
         }
         else
         {
-            if (scrollRect.velocity.y < -0.08f || scrollRect.velocity.y > 0.08f)
-            {
-                StopAllCoroutines();
-                StartCoroutine(CheckHoldingPeriod());
-            }
+            scrollRect.vertical = true;
+            _touchState = TouchState.Released;
+            // if (scrollRect.velocity.y < -0.08f || scrollRect.velocity.y > 0.08f)
+            // {
+            //     StopAllCoroutines();
+            //     StartCoroutine(CheckHoldingPeriod());
+            // }
         }
-        
-        DebugLogTouchState();
+
+        // DebugLogTouchState();
     }
 
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        IceCreamClicked();
+    }
+    
     public void OnPointerDown(PointerEventData eventData)
     {
         _touchState = TouchState.Holding;
-        StartCoroutine(CheckHoldingPeriod());
+        // StartCoroutine(CheckHoldingPeriod());
     }
 
     IEnumerator CheckHoldingPeriod()
@@ -71,6 +91,15 @@ public class IceCream : MonoBehaviour, IPointerDownHandler
             }
             else
             {
+                if (Input.touchCount > 0)
+                {
+                    _touchState = TouchState.Scrolling;
+                }
+                else
+                {
+                    _touchState = TouchState.Released;
+                }
+
                 yield return null;
             }
         }
@@ -82,19 +111,23 @@ public class IceCream : MonoBehaviour, IPointerDownHandler
     void StartDragging()
     {
         scrollRect.vertical = false;
-        draggable.transform.position = Input.touches[0].position;
-        draggable.GetComponent<Image>().sprite = sprite;
-        draggable.GetComponent<Image>().enabled = true;
+        GameObject createdDraggable = Instantiate(draggable, transform.position, quaternion.identity);
+        createdDraggable.GetComponent<Image>().sprite = sprite;
+        createdDraggable.transform.SetParent(canvas.transform);
+        // draggable.transform.position = Input.touches[0].position;
+        // draggable.GetComponent<Image>().sprite = sprite;
+        // draggable.GetComponent<Image>().enabled = true;
         // gameObject.SetActive(false);
     }
 
     void IceCreamClicked()
     {
+        Debug.Log(_touchState + " | CLICKED");
         if (!Alien.currentAlien || Alien.currentAlien.selectedIceCreamIndex == -1)
         {
             return;
         }
-        
+
         if (Alien.currentAlien.selectedIceCreamIndex == index)
         {
             Alien.currentAlien.GetComponent<Animator>().SetTrigger("gotIceCream");
@@ -103,29 +136,28 @@ public class IceCream : MonoBehaviour, IPointerDownHandler
         else
         {
             _wrongChoiceCount += 1;
-            
+
             if (_wrongChoiceCount == NumberOfFails)
             {
                 Alien.currentAlien.GetComponent<Animator>().SetTrigger("failedIceCream");
                 MoveAlienDestroyIceCream();
                 _wrongChoiceCount = 0;
             }
-
         }
     }
-    
+
     private void MoveAlienDestroyIceCream()
     {
         // remove IceCream
         Destroy(Alien.currentAlien.transform.GetChild(1).gameObject);
-        
+
         // Instantiate next alien
         if (AlienSpawner.notSpawnedAliens.Count > 0)
         {
             StartCoroutine(_alienSpawner.SpawnAlien(0f));
         }
     }
-    
+
     void DebugLogTouchState()
     {
         switch (_touchState)

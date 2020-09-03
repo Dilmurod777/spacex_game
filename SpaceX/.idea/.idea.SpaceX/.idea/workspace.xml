@@ -20,24 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0265033-01b2-4fff-a339-b6368c8667d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ChangeScene.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ChangeScene.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DragDropIceCream.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DragDropIceCream.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DropInSlot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DropInSlot.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DropOutSlot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DropOutSlot.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Alien (4).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Alien (4).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hero.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Hero.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Uranus.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Uranus.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IceCreamScriptController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IceCreamScriptController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scroll.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scroll.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Roket_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Roket_7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Draggable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Draggable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/IceCream.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/IceCream.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,9 +59,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AlienDestroyer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Alien.cs" />
         <option value="$PROJECT_DIR$/Assets/DragDropIceCream.cs" />
-        <option value="$PROJECT_DIR$/Assets/Draggable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IceCreamScriptController.cs" />
         <option value="$PROJECT_DIR$/Assets/IceCream.cs" />
+        <option value="$PROJECT_DIR$/Assets/Draggable.cs" />
       </list>
     </option>
   </component>
@@ -133,7 +118,7 @@
       <workItem from="1598001681008" duration="3308000" />
       <workItem from="1598089012680" duration="7699000" />
       <workItem from="1598623092858" duration="3242000" />
-      <workItem from="1599142404606" duration="4273000" />
+      <workItem from="1599142404606" duration="11374000" />
     </task>
     <servers />
   </component>
