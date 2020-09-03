@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class IceCreamScriptController : MonoBehaviour
 {
-    private int _chosenIceCream;
     private int _wrongChoiceCount = 0;
     private AlienSpawner _alienSpawner;
     private const int NumberOfFails = 2;

@@ -20,20 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0265033-01b2-4fff-a339-b6368c8667d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 1/Alien (1).controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 1/Alien (1).controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 1/Alien (1)_Test3_2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 1/Alien (1)_Test3_2.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DragDropIceCream.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DragDropIceCream.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ice_Cream_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ice_Cream_1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ice_Cream_2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ice_Cream_2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ice_Cream_3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ice_Cream_3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ice_Cream_4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ice_Cream_4.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ice_Cream_5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ice_Cream_5.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ice_Cream_6.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ice_Cream_6.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ice_Cream_7.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ice_Cream_7.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ice_Cream_8.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ice_Cream_8.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeScene.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeScene.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DragDropIceCream.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DragDropIceCream.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DropInSlot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DropInSlot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DropOutSlot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DropOutSlot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Alien (4).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Alien (4).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hero.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Hero.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Uranus.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Uranus.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Alien.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Alien.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IceCreamScriptController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IceCreamScriptController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scroll.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scroll.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Roket_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Roket_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +49,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DropOutSlot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.uiextensions@214b4a1a69/Runtime/Scripts/Utilities/UI_InfiniteScroll.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scroll.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DropInSlot.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ChangeScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/IceCream.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -71,9 +72,11 @@
         <option value="$PROJECT_DIR$/Assets/Scroll.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveByTouch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlienDestroyer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IceCreamScriptController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Alien.cs" />
         <option value="$PROJECT_DIR$/Assets/DragDropIceCream.cs" />
+        <option value="$PROJECT_DIR$/Assets/Draggable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IceCreamScriptController.cs" />
+        <option value="$PROJECT_DIR$/Assets/IceCream.cs" />
       </list>
     </option>
   </component>
@@ -130,6 +133,7 @@
       <workItem from="1598001681008" duration="3308000" />
       <workItem from="1598089012680" duration="7699000" />
       <workItem from="1598623092858" duration="3242000" />
+      <workItem from="1599142404606" duration="4273000" />
     </task>
     <servers />
   </component>
@@ -154,6 +158,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="767" y="240" key="RiderGenerateDialog" timestamp="1599142592336">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="767" y="240" key="RiderGenerateDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599142592336" />
     <state x="461" y="185" key="SettingsEditor" timestamp="1597917695932">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

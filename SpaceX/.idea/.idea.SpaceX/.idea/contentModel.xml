@@ -97,10 +97,8 @@
             </e>
           </e>
         </e>
-        <e p="ChangeScene.cs" t="Include" />
-        <e p="DragDropIceCream.cs" t="Include" />
-        <e p="DropInSlot.cs" t="Include" />
-        <e p="DropOutSlot.cs" t="Include" />
+        <e p="Draggable.cs" t="Include" />
+        <e p="IceCream.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Alien.cs" t="Include" />
           <e p="AlienDestroyer.cs" t="Include" />
@@ -115,6 +113,7 @@
             <e p="ResourceAttribute.cs" t="Include" />
           </e>
           <e p="CanvasHandler.cs" t="Include" />
+          <e p="ChangeScene.cs" t="Include" />
           <e p="cometFalling.cs" t="Include" />
           <e p="Conditions" t="Include">
             <e p="Actions" t="Include">
@@ -156,7 +155,6 @@
           <e p="SetVisibility.cs" t="Include" />
           <e p="ShowPlayButton.cs" t="Include" />
         </e>
-        <e p="Scroll.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
