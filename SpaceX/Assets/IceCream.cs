@@ -46,6 +46,10 @@ public class IceCream : MonoBehaviour, IPointerDownHandler, IPointerClickHandler
                     scrollRect.vertical = false;
                     StartDragging();
                 }
+                else
+                {
+                    scrollRect.vertical = true;
+                }
             }
 
             // if (_touchState == TouchState.Holding)
