@@ -319,8 +319,6 @@ MonoBehaviour:
   - {fileID: 4969615798270260144, guid: d65803870585abe4ba72ac7097521c81, type: 3}
   - {fileID: 4780869682722013992, guid: 4df01362e8df9134583c28f499afbb01, type: 3}
   - {fileID: 488454030201465763, guid: 359a9e8718d9b3c449f4d8890f5a26ab, type: 3}
-  endPoint: {fileID: 2027845670980199529, guid: 10c368a3072ac6a44b15e9c98d394f24,
-    type: 3}
   selectedIceCreamIndex: -1
 --- !u!1 &1867936417056398604
 GameObject:
@@ -1471,8 +1469,8 @@ MonoBehaviour:
   - {fileID: 6199273400400236667}
   - {fileID: 5266794400920635723}
   m_Bounds:
-    m_Center: {x: 0.15699291, y: -2.6376605, z: 0}
-    m_Extent: {x: 0.7460783, y: 2.7851725, z: 0}
+    m_Center: {x: 0.1569928, y: -2.6376605, z: 0}
+    m_Extent: {x: 0.7460782, y: 2.7851725, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &6208623174267582139
@@ -1999,7 +1997,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 4.82}

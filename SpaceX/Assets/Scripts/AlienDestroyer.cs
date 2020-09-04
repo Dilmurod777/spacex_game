@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AlienDestroyer : MonoBehaviour
 {
@@ -10,6 +8,12 @@ public class AlienDestroyer : MonoBehaviour
         if (other.CompareTag("Alien"))
         {
             Destroy(other.gameObject);
+        }
+
+        if (AlienSpawner.notSpawnedAliens.Count == 0)
+        {
+            // End of Mini Game
+            SceneManager.LoadScene("Space");
         }
     }
 }

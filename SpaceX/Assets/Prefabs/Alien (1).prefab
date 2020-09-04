@@ -81,7 +81,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 1.94}
@@ -363,8 +363,8 @@ MonoBehaviour:
   - {fileID: 3529312506679748288}
   - {fileID: 8976206122228924893}
   m_Bounds:
-    m_Center: {x: 0.5318818, y: 2.4089205, z: 0}
-    m_Extent: {x: 2.4309053, y: 2.5266075, z: 0}
+    m_Center: {x: -0.0039851665, y: 2.449425, z: 0}
+    m_Extent: {x: 2.306015, y: 2.441145, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &3339536200958481162
@@ -560,8 +560,8 @@ MonoBehaviour:
   - {fileID: 4679497252143743904}
   - {fileID: 4332978654283984326}
   m_Bounds:
-    m_Center: {x: 0.3482547, y: 0.7446061, z: 0}
-    m_Extent: {x: 0.79336286, y: 0.922555, z: 0}
+    m_Center: {x: 0.000005930662, y: 0.9246757, z: 0}
+    m_Extent: {x: 0.48499537, y: 0.9246758, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &3895092378743771168
@@ -756,8 +756,8 @@ MonoBehaviour:
   - {fileID: 7001003388387234896}
   - {fileID: 4626432523970739612}
   m_Bounds:
-    m_Center: {x: -0.37261885, y: 0.67503136, z: 0}
-    m_Extent: {x: 0.7768405, y: 0.9701526, z: 0}
+    m_Center: {x: 0.000005096197, y: 0.92467505, z: 0}
+    m_Extent: {x: 0.48499507, y: 0.9246753, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &5114189592376769844
@@ -974,8 +974,8 @@ MonoBehaviour:
   - {fileID: 4253194992480327726}
   - {fileID: 1627429191587574574}
   m_Bounds:
-    m_Center: {x: -0.86388385, y: -0.9658494, z: 0}
-    m_Extent: {x: 1.1134143, y: 1.2931638, z: 0}
+    m_Center: {x: -0.48016423, y: -1.1546079, z: 0}
+    m_Extent: {x: 0.7396037, y: 1.4744366, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &5400131879740408631
@@ -1370,8 +1370,6 @@ MonoBehaviour:
   - {fileID: 4969615798270260144, guid: d65803870585abe4ba72ac7097521c81, type: 3}
   - {fileID: 4780869682722013992, guid: 4df01362e8df9134583c28f499afbb01, type: 3}
   - {fileID: 488454030201465763, guid: 359a9e8718d9b3c449f4d8890f5a26ab, type: 3}
-  endPoint: {fileID: 2027845670980199529, guid: 10c368a3072ac6a44b15e9c98d394f24,
-    type: 3}
   selectedIceCreamIndex: -1
 --- !u!95 &-2882522357742246294
 Animator:
@@ -1494,7 +1492,7 @@ MonoBehaviour:
   - {fileID: 662687775486137032}
   - {fileID: 5298403036262428823}
   m_Bounds:
-    m_Center: {x: -0.73544, y: -1.0296851, z: 0.000000018782188}
-    m_Extent: {x: 1.0524698, y: 1.3282212, z: 1.7763568e-15}
+    m_Center: {x: -0.48016346, y: -1.1546079, z: 0}
+    m_Extent: {x: 0.73960364, y: 1.4744366, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1

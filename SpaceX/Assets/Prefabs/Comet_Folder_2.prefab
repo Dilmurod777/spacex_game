@@ -4878,6 +4878,7 @@ GameObject:
   m_Component:
   - component: {fileID: 767466326377257714}
   - component: {fileID: 5425807907894288150}
+  - component: {fileID: 103807745456531329}
   m_Layer: 0
   m_Name: Comet_Folder_2
   m_TagString: Untagged
@@ -4919,3 +4920,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!58 &103807745456531329
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9065421113443648752}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 15

@@ -14450,6 +14450,7 @@ GameObject:
   - component: {fileID: 1444710258}
   - component: {fileID: 1444710257}
   - component: {fileID: 1444710259}
+  - component: {fileID: 1444710260}
   m_Layer: 0
   m_Name: AlienDestroyer
   m_TagString: Untagged
@@ -14509,6 +14510,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4207bd1127ce92b4f89e271ae65c8e2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &1444710260
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444710256}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1446598190
 GameObject:
   m_ObjectHideFlags: 0
