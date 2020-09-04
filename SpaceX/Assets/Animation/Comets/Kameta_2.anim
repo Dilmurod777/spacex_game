@@ -778,7 +778,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 1.5666667
-    functionName: resetFalling
+    functionName: resetCometFalling
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

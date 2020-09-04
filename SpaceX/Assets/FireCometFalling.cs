@@ -16,21 +16,23 @@ public class FireCometFalling : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!_triggered)
-        {
-            _animator.SetTrigger("startFalling");
-            _animator.ResetTrigger("resetFalling");
-            _triggered = true;
-        }
+        _animator.SetTrigger("startFalling");
+        _animator.ResetTrigger("resetFalling");
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    // private void OnTriggerExit2D(Collider2D other)
+    // {
+    //     if (_triggered)
+    //     {
+    //         _animator.SetTrigger("resetFalling");
+    //         _animator.ResetTrigger("startFalling");
+    //         _triggered = false;
+    //     }
+    // }
+
+    public void resetCometFalling()
     {
-        if (_triggered)
-        {
-            _animator.SetTrigger("resetFalling");
-            _animator.ResetTrigger("startFalling");
-            _triggered = false;
-        }
+        _animator.SetTrigger("resetFalling");
+        _animator.ResetTrigger("startFalling");
     }
 }
