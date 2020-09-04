@@ -7,31 +7,25 @@ using UnityEngine.PlayerLoop;
 public class FireCometFalling : MonoBehaviour
 {
     private Animator _animator;
-    private bool _triggered;
+    private SpriteRenderer _sprite;
 
     private void Start()
     {
         _animator = GetComponent<Animator>();
+        _sprite = transform.GetChild(0).GetChild(0).gameObject.GetComponent<SpriteRenderer>();
+        _sprite.enabled = false;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        _sprite.enabled = true;
         _animator.SetTrigger("startFalling");
         _animator.ResetTrigger("resetFalling");
     }
 
-    // private void OnTriggerExit2D(Collider2D other)
-    // {
-    //     if (_triggered)
-    //     {
-    //         _animator.SetTrigger("resetFalling");
-    //         _animator.ResetTrigger("startFalling");
-    //         _triggered = false;
-    //     }
-    // }
-
     public void resetCometFalling()
     {
+        _sprite.enabled = false;
         _animator.SetTrigger("resetFalling");
         _animator.ResetTrigger("startFalling");
     }
