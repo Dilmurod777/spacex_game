@@ -1,33 +1,36 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 public class FireCometFalling : MonoBehaviour
 {
     private Animator _animator;
-    private GameObject _player;
-    private bool _triggered = false;
+    private bool _triggered;
 
     private void Start()
     {
         _animator = GetComponent<Animator>();
-        _player = FindObjectOfType<Player>().gameObject;
     }
 
-    private void FixedUpdate()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        var distance = (_player.transform.position - transform.position).magnitude;
-        Debug.Log(distance);
-        if (distance < 100)
+        if (!_triggered)
         {
-            if (!_triggered)
-            {
-                _animator.SetTrigger("startFalling");
-                _triggered = true;
-            }
+            _animator.SetTrigger("startFalling");
+            _animator.ResetTrigger("resetFalling");
+            _triggered = true;
         }
-        else
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (_triggered)
         {
-            _triggered = false;
             _animator.SetTrigger("resetFalling");
+            _animator.ResetTrigger("startFalling");
+            _triggered = false;
         }
     }
 }
