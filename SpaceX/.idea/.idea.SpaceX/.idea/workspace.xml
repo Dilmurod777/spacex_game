@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0265033-01b2-4fff-a339-b6368c8667d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FireCometFalling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FireCometFalling.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Space.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Space.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChangeScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChangeScene.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoveByTouch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoveByTouch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +39,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.uiextensions@214b4a1a69/Runtime/Scripts/Utilities/UI_InfiniteScroll.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/IceCream.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -54,7 +59,6 @@
         <option value="$PROJECT_DIR$/Assets/ChangeScene.cs" />
         <option value="$PROJECT_DIR$/Assets/InfinityScroll.cs" />
         <option value="$PROJECT_DIR$/Assets/Scroll.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MoveByTouch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Alien.cs" />
         <option value="$PROJECT_DIR$/Assets/DragDropIceCream.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IceCreamScriptController.cs" />
@@ -62,6 +66,9 @@
         <option value="$PROJECT_DIR$/Assets/IceCream.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlienDestroyer.cs" />
         <option value="$PROJECT_DIR$/Assets/FireCometFalling.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveByTouch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChangeScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/BlackOutPanel.cs" />
       </list>
     </option>
   </component>
@@ -119,7 +126,7 @@
       <workItem from="1598089012680" duration="7699000" />
       <workItem from="1598623092858" duration="3242000" />
       <workItem from="1599142404606" duration="13222000" />
-      <workItem from="1599230749842" duration="7873000" />
+      <workItem from="1599230749842" duration="11782000" />
     </task>
     <servers />
   </component>
@@ -152,10 +159,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1597917695932" />
-    <state x="92" y="92" width="1736" height="896" key="VCS.FileHistoryDialog" timestamp="1597520271769">
+    <state x="92" y="92" width="1736" height="896" key="VCS.FileHistoryDialog" timestamp="1599249528847">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="92" y="92" width="1736" height="896" key="VCS.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1597520271769" />
+    <state x="92" y="92" width="1736" height="896" key="VCS.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599249528847" />
     <state x="616" y="250" key="run.anything.popup" timestamp="1598003575491">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
