@@ -2183,7 +2183,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: HeroR_Folder/Roket_HeroR_Body_2/bone_1
+    path: HeroR_Folder/Roket_HeroR_Body_1/bone_1/bone_2/bone_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2193,7 +2193,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: HeroR_Folder/Roket_HeroR_Body_2/bone_1
+    path: HeroR_Folder/Roket_HeroR_Body_1/bone_1/bone_2/bone_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2203,7 +2203,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: HeroR_Folder/Roket_HeroR_Body_2/bone_1
+    path: HeroR_Folder/Roket_HeroR_Body_1/bone_1/bone_2/bone_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2213,7 +2213,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: HeroR_Folder/Roket_HeroR_Body_1/bone_1/bone_2/bone_3
+    path: HeroR_Folder/Roket_HeroR_Body_2/bone_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2223,7 +2223,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: HeroR_Folder/Roket_HeroR_Body_1/bone_1/bone_2/bone_3
+    path: HeroR_Folder/Roket_HeroR_Body_2/bone_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2233,7 +2233,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: HeroR_Folder/Roket_HeroR_Body_1/bone_1/bone_2/bone_3
+    path: HeroR_Folder/Roket_HeroR_Body_2/bone_1
     classID: 4
     script: {fileID: 0}
   - curve:
