@@ -6,10 +6,12 @@ using UnityEngine;
 public class BlackOutPanel : MonoBehaviour
 {
     private Animator _animator;
+    private JupyterMiniGameController _jupyterMiniGameController;
     
     private void Start()
     {
         _animator = GetComponent<Animator>();
+        _jupyterMiniGameController = FindObjectOfType<JupyterMiniGameController>();
         resetTriggers();
     }
 
@@ -29,4 +31,9 @@ public class BlackOutPanel : MonoBehaviour
         _animator.ResetTrigger("fadeOut");
     }
 
+    public void StartJupyterMiniGame()
+    {
+        _jupyterMiniGameController.StartGame();
+    }
+    
 }
