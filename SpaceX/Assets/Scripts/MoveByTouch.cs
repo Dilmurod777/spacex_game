@@ -4,6 +4,8 @@ using UnityEngine;
 public class MoveByTouch : MonoBehaviour
 {
     public static bool enableMoving = true;
+    public GameObject angar;
+
     private const float Force = 1.1f;
     private const float RotationSpeed = 5f;
     private float _touchPointX;
@@ -13,15 +15,17 @@ public class MoveByTouch : MonoBehaviour
     private const float CameraMaxView = 91f;
     private const float MAXVelocity = 15f;
     private float _prevVelocity;
-
     private Rigidbody2D _rb;
     private Camera _cam;
     private Touch _touch;
+    private Animator _angarAnimator;
+    private bool _isAngarClosed = false;
 
     private void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
         _cam = Camera.main;
+        _angarAnimator = angar.GetComponent<Animator>();
     }
 
     private void FixedUpdate()
@@ -30,6 +34,12 @@ public class MoveByTouch : MonoBehaviour
         {
             if (Input.touchCount > 0)
             {
+                if (!_isAngarClosed)
+                {
+                    _angarAnimator.SetTrigger("close");
+                    _isAngarClosed = true;
+                }
+                
                 StopAllCoroutines();
                 _touch = Input.GetTouch(0);
                 var touchPosInWorldSpace = _cam.ScreenToWorldPoint(new Vector3(_touch.position.x, _touch.position.y, _cam.farClipPlane));
