@@ -11764,6 +11764,11 @@ PrefabInstance:
       propertyPath: m_SortingLayer
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4696705723825141726, guid: a2150abc7cd189741922f94465cfedd9,
+        type: 3}
+      propertyPath: m_MaskInteraction
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4941303072078365258, guid: a2150abc7cd189741922f94465cfedd9,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -11833,6 +11838,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayer
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262318716459315891, guid: a2150abc7cd189741922f94465cfedd9,
+        type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7566982889783768893, guid: a2150abc7cd189741922f94465cfedd9,
         type: 3}
