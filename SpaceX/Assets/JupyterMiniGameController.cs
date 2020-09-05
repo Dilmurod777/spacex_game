@@ -8,6 +8,8 @@ public class JupyterMiniGameController : MonoBehaviour
     public GameObject camera;
     public GameObject mainCamera;
     public GameObject canvas;
+    public GameObject playBtn;
+    public GameObject planet;
     public GameObject mainCanvas;
     private GameObject _player;
     private void Start()
@@ -22,7 +24,8 @@ public class JupyterMiniGameController : MonoBehaviour
         MoveByTouch.enableMoving = false;
         _player.SetActive(false);
         mainCamera.SetActive(false);
-        mainCanvas.SetActive(false);
+        playBtn.gameObject.SetActive(false);
+        planet.transform.GetChild(1).gameObject.SetActive(false);
         camera.SetActive(true);
         canvas.SetActive(true);
     }

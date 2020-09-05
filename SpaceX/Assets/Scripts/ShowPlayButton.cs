@@ -18,8 +18,11 @@ public class ShowPlayButton : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
-        var distance = (_player.transform.position - transform.position).magnitude;
-
-        playBtn.SetActive(distance < 25);
+        if (MoveByTouch.enableMoving)
+        {
+            var distance = (_player.transform.position - transform.position).magnitude;
+            
+            playBtn.SetActive(distance < 25);
+        }
     }
 }

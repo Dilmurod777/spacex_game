@@ -35,15 +35,18 @@ public class SetVisibility : MonoBehaviour
 
     private void FixedUpdate()
     {
-        float distance = (_player.transform.position - transform.position).magnitude;
+        if (MoveByTouch.enableMoving)
+        {
+            float distance = (_player.transform.position - transform.position).magnitude;
 
-        if (distance < 30)
-        {
-            setVisibility(true);
-        }
-        else
-        {
-            setVisibility(false);
+            if (distance < 30)
+            {
+                setVisibility(true);
+            }
+            else
+            {
+                setVisibility(false);
+            }
         }
     }
 
