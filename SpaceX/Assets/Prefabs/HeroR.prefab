@@ -266,8 +266,8 @@ MonoBehaviour:
   - {fileID: 944687692557973975}
   - {fileID: 8721136407724010221}
   m_Bounds:
-    m_Center: {x: 0.009927601, y: -0.03775844, z: -0.0000076293945}
-    m_Extent: {x: 0.39433736, y: 0.24383238, z: 0}
+    m_Center: {x: 0.010628402, y: -0.039389133, z: -0.0000076293945}
+    m_Extent: {x: 0.39314562, y: 0.24535787, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &3749032382209775684
@@ -617,8 +617,8 @@ MonoBehaviour:
   - {fileID: 7438861296000719389}
   - {fileID: 7065329550153023268}
   m_Bounds:
-    m_Center: {x: 0.027095199, y: -0.025686622, z: -0.000022888184}
-    m_Extent: {x: 1.0849209, y: 1.2684578, z: 1.8189894e-12}
+    m_Center: {x: 0.027197003, y: -0.024253368, z: -0.000022888184}
+    m_Extent: {x: 1.0848114, y: 1.2698956, z: 1.8189894e-12}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &6215371737329929573
@@ -1427,6 +1427,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hero
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778764876808397328, guid: a2150abc7cd189741922f94465cfedd9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3778764876808397330, guid: a2150abc7cd189741922f94465cfedd9,
         type: 3}
@@ -2527,7 +2532,7 @@ PrefabInstance:
     - target: {fileID: 2472650999743356589, guid: 3be9ab09aeb281644a709fae014bfa71,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3be9ab09aeb281644a709fae014bfa71, type: 3}
