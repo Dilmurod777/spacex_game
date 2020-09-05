@@ -5,23 +5,25 @@ using UnityEngine;
 
 public class JupyterMiniGameController : MonoBehaviour
 {
-    public GameObject planet;
-    public GameObject playBtn;
-    private Camera _cam;
+    public GameObject camera;
+    public GameObject mainCamera;
+    public GameObject canvas;
+    public GameObject mainCanvas;
     private GameObject _player;
     private void Start()
     {
-        _cam = Camera.main;
         _player = FindObjectOfType<Player>().gameObject;
+        camera.SetActive(false);
+        canvas.SetActive(false);
     }
 
     public void StartGame()
     {
         MoveByTouch.enableMoving = false;
-        playBtn.SetActive(false);
         _player.SetActive(false);
-        
-        _cam.fieldOfView = 100;
-        _cam.transform.position = planet.transform.position;
+        mainCamera.SetActive(false);
+        mainCanvas.SetActive(false);
+        camera.SetActive(true);
+        canvas.SetActive(true);
     }
 }

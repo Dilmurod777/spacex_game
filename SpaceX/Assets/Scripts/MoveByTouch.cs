@@ -68,25 +68,7 @@ public class MoveByTouch : MonoBehaviour
                     {
                         _rb.velocity = _rb.velocity.normalized * MAXVelocity;
                     }
-
-
-                    //float velocityRatio = (velocity - prevVelocity) / maxVelocity;
-                    //float cameraRatio = velocityRatio * (_cameraMaxView - _cameraMinView);
-                    //_cam.fieldOfView = Mathf.Clamp(_cam.fieldOfView + cameraRatio, _cameraMinView, _cameraMaxView);
-                    if (velocity - _prevVelocity > 1)
-                    {
-                        // velocity increase -> larger camera view
-                        _cam.fieldOfView += Time.fixedDeltaTime * CameraSpeed;
-                    }
-                    else
-                    {
-                        // velocity decrease -> smaller camera view
-                        _cam.fieldOfView -= Time.fixedDeltaTime * CameraSpeed;
-                    }
-
-                    _cam.fieldOfView = Mathf.Clamp(_cam.fieldOfView, CameraMinView, CameraMaxView);
-                    _prevVelocity = velocity;
-
+                    
                     // rotate to the touch point
                     var rocketTransform = transform;
                     var angle = Vector3.SignedAngle(rocketTransform.up, new Vector3(deltaX, deltaY, rocketTransform.position.z).normalized,
