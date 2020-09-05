@@ -23,6 +23,7 @@ public class BlackOutPanel : MonoBehaviour
     public void fadeOutPanel()
     {
         _animator.SetTrigger("fadeOut");
+        startJupiterMiniGame();
     }
 
     public void resetTriggers()
@@ -31,9 +32,8 @@ public class BlackOutPanel : MonoBehaviour
         _animator.ResetTrigger("fadeOut");
     }
 
-    public void StartJupyterMiniGame()
+    public void startJupiterMiniGame()
     {
-        _jupyterMiniGameController.StartGame();
+        FindObjectOfType<JupyterMiniGameController>().StartGame();
     }
-    
 }

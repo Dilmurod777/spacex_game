@@ -97,7 +97,7 @@ public class MoveByTouch : MonoBehaviour
             else
             {
                 StopAllCoroutines();
-                StartCoroutine(ChangeCameraView(_cam.fieldOfView, CameraMinView, 0.1f));
+                // StartCoroutine(ChangeCameraView(_cam.fieldOfView, CameraMinView, 0.1f));
             }
         }
     }
