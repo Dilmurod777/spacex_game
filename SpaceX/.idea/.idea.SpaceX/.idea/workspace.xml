@@ -22,12 +22,9 @@
     <list default="true" id="b0265033-01b2-4fff-a339-b6368c8667d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Jupiter/Jupiter.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Jupiter/Jupiter.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Jupiter/Jupiter_Apple_Apple.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Jupiter/Jupiter_Apple_Apple.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BlackOutPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BlackOutPanel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/JupyterMiniGameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JupiterMiniGameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/JupyterMiniGameController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JupiterMiniGameController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hero.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Hero.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Space.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Space.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Uranus.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Uranus.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +40,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.uiextensions@214b4a1a69/Runtime/Scripts/Utilities/UI_InfiniteScroll.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/IceCream.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Hero.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/JupiterMiniGameController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -76,8 +74,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SetVisibility.cs" />
         <option value="$PROJECT_DIR$/Assets/JupyterMiniGameController.cs" />
         <option value="$PROJECT_DIR$/Assets/BlackOutPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Jupyter.cs" />
         <option value="$PROJECT_DIR$/Assets/JupiterMiniGameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Jupyter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hero.cs" />
       </list>
     </option>
   </component>
@@ -138,7 +137,7 @@
       <workItem from="1599230749842" duration="11966000" />
       <workItem from="1599316437318" duration="10931000" />
       <workItem from="1599390796589" duration="2829000" />
-      <workItem from="1599407803424" duration="2511000" />
+      <workItem from="1599407803424" duration="3958000" />
     </task>
     <servers />
   </component>
