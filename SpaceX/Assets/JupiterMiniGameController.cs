@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JupyterMiniGameController : MonoBehaviour
+public class JupiterMiniGameController : MonoBehaviour
 {
     public GameObject camera;
     public GameObject mainCamera;
@@ -15,7 +15,7 @@ public class JupyterMiniGameController : MonoBehaviour
     private Animator _planetAnimator;
 
     private string[] _FRUITS = {"Apple", "Banana", "Strawberry", "Cherry", "Blackberry", "Blueberry",};
-    private int _firstSelectedFruitIndex = -1;
+    public static int _firstSelectedFruitIndex = -1;
 
     private readonly int[,] _animationOptions =
     {

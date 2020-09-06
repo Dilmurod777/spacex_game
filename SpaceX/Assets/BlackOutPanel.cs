@@ -6,12 +6,12 @@ using UnityEngine;
 public class BlackOutPanel : MonoBehaviour
 {
     private Animator _animator;
-    private JupyterMiniGameController _jupyterMiniGameController;
+    private JupiterMiniGameController _jupyterMiniGameController;
     
     private void Start()
     {
         _animator = GetComponent<Animator>();
-        _jupyterMiniGameController = FindObjectOfType<JupyterMiniGameController>();
+        _jupyterMiniGameController = FindObjectOfType<JupiterMiniGameController>();
         resetTriggers();
     }
 
@@ -34,6 +34,6 @@ public class BlackOutPanel : MonoBehaviour
 
     public void startJupiterMiniGame()
     {
-        FindObjectOfType<JupyterMiniGameController>().StartGame();
+        FindObjectOfType<JupiterMiniGameController>().StartGame();
     }
 }
