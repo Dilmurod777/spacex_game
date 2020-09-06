@@ -22,9 +22,12 @@
     <list default="true" id="b0265033-01b2-4fff-a339-b6368c8667d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Hero.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Hero.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/HeroR.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/HeroR.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Hero_Start.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Hero_Start.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hero.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hero.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Hero.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Space.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Space.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Uranus.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Uranus.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +79,7 @@
         <option value="$PROJECT_DIR$/Assets/BlackOutPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/JupiterMiniGameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Jupyter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Movement/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Hero.cs" />
       </list>
     </option>
@@ -137,7 +141,7 @@
       <workItem from="1599230749842" duration="11966000" />
       <workItem from="1599316437318" duration="10931000" />
       <workItem from="1599390796589" duration="2829000" />
-      <workItem from="1599407803424" duration="3958000" />
+      <workItem from="1599407803424" duration="6506000" />
     </task>
     <servers />
   </component>
