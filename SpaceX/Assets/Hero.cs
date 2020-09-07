@@ -35,8 +35,8 @@ public class Hero : MonoBehaviour
         ChangeSortingLayer(transform.GetChild(0), layerName, orderOffset);
 
         // Hero Start Jumping
-        // StartCoroutine(Delay(2f));
-        // _animator.SetBool("heroStart", true);
+        StartCoroutine(Delay(2f));
+        _animator.SetBool("heroStart", true);
     }
 
     public void ChangeSortingLayer(Transform element, string layerName, int orderOffset)
