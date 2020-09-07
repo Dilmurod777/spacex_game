@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -516,6 +516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfe1732ce30c04b4b9a9fa02f9b5e3d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  angar: {fileID: 0}
 --- !u!1001 &3109837690895924655
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -683,6 +684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfe1732ce30c04b4b9a9fa02f9b5e3d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  angar: {fileID: 0}
 --- !u!1001 &4724103048488394625
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -833,6 +835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfe1732ce30c04b4b9a9fa02f9b5e3d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  angar: {fileID: 0}
 --- !u!1001 &7072613863468924842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -997,6 +1000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfe1732ce30c04b4b9a9fa02f9b5e3d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  angar: {fileID: 0}
 --- !u!1001 &7846724232618239105
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1348,6 +1352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfe1732ce30c04b4b9a9fa02f9b5e3d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  angar: {fileID: 0}
 --- !u!1001 &8398826787096629814
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1500,3 +1505,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfe1732ce30c04b4b9a9fa02f9b5e3d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  angar: {fileID: 0}
