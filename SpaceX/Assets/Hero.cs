@@ -73,6 +73,7 @@ public class Hero : MonoBehaviour
 
     public void Disable()
     {
+        MoveByTouch.enableMoving = true;
         gameObject.SetActive(false);    
     }
 
