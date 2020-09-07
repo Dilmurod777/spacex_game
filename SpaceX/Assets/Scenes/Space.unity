@@ -23442,6 +23442,11 @@ PrefabInstance:
       propertyPath: angar
       value: 
       objectReference: {fileID: 2036116831}
+    - target: {fileID: 5647470164223680130, guid: 5dfdd3d3b13aae4468b2f55463eab926,
+        type: 3}
+      propertyPath: CameraSpeed
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5dfdd3d3b13aae4468b2f55463eab926, type: 3}
 --- !u!1 &1138273319

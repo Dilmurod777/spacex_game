@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 
 public class MoveByTouch : MonoBehaviour
@@ -14,7 +15,7 @@ public class MoveByTouch : MonoBehaviour
     private const float CameraMinView = 71f;
     private const float CameraMaxView = 91f;
     private const float MAXVelocity = 15f;
-    private float _prevVelocity;
+    private float _prevVelocity = -1f;
     private Rigidbody2D _rb;
     private Camera _cam;
     private Touch _touch;
@@ -39,7 +40,7 @@ public class MoveByTouch : MonoBehaviour
                     _angarAnimator.SetTrigger("close");
                     _isAngarClosed = true;
                 }
-                
+
                 StopAllCoroutines();
                 _touch = Input.GetTouch(0);
                 var touchPosInWorldSpace = _cam.ScreenToWorldPoint(new Vector3(_touch.position.x, _touch.position.y, _cam.farClipPlane));
@@ -68,7 +69,27 @@ public class MoveByTouch : MonoBehaviour
                     {
                         _rb.velocity = _rb.velocity.normalized * MAXVelocity;
                     }
-                    
+
+                    if (_prevVelocity > -1.0001f && _prevVelocity < -0.9999f)
+                    {
+                        _prevVelocity = velocity;
+                    }
+                    else
+                    {
+                        if (velocity - _prevVelocity > 0)
+                        {
+                            // increase field of view - go far
+                            _cam.fieldOfView = Mathf.Clamp(_cam.fieldOfView + CameraSpeed * Time.fixedDeltaTime, 71.0f, 100.0f);
+                        }
+                        else
+                        {
+                            // decrease field of view - come closer
+                            _cam.fieldOfView = Mathf.Clamp(_cam.fieldOfView - CameraSpeed * Time.fixedDeltaTime, 71.0f, 100.0f);
+                        }
+
+                        _prevVelocity = velocity;
+                    }
+
                     // rotate to the touch point
                     var rocketTransform = transform;
                     var angle = Vector3.SignedAngle(rocketTransform.up, new Vector3(deltaX, deltaY, rocketTransform.position.z).normalized,
@@ -78,22 +99,10 @@ public class MoveByTouch : MonoBehaviour
             }
             else
             {
+                // camera go to default field of view
+                _cam.fieldOfView = Mathf.Clamp(_cam.fieldOfView - CameraSpeed * Time.fixedDeltaTime, 71.0f, 100.0f);
                 StopAllCoroutines();
-                // StartCoroutine(ChangeCameraView(_cam.fieldOfView, CameraMinView, 0.1f));
             }
         }
-    }
-
-    private IEnumerator ChangeCameraView(float vStart, float vEnd, float duration)
-    {
-        var elapsed = 0.0f;
-        while (elapsed < duration)
-        {
-            _cam.fieldOfView = Mathf.Lerp(vStart, vEnd, Time.fixedDeltaTime);
-            elapsed += Time.fixedDeltaTime;
-            yield return null;
-        }
-
-        _cam.fieldOfView = vEnd;
     }
 }
