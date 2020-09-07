@@ -29,7 +29,7 @@ public class Hero : MonoBehaviour
         if (SceneManager.GetActiveScene().name == "Space")
         {
             layerName = "Player";
-            orderOffset = 100;
+            orderOffset = 0;
         }
 
         ChangeSortingLayer(transform.GetChild(0), layerName, orderOffset);
