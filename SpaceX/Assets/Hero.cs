@@ -69,7 +69,11 @@ public class Hero : MonoBehaviour
         var heroR = Instantiate(heroRPrefab, _heroRSeat.position, quaternion.identity);
         heroR.transform.localScale = _heroRSeat.transform.localScale;
         heroR.transform.SetParent(_player.transform);
-        gameObject.SetActive(false);
+    }
+
+    public void Disable()
+    {
+        gameObject.SetActive(false);    
     }
 
     IEnumerator Delay(float seconds)
