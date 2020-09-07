@@ -11,7 +11,7 @@ public class MoveByTouch : MonoBehaviour
     private const float RotationSpeed = 5f;
     private float _touchPointX;
     private float _touchPointY;
-    private const float CameraSpeed = 10f;
+    private const float CameraSpeed = 5f;
     private const float CameraMinView = 71f;
     private const float CameraMaxView = 91f;
     private const float MAXVelocity = 15f;
