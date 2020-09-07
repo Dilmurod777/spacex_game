@@ -12,8 +12,8 @@ public class MoveByTouch : MonoBehaviour
     private float _touchPointX;
     private float _touchPointY;
     private const float CameraSpeed = 5f;
-    private const float CameraMinView = 71f;
-    private const float CameraMaxView = 91f;
+    private const float CameraMinView = 65f;
+    private const float CameraMaxView = 85f;
     private const float MAXVelocity = 15f;
     private float _prevVelocity = -1f;
     private Rigidbody2D _rb;
@@ -79,12 +79,12 @@ public class MoveByTouch : MonoBehaviour
                         if (velocity - _prevVelocity > 0)
                         {
                             // increase field of view - go far
-                            _cam.fieldOfView = Mathf.Clamp(_cam.fieldOfView + CameraSpeed * Time.fixedDeltaTime, 71.0f, 100.0f);
+                            _cam.fieldOfView = Mathf.Clamp(_cam.fieldOfView + CameraSpeed * Time.fixedDeltaTime, CameraMinView, CameraMaxView);
                         }
                         else
                         {
                             // decrease field of view - come closer
-                            _cam.fieldOfView = Mathf.Clamp(_cam.fieldOfView - CameraSpeed * Time.fixedDeltaTime, 71.0f, 100.0f);
+                            _cam.fieldOfView = Mathf.Clamp(_cam.fieldOfView - CameraSpeed * Time.fixedDeltaTime,  CameraMinView, CameraMaxView);
                         }
 
                         _prevVelocity = velocity;
@@ -100,7 +100,7 @@ public class MoveByTouch : MonoBehaviour
             else
             {
                 // camera go to default field of view
-                _cam.fieldOfView = Mathf.Clamp(_cam.fieldOfView - CameraSpeed * Time.fixedDeltaTime, 71.0f, 100.0f);
+                _cam.fieldOfView = Mathf.Clamp(_cam.fieldOfView - CameraSpeed * Time.fixedDeltaTime, CameraMinView, CameraMaxView);
                 StopAllCoroutines();
             }
         }
