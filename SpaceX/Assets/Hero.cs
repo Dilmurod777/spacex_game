@@ -67,6 +67,7 @@ public class Hero : MonoBehaviour
     public void HeroRStart()
     {
         var heroR = Instantiate(heroRPrefab, _heroRSeat.position, quaternion.identity);
+        heroR.transform.localScale = _heroRSeat.transform.localScale;
         heroR.transform.SetParent(_player.transform);
         gameObject.SetActive(false);
     }
