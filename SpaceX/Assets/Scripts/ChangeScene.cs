@@ -11,10 +11,26 @@ public class ChangeScene : MonoBehaviour
     public GameObject asteroids;
     public GameObject stars;
     public GameObject comets;
-    
+    private GameObject _player;
+
+    private void Start()
+    {
+        _player = FindObjectOfType<Player>().gameObject;
+    }
+
     public void UranusPlayBtnHandler()
     {
-        SceneManager.LoadScene("Uranus");
+        blackOutPanel.fadeInPanel();
+
+        PlayerPrefs.SetString("Uranus", "true");
+        var position = _player.transform.position;
+        PlayerPrefs.SetFloat("PositionX", position.x);
+        PlayerPrefs.SetFloat("PositionY", position.y);
+        PlayerPrefs.SetFloat("PositionZ", position.z);
+        var rotation = _player.transform.rotation;
+        PlayerPrefs.SetFloat("RotationX", rotation.x);
+        PlayerPrefs.SetFloat("RotationY", rotation.y);
+        PlayerPrefs.SetFloat("RotationZ", rotation.z);
     }
 
     public void UranusExitBtnHandler()
@@ -29,5 +45,9 @@ public class ChangeScene : MonoBehaviour
         stars.SetActive(false);
         comets.SetActive(false);
     }
-    
+
+    public void JupyterExitBtnHandler()
+    {
+        SceneManager.LoadScene("Space");
+    }
 }

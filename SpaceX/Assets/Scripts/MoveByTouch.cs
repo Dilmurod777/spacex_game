@@ -1,11 +1,15 @@
 ﻿using System;
 using System.Collections;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class MoveByTouch : MonoBehaviour
 {
     public static bool enableMoving = true;
     public GameObject angar;
+    public GameObject hero;
+    public GameObject heroRPrefab;
+    public GameObject heroSeat;
 
     private const float Force = 1.1f;
     private const float RotationSpeed = 5f;
@@ -27,6 +31,27 @@ public class MoveByTouch : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _cam = Camera.main;
         _angarAnimator = angar.GetComponent<Animator>();
+
+        if (PlayerPrefs.HasKey("Uranus"))
+        {
+            var posX = PlayerPrefs.GetFloat("PositionX");
+            var posY = PlayerPrefs.GetFloat("PositionY");
+            var posZ = PlayerPrefs.GetFloat("PositionZ");
+            var rotX = PlayerPrefs.GetFloat("RotationX");
+            var rotY = PlayerPrefs.GetFloat("RotationY");
+            var rotZ = PlayerPrefs.GetFloat("RotationZ");
+            
+            transform.position = new Vector3(posX, posY, posZ);
+            transform.rotation = Quaternion.Euler(rotX, rotY, rotZ);
+            PlayerPrefs.DeleteAll();
+            
+            // disable default hero
+            hero.SetActive(false); 
+            // place heroR
+            var heroR = Instantiate(heroRPrefab, heroSeat.transform.position, quaternion.identity);
+            heroR.transform.localScale = heroSeat.transform.localScale;
+            heroR.transform.SetParent(transform);
+        }
     }
 
     private void FixedUpdate()

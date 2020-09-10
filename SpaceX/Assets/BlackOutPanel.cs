@@ -2,9 +2,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BlackOutPanel : MonoBehaviour
 {
+    public static String minigame;
+    
     private Animator _animator;
     private JupiterMiniGameController _jupyterMiniGameController;
     
@@ -23,7 +26,15 @@ public class BlackOutPanel : MonoBehaviour
     public void fadeOutPanel()
     {
         _animator.SetTrigger("fadeOut");
-        startJupiterMiniGame();
+        switch (minigame)
+        {
+            case "Jupiter":
+                startJupiterMiniGame();
+                break;
+            case "Uranus":
+                startUranusMiniGame();
+                break;
+        }
     }
 
     public void resetTriggers()
@@ -35,5 +46,10 @@ public class BlackOutPanel : MonoBehaviour
     public void startJupiterMiniGame()
     {
         FindObjectOfType<JupiterMiniGameController>().StartGame();
+    }
+    
+    public void startUranusMiniGame()
+    {
+        SceneManager.LoadScene("Uranus");
     }
 }

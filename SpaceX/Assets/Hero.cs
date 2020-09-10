@@ -31,12 +31,19 @@ public class Hero : MonoBehaviour
             layerName = "Player";
             orderOffset = 0;
         }
+        else if(SceneManager.GetActiveScene().name == "Uranus")
+        {
+            _animator.SetTrigger("staticStanding");
+        }
 
         ChangeSortingLayer(transform.GetChild(0), layerName, orderOffset);
 
-        // Hero Start Jumping
-        StartCoroutine(Delay(2f));
-        _animator.SetBool("heroStart", true);
+        if (SceneManager.GetActiveScene().name == "Space")
+        {
+            // Hero Start Jumping
+            StartCoroutine(Delay(2f));
+            _animator.SetBool("heroStart", true);
+        }
     }
 
     public void ChangeSortingLayer(Transform element, string layerName, int orderOffset)
