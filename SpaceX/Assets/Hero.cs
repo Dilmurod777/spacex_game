@@ -19,8 +19,6 @@ public class Hero : MonoBehaviour
 
         // get components
         _animator = GetComponent<Animator>();
-        _player = FindObjectOfType<Player>().transform;
-        _heroRSeat = FindObjectOfType<Player>().transform.Find("HeroSeat");
         
         // change sorting layers
         var layerName = "Default";
@@ -28,6 +26,8 @@ public class Hero : MonoBehaviour
 
         if (SceneManager.GetActiveScene().name == "Space")
         {
+            _player = FindObjectOfType<Player>().transform;
+            _heroRSeat = FindObjectOfType<Player>().transform.Find("HeroSeat");
             layerName = "Player";
             orderOffset = 0;
         }

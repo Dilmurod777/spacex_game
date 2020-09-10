@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0265033-01b2-4fff-a339-b6368c8667d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Jupiter/Jupiter.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Jupiter/Jupiter.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Jupiter/Jupiter_Twister.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Jupiter/Jupiter_Twister.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Jupiter/Jupiter_Twister.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Jupiter/Jupiter_Twister.anim.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Hero.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hero.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Space.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Space.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Neptune.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Neptune.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +77,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Movement/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Angar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveByTouch.cs" />
+        <option value="$PROJECT_DIR$/Assets/WashingItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Hero.cs" />
       </list>
     </option>
@@ -140,7 +140,9 @@
       <workItem from="1599316437318" duration="10931000" />
       <workItem from="1599390796589" duration="2829000" />
       <workItem from="1599407803424" duration="7654000" />
-      <workItem from="1599472185363" duration="8660000" />
+      <workItem from="1599472185363" duration="9492000" />
+      <workItem from="1599586053230" duration="2539000" />
+      <workItem from="1599710909026" duration="1074000" />
     </task>
     <servers />
   </component>
@@ -165,10 +167,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="767" y="240" key="RiderGenerateDialog" timestamp="1599142592336">
+    <state x="767" y="240" key="RiderGenerateDialog" timestamp="1599586098696">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="767" y="240" key="RiderGenerateDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599142592336" />
+    <state x="767" y="240" key="RiderGenerateDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599586098696" />
     <state x="461" y="185" key="SettingsEditor" timestamp="1597917695932">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -181,9 +183,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1599326223563" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1599392452892">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1599586435418">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1599392452892" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1599586435418" />
   </component>
 </project>
