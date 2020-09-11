@@ -3,16 +3,18 @@ using UnityEngine.SceneManagement;
 
 public class AlienDestroyer : MonoBehaviour
 {
+    public static int removedAliens = 0;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Alien"))
+        if (other.transform.parent.gameObject.CompareTag("Alien"))
         {
-            Destroy(other.gameObject);
+            Destroy(other.transform.parent.gameObject);
+            AlienDestroyer.removedAliens += 1;
         }
 
-        if (AlienSpawner.notSpawnedAliens.Count == 0)
+        if (AlienDestroyer.removedAliens == 4)
         {
-            // End of Mini Game
             SceneManager.LoadScene("Space");
         }
     }

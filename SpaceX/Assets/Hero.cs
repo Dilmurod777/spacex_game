@@ -19,8 +19,6 @@ public class Hero : MonoBehaviour
 
         // get components
         _animator = GetComponent<Animator>();
-        _player = FindObjectOfType<Player>().transform;
-        _heroRSeat = FindObjectOfType<Player>().transform.Find("HeroSeat");
         
         // change sorting layers
         var layerName = "Default";
@@ -28,15 +26,24 @@ public class Hero : MonoBehaviour
 
         if (SceneManager.GetActiveScene().name == "Space")
         {
+            _player = FindObjectOfType<Player>().transform;
+            _heroRSeat = FindObjectOfType<Player>().transform.Find("HeroSeat");
             layerName = "Player";
             orderOffset = 0;
+        }
+        else if(SceneManager.GetActiveScene().name == "Uranus")
+        {
+            _animator.SetTrigger("staticStanding");
         }
 
         ChangeSortingLayer(transform.GetChild(0), layerName, orderOffset);
 
-        // Hero Start Jumping
-        StartCoroutine(Delay(2f));
-        _animator.SetBool("heroStart", true);
+        if (SceneManager.GetActiveScene().name == "Space")
+        {
+            // Hero Start Jumping
+            StartCoroutine(Delay(2f));
+            _animator.SetBool("heroStart", true);
+        }
     }
 
     public void ChangeSortingLayer(Transform element, string layerName, int orderOffset)
