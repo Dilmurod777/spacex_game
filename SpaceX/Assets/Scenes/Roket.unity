@@ -273,6 +273,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.6575773
       objectReference: {fileID: 0}
+    - target: {fileID: 6475519576301854975, guid: 91d348017d1586a4893df3996c6f4136,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7750473218105864708, guid: 91d348017d1586a4893df3996c6f4136,
         type: 3}
       propertyPath: m_Bounds.m_Center.x
@@ -366,7 +371,7 @@ PrefabInstance:
     - target: {fileID: 9031227378266231486, guid: 91d348017d1586a4893df3996c6f4136,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 32
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 9031227378266231486, guid: 91d348017d1586a4893df3996c6f4136,
         type: 3}
@@ -382,6 +387,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.7735849
+      objectReference: {fileID: 0}
+    - target: {fileID: 9031227378266231486, guid: 91d348017d1586a4893df3996c6f4136,
+        type: 3}
+      propertyPath: m_MaskInteraction
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91d348017d1586a4893df3996c6f4136, type: 3}
