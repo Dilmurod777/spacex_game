@@ -39,8 +39,10 @@ public class JupiterMiniGameController : MonoBehaviour
     {
         MoveByTouch.enableMoving = false;
         _player.SetActive(false);
+        
         mainCamera.SetActive(false);
         playBtn.gameObject.SetActive(false);
+        planet.transform.GetChild(0).gameObject.SetActive(true);
         planet.transform.GetChild(1).gameObject.SetActive(false);
         camera.SetActive(true);
         canvas.SetActive(true);

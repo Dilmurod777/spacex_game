@@ -22,16 +22,6 @@ public class ChangeScene : MonoBehaviour
     {
         blackOutPanel.fadeInPanel();
         BlackOutPanel.minigame = "Uranus";
-
-        PlayerPrefs.SetString("Uranus", "true");
-        var position = _player.transform.position;
-        PlayerPrefs.SetFloat("PositionX", position.x);
-        PlayerPrefs.SetFloat("PositionY", position.y);
-        PlayerPrefs.SetFloat("PositionZ", position.z);
-        var rotation = _player.transform.rotation;
-        PlayerPrefs.SetFloat("RotationX", rotation.x);
-        PlayerPrefs.SetFloat("RotationY", rotation.y);
-        PlayerPrefs.SetFloat("RotationZ", rotation.z);
     }
 
     public void UranusExitBtnHandler()
@@ -42,6 +32,7 @@ public class ChangeScene : MonoBehaviour
     public void JupyterPlayBtnHandler()
     {
         blackOutPanel.fadeInPanel();
+        BlackOutPanel.minigame = "Jupiter";
         asteroids.SetActive(false);
         stars.SetActive(false);
         comets.SetActive(false);

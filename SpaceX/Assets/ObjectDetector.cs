@@ -18,7 +18,7 @@ public class ObjectDetector : MonoBehaviour
 
         var height = _cam.orthographicSize * 2f;
         var width = height * _cam.aspect;
-        _offset = new Vector2(10f, 10f);
+        _offset = new Vector2(0f, 0f);
         _collider.size = new Vector2(width + _offset.x, height + _offset.y);
     }
 
