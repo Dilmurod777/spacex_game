@@ -21,6 +21,7 @@ public class ChangeScene : MonoBehaviour
     public void UranusPlayBtnHandler()
     {
         blackOutPanel.fadeInPanel();
+        BlackOutPanel.minigame = "Uranus";
 
         PlayerPrefs.SetString("Uranus", "true");
         var position = _player.transform.position;

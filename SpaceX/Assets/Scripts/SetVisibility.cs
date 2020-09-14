@@ -16,58 +16,53 @@ public class SetVisibility : MonoBehaviour
     {
         //setVisibility(false);
         _player = FindObjectOfType<Player>().gameObject;
-        if (gameObject.tag == "Asteroid")
+        if (gameObject.CompareTag("Asteroid"))
         {
             _collider = GetComponent<PolygonCollider2D>();
             _spriteRenderer = GetComponent<SpriteRenderer>();
+
+            _collider.enabled = false;
+            _spriteRenderer.enabled = false;
         }
-        else if (gameObject.tag == "Stars")
+        else if (gameObject.CompareTag("Stars"))
         {
             _animator = GetComponent<Animator>();
             _autoRotate = GetComponent<AutoRotate>();
-            _collider = GetComponent<CircleCollider2D>();
+
+            _animator.enabled = false;
+            _autoRotate.enabled = false;
+            for (int i = 0; i < transform.childCount; i++)
+            {
+                transform.GetChild(i).gameObject.SetActive(false);
+            }
         }
-        else if (gameObject.tag == "Planets")
+        else if (gameObject.CompareTag("Planets"))
         {
-            _collider = GetComponent<CircleCollider2D>();
+            for (int i = 0; i < gameObject.transform.childCount; i++)
+            {
+                transform.GetChild(i).gameObject.SetActive(false);
+            }
         }
     }
-
-    private void FixedUpdate()
-    {
-        float distance = (_player.transform.position - transform.position).magnitude;
-
-        if (distance < 30)
-        {
-            setVisibility(true);
-        }
-        else
-        {
-            setVisibility(false);
-        }
-    }
-
+    
     public void setVisibility(bool state)
     {
-        if (gameObject.tag == "Asteroid")
+        if (gameObject.CompareTag("Asteroid"))
         {
             _spriteRenderer.enabled = state;
             _collider.enabled = state;
         }
-        else if (gameObject.tag == "Stars")
+        else if (gameObject.CompareTag("Stars"))
         {
             _animator.enabled = state;
             _autoRotate.enabled = state;
-            _collider.enabled = state;
             for (int i = 0; i < transform.childCount; i++)
             {
                 transform.GetChild(i).gameObject.SetActive(state);
             }
         }
-        else if (gameObject.tag == "Planets")
+        else if (gameObject.CompareTag("Planets"))
         {
-            _collider.enabled = state;
-
             for (int i = 0; i < gameObject.transform.childCount; i++)
             {
                 transform.GetChild(i).gameObject.SetActive(state);

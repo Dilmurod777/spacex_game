@@ -6823,6 +6823,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   angar: {fileID: 0}
+  hero: {fileID: 0}
+  heroRPrefab: {fileID: 0}
+  heroSeat: {fileID: 0}
 --- !u!60 &613855830493336771
 PolygonCollider2D:
   m_ObjectHideFlags: 0
