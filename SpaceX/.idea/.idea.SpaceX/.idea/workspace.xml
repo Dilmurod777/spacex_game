@@ -22,16 +22,11 @@
     <list default="true" id="b0265033-01b2-4fff-a339-b6368c8667d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Hero.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Hero.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Hero_Idle_Test.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Hero_Idle_Test.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BlackOutPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BlackOutPanel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hero.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hero.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Space.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Space.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Uranus.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Uranus.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AlienDestroyer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AlienDestroyer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChangeScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChangeScene.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoveByTouch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoveByTouch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SetVisibility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SetVisibility.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Jupiter/Jupiter.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Jupiter/Jupiter.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Star_M.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Star_M.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Star_M_2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Star_M_2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement/AutoRotate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement/AutoRotate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +81,8 @@
         <option value="$PROJECT_DIR$/Assets/BlackOutPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SetVisibility.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveByTouch.cs" />
+        <option value="$PROJECT_DIR$/Assets/ObjectDetector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Movement/AutoRotate.cs" />
       </list>
     </option>
   </component>
@@ -149,7 +146,9 @@
       <workItem from="1599407803424" duration="7654000" />
       <workItem from="1599472185363" duration="9492000" />
       <workItem from="1599586053230" duration="2539000" />
-      <workItem from="1599710909026" duration="7915000" />
+      <workItem from="1599710909026" duration="9251000" />
+      <workItem from="1599767162078" duration="750000" />
+      <workItem from="1599916275560" duration="4498000" />
     </task>
     <servers />
   </component>
