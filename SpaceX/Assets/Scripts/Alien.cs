@@ -9,6 +9,7 @@ public class Alien : MonoBehaviour
     public int selectedIceCreamIndex = -1;
     public static Alien currentAlien;
 
+    private AlienSpawner _alienSpawner;
     private Animator _animator;
     private BoxCollider2D _collider;
 
@@ -17,6 +18,7 @@ public class Alien : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
         _collider = transform.GetChild(0).GetComponent<BoxCollider2D>();
+        _alienSpawner = FindObjectOfType<AlienSpawner>();
     }
 
     public void SelectIceCream()
@@ -34,5 +36,22 @@ public class Alien : MonoBehaviour
         {
             _selectedIceCream.transform.localPosition = transform.GetChild(0).transform.localPosition + new Vector3(0, _collider.size.y + 2f, 0);
         }
+    }
+    
+    public void MoveAlienDestroyIceCream()
+    {
+        // remove IceCream
+        Destroy(Alien.currentAlien.transform.GetChild(1).gameObject);
+        
+        // Instantiate next alien
+        if (AlienSpawner.notSpawnedAliens.Count > 0)
+        {
+            StartCoroutine(_alienSpawner.SpawnAlien(0f));
+        }
+    }
+
+    public void ResetAnimatorParameters()
+    {
+        _animator.SetInteger("failedIceCreamCount", 0);
     }
 }

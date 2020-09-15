@@ -136,16 +136,13 @@ public class IceCream : MonoBehaviour, IPointerDownHandler, IPointerClickHandler
         if (Alien.currentAlien.selectedIceCreamIndex == index)
         {
             Alien.currentAlien.GetComponent<Animator>().SetTrigger("gotIceCream");
-            MoveAlienDestroyIceCream();
         }
         else
         {
             _wrongChoiceCount += 1;
-
+            Alien.currentAlien.GetComponent<Animator>().SetInteger("failedIceCreamCount", _wrongChoiceCount);
             if (_wrongChoiceCount == NumberOfFails)
             {
-                Alien.currentAlien.GetComponent<Animator>().SetTrigger("failedIceCream");
-                MoveAlienDestroyIceCream();
                 _wrongChoiceCount = 0;
             }
         }
