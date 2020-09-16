@@ -15,7 +15,10 @@ public class ChangeScene : MonoBehaviour
 
     private void Start()
     {
-        _player = FindObjectOfType<Player>().gameObject;
+        if (SceneManager.GetActiveScene().name == "Space")
+        {
+            _player = FindObjectOfType<Player>().gameObject;
+        }
     }
 
     public void UranusPlayBtnHandler()
