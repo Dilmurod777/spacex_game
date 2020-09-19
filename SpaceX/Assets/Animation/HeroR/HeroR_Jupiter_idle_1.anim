@@ -298,7 +298,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: 0, y: 0, z: 7.7260003}
+        value: {x: 0, y: 0, z: 5.5491996}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -324,7 +324,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 1.1, y: 0.948, z: 298.98}
+        value: {x: 1.1, y: 0.948, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -333,7 +333,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: 1.0869, y: 1.1069, z: 298.98}
+        value: {x: 1.090591, y: 1.06213, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -342,7 +342,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 2
-        value: {x: 1.1, y: 0.948, z: 298.98}
+        value: {x: 1.1, y: 0.948, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -392,7 +392,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.468, y: 0.03, z: -437.408}
+        value: {x: -0.468, y: 0.03, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -401,7 +401,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: -0.462, y: 0.042, z: -437.408}
+        value: {x: -0.462, y: 0.042, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -410,7 +410,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 2
-        value: {x: -0.468, y: 0.03, z: -437.408}
+        value: {x: -0.468, y: 0.03, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -630,7 +630,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: 0.432, y: 1.411, z: 0}
+        value: {x: 0.461, y: 1.3849999, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -689,7 +689,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: 0.535, y: 1.37, z: 0}
+        value: {x: 0.564, y: 1.344, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -724,7 +724,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: 0.5047873, y: 0.771044, z: 0.5882411}
+        value: {x: 0.50131845, y: 0.69255733, z: 0.5882411}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -1472,7 +1472,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 1.0869
+        value: 1.090591
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1509,7 +1509,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 1.1069
+        value: 1.06213
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1537,7 +1537,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 298.98
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1546,7 +1546,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 298.98
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1555,7 +1555,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 2
-        value: 298.98
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1583,7 +1583,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 0.5047873
+        value: 0.50131845
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1620,7 +1620,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 0.771044
+        value: 0.69255733
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1870,7 +1870,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -437.408
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1879,7 +1879,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: -437.408
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1888,7 +1888,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 2
-        value: -437.408
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3699,7 +3699,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 0.432
+        value: 0.461
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3736,7 +3736,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 1.411
+        value: 1.3849999
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4396,7 +4396,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 0.535
+        value: 0.564
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4433,7 +4433,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 1.37
+        value: 1.344
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4692,7 +4692,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 7.7260003
+        value: 5.5491996
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4783,7 +4783,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: HeroR_Folder/Roket_7_Hero_Mouth
+    path: HeroR_Folder/Roket_HeroR_Eye_2 (2)
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4793,7 +4793,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: HeroR_Folder/Roket_7_Hero_Mouth
+    path: HeroR_Folder/Roket_HeroR_Eye_2 (2)
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4803,7 +4803,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: HeroR_Folder/Roket_7_Hero_Mouth
+    path: HeroR_Folder/Roket_HeroR_Eye_2 (2)
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4993,7 +4993,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: HeroR_Folder/Roket_HeroR_Eye_2 (2)
+    path: HeroR_Folder/Roket_7_Hero_Mouth
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5003,7 +5003,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: HeroR_Folder/Roket_HeroR_Eye_2 (2)
+    path: HeroR_Folder/Roket_7_Hero_Mouth
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5013,7 +5013,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: HeroR_Folder/Roket_HeroR_Eye_2 (2)
+    path: HeroR_Folder/Roket_7_Hero_Mouth
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
