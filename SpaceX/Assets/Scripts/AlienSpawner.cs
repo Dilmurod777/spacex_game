@@ -5,12 +5,9 @@ using UnityEngine;
 public class AlienSpawner : MonoBehaviour
 {
     public List<GameObject> aliens;
-
     public static List<int> notSpawnedAliens = new List<int>();
-    public List<GameObject> spawnedAliens = new List<GameObject>();
 
     public const float InitialDelay = 0f;
-    public const float TimeBetweenSpawns = 5f;
 
 
     // Start is called before the first frame update
