@@ -19,7 +19,7 @@ public class Hero : MonoBehaviour
 
         // get components
         _animator = GetComponent<Animator>();
-        
+
         // change sorting layers
         var layerName = "Default";
         var orderOffset = 0;
@@ -31,9 +31,9 @@ public class Hero : MonoBehaviour
             layerName = "Player";
             orderOffset = 0;
         }
-        else if(SceneManager.GetActiveScene().name == "Uranus")
+        else if (SceneManager.GetActiveScene().name == "Uranus")
         {
-            _animator.SetTrigger("staticStanding");
+            _animator.SetBool("staticStanding", true);
         }
 
         ChangeSortingLayer(transform.GetChild(0), layerName, orderOffset);
@@ -81,7 +81,34 @@ public class Hero : MonoBehaviour
     public void Disable()
     {
         MoveByTouch.enableMoving = true;
-        gameObject.SetActive(false);    
+        gameObject.SetActive(false);
+    }
+
+
+    public void GiveAlienPickUpIceCream(int alien)
+    {
+        switch (alien)
+        {
+            case 1:
+                _animator.SetInteger("giveIceCream", 1);
+                break;
+            case 2:
+                _animator.SetInteger("giveIceCream", 2);
+                break;
+            default:
+                break;
+        }
+    }
+
+    public void AlienPickUpIceCream()
+    {
+        Alien.currentAlien.GotIceCream();
+        Alien.currentAlien.DestroyIceCream();
+    }
+
+    public void ResetAnimatorParameters()
+    {
+        _animator.SetInteger("giveIceCream", 0);
     }
 
     IEnumerator Delay(float seconds)

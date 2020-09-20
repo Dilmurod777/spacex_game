@@ -8,7 +8,7 @@ public class Alien : MonoBehaviour
     private GameObject _selectedIceCream;
     public int selectedIceCreamIndex = -1;
     public static Alien currentAlien;
-    public bool iaAnimating = true;
+    public static bool isAnimating = true;
 
     private AlienSpawner _alienSpawner;
     private Animator _animator;
@@ -23,7 +23,7 @@ public class Alien : MonoBehaviour
 
     public void SelectIceCream()
     {
-        iaAnimating = false;
+        isAnimating = false;
         selectedIceCreamIndex = new Random().Next(0, iceCreams.Count);
         _selectedIceCream = Instantiate(iceCreams[selectedIceCreamIndex], transform.position,
             Quaternion.identity);
@@ -41,8 +41,7 @@ public class Alien : MonoBehaviour
 
     public void DestroyIceCream()
     {
-        // remove IceCream
-        Destroy(transform.GetChild(1).gameObject);
+        transform.GetChild(1).gameObject.SetActive(false);
     }
     
     public void SpawnNewAlien()
@@ -56,27 +55,27 @@ public class Alien : MonoBehaviour
 
     public void GotIceCream()
     {
+        isAnimating = true;
         _animator.SetTrigger("gotIceCream");
-        iaAnimating = true;
     }
 
     public void FailedIceCream(int count)
     {
+        isAnimating = true;
         _animator.SetInteger("failedIceCreamCount", count);
-        iaAnimating = true;
     }
 
     public void StartHappyWalking()
     {
+        isAnimating = true;
         _animator.SetTrigger("startHappyWalking");
-        iaAnimating = true;
         SpawnNewAlien();
     }
 
     public void StartSadWalking()
     {
+        isAnimating = true;
         _animator.SetTrigger("startSadWalking");
-        iaAnimating = true;
         SpawnNewAlien();
     }
     
@@ -85,6 +84,6 @@ public class Alien : MonoBehaviour
         _animator.SetInteger("failedIceCreamCount", 0);
         _animator.ResetTrigger("startHappyWalking");
         _animator.ResetTrigger("startSadWalking");
-        iaAnimating = false;
+        isAnimating = false;
     }
 }

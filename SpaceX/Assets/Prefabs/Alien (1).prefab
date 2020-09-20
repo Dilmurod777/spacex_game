@@ -1198,8 +1198,8 @@ MonoBehaviour:
   - {fileID: 4253194992480327726}
   - {fileID: 1627429191587574574}
   m_Bounds:
-    m_Center: {x: -0.48016322, y: -1.1546061, z: 0}
-    m_Extent: {x: 0.7396027, y: 1.4744349, z: 0}
+    m_Center: {x: -0.48016298, y: -1.1546053, z: 0}
+    m_Extent: {x: 0.73960245, y: 1.474434, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &5400131879740408631
@@ -1698,11 +1698,12 @@ MonoBehaviour:
   - {fileID: 9081030937539801795, guid: 7293484227d5b3440bf04327e5accf51, type: 3}
   - {fileID: 9207743618215653790, guid: f8a38f32355d7d24f9d80ca49b01ad25, type: 3}
   - {fileID: 8859836901917843715, guid: b819f3ee8613aad43995adfa7effd336, type: 3}
-  - {fileID: 890020334803356568, guid: 6b418c9548c4734439ce9ca3ed7da2a4, type: 3}
   - {fileID: 4969615798270260144, guid: d65803870585abe4ba72ac7097521c81, type: 3}
+  - {fileID: 890020334803356568, guid: 6b418c9548c4734439ce9ca3ed7da2a4, type: 3}
   - {fileID: 4780869682722013992, guid: 4df01362e8df9134583c28f499afbb01, type: 3}
   - {fileID: 488454030201465763, guid: 359a9e8718d9b3c449f4d8890f5a26ab, type: 3}
   selectedIceCreamIndex: -1
+  iaAnimating: 1
 --- !u!95 &-2882522357742246294
 Animator:
   serializedVersion: 3
@@ -1824,7 +1825,7 @@ MonoBehaviour:
   - {fileID: 662687775486137032}
   - {fileID: 5298403036262428823}
   m_Bounds:
-    m_Center: {x: -0.48016268, y: -1.1546061, z: 0}
-    m_Extent: {x: 0.73960286, y: 1.4744349, z: 0}
+    m_Center: {x: -0.48016226, y: -1.1546053, z: 0}
+    m_Extent: {x: 0.73960245, y: 1.474434, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1

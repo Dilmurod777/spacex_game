@@ -10,12 +10,12 @@ public class AlienDestroyer : MonoBehaviour
         if (other.transform.parent.gameObject.CompareTag("Alien"))
         {
             Destroy(other.transform.parent.gameObject);
-            AlienDestroyer.removedAliens += 1;
+            removedAliens += 1;
         }
 
-        if (AlienDestroyer.removedAliens == 4)
+        if (removedAliens == 4)
         {
-            SceneManager.LoadScene("Space");
+            // SceneManager.LoadScene("Space");
         }
     }
 }
