@@ -28,6 +28,7 @@ public class Alien : MonoBehaviour
         _selectedIceCream = Instantiate(iceCreams[selectedIceCreamIndex], transform.position,
             Quaternion.identity);
         _selectedIceCream.transform.SetParent(transform);
+        _selectedIceCream.transform.localScale = new Vector3(0.7f, 0.7f, 1.0f);
 
         if (_animator.name.StartsWith("Alien (4)"))
         {

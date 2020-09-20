@@ -40050,14 +40050,14 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.9166667
-    functionName: 
+    functionName: AlienPickUpIceCream
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.1333333
-    functionName: 
+  - time: 3.7166667
+    functionName: ResetAnimatorParameters
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
