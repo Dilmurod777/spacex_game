@@ -32,7 +32,6 @@ public class AlienSpawner : MonoBehaviour
         }
 
         var randomAlienIndex = Random.Range(0, notSpawnedAliens.Count); // 0 - 3
-        randomAlienIndex = 0;
         var position = transform.position;
         var spawnedAlien = Instantiate(aliens[notSpawnedAliens[randomAlienIndex]], position, Quaternion.identity);
         Alien.currentAlien = spawnedAlien.GetComponent<Alien>();
