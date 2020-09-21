@@ -17024,6 +17024,12 @@ Transform:
   m_Father: {fileID: 1707392154}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1914586575 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7724305163275086437, guid: a2150abc7cd189741922f94465cfedd9,
+    type: 3}
+  m_PrefabInstance: {fileID: 3503710292375095247}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1956858384
 GameObject:
   m_ObjectHideFlags: 0
@@ -17723,6 +17729,54 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1707392154}
     m_Modifications:
+    - target: {fileID: 1485123243, guid: a2150abc7cd189741922f94465cfedd9, type: 3}
+      propertyPath: iceCreams.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485123243, guid: a2150abc7cd189741922f94465cfedd9, type: 3}
+      propertyPath: iceCreamHolder
+      value: 
+      objectReference: {fileID: 1914586575}
+    - target: {fileID: 1485123243, guid: a2150abc7cd189741922f94465cfedd9, type: 3}
+      propertyPath: iceCreams.Array.data[0]
+      value: 
+      objectReference: {fileID: -686401062935834256, guid: ece810c6ac8539c41931debd7610ecc9,
+        type: 3}
+    - target: {fileID: 1485123243, guid: a2150abc7cd189741922f94465cfedd9, type: 3}
+      propertyPath: iceCreams.Array.data[1]
+      value: 
+      objectReference: {fileID: -5353928652760472942, guid: ece810c6ac8539c41931debd7610ecc9,
+        type: 3}
+    - target: {fileID: 1485123243, guid: a2150abc7cd189741922f94465cfedd9, type: 3}
+      propertyPath: iceCreams.Array.data[2]
+      value: 
+      objectReference: {fileID: 4843514710731008198, guid: ece810c6ac8539c41931debd7610ecc9,
+        type: 3}
+    - target: {fileID: 1485123243, guid: a2150abc7cd189741922f94465cfedd9, type: 3}
+      propertyPath: iceCreams.Array.data[3]
+      value: 
+      objectReference: {fileID: 5758210351384121109, guid: ece810c6ac8539c41931debd7610ecc9,
+        type: 3}
+    - target: {fileID: 1485123243, guid: a2150abc7cd189741922f94465cfedd9, type: 3}
+      propertyPath: iceCreams.Array.data[4]
+      value: 
+      objectReference: {fileID: -6763233799351719403, guid: ece810c6ac8539c41931debd7610ecc9,
+        type: 3}
+    - target: {fileID: 1485123243, guid: a2150abc7cd189741922f94465cfedd9, type: 3}
+      propertyPath: iceCreams.Array.data[5]
+      value: 
+      objectReference: {fileID: -3510283604324394028, guid: ece810c6ac8539c41931debd7610ecc9,
+        type: 3}
+    - target: {fileID: 1485123243, guid: a2150abc7cd189741922f94465cfedd9, type: 3}
+      propertyPath: iceCreams.Array.data[6]
+      value: 
+      objectReference: {fileID: -6140279154747235707, guid: ece810c6ac8539c41931debd7610ecc9,
+        type: 3}
+    - target: {fileID: 1485123243, guid: a2150abc7cd189741922f94465cfedd9, type: 3}
+      propertyPath: iceCreams.Array.data[7]
+      value: 
+      objectReference: {fileID: -8248416280958967344, guid: ece810c6ac8539c41931debd7610ecc9,
+        type: 3}
     - target: {fileID: 523540614666104547, guid: a2150abc7cd189741922f94465cfedd9,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -17957,6 +18011,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8059090452451574412, guid: a2150abc7cd189741922f94465cfedd9,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8059090452451574412, guid: a2150abc7cd189741922f94465cfedd9,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8628654357494503456, guid: a2150abc7cd189741922f94465cfedd9,
         type: 3}

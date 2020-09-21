@@ -28,18 +28,18 @@ public class IceCream : MonoBehaviour, IPointerClickHandler
             return;
         }
 
-        Debug.Log(Alien.currentAlien.name + " | " + Alien.currentAlien.selectedIceCreamIndex + " |  " + index);
         if (Alien.currentAlien.selectedIceCreamIndex == index)
         {
             // Alien.currentAlien.GotIceCream();
             // Alien.currentAlien.DestroyIceCream();
-            if (Alien.currentAlien.name.StartsWith("Alien (1)") || Alien.currentAlien.name.StartsWith("Alien (4)"))
+            if (Alien.currentAlien.name.StartsWith("Alien (1)") || Alien.currentAlien.name.StartsWith("Alien (4)") ||
+                Alien.currentAlien.name.StartsWith("Alien (3)"))
             {
-                _hero.GiveAlienPickUpIceCream(1);
+                _hero.GiveAlienPickUpIceCream(1, index);
             }
             else if (Alien.currentAlien.name.StartsWith("Alien (2)"))
             {
-                _hero.GiveAlienPickUpIceCream(2);
+                _hero.GiveAlienPickUpIceCream(2, index);
             }
         }
         else

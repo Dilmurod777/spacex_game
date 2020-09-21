@@ -7,9 +7,14 @@ using UnityEngine.SceneManagement;
 public class Hero : MonoBehaviour
 {
     public GameObject heroRPrefab;
+    public List<Sprite> iceCreams;
+    public GameObject iceCreamHolder;
     private Animator _animator;
     private Transform _player;
     private Transform _heroRSeat;
+    private static readonly int GiveIceCream = Animator.StringToHash("giveIceCream");
+    private static readonly int StaticStanding = Animator.StringToHash("staticStanding");
+    private static readonly int HeroStart = Animator.StringToHash("heroStart");
 
     // Start is called before the first frame update
     void Start()
@@ -33,7 +38,7 @@ public class Hero : MonoBehaviour
         }
         else if (SceneManager.GetActiveScene().name == "Uranus")
         {
-            _animator.SetBool("staticStanding", true);
+            _animator.SetBool(StaticStanding, true);
         }
 
         ChangeSortingLayer(transform.GetChild(0), layerName, orderOffset);
@@ -42,7 +47,7 @@ public class Hero : MonoBehaviour
         {
             // Hero Start Jumping
             StartCoroutine(Delay(2f));
-            _animator.SetBool("heroStart", true);
+            _animator.SetBool(HeroStart, true);
         }
     }
 
@@ -86,30 +91,34 @@ public class Hero : MonoBehaviour
     }
 
 
-    public void GiveAlienPickUpIceCream(int alien)
+    public void GiveAlienPickUpIceCream(int alien, int iceCream)
     {
+        iceCreamHolder.GetComponent<SpriteRenderer>().sprite = iceCreams[iceCream];
         switch (alien)
         {
             case 1:
-                _animator.SetInteger("giveIceCream", 1);
+                _animator.SetInteger(GiveIceCream, 1);
                 break;
             case 2:
-                _animator.SetInteger("giveIceCream", 2);
+                _animator.SetInteger(GiveIceCream, 2);
                 break;
             default:
                 break;
         }
     }
 
-    public void AlienPickUpIceCream()
+    public void AlienPickUpIceCream(int alien)
     {
-        Alien.currentAlien.GotIceCream();
-        Alien.currentAlien.DestroyIceCream();
+        if (Alien.currentAlien.name.Contains(alien.ToString()))
+        {
+            Alien.currentAlien.GotIceCream();
+            Alien.currentAlien.DestroyIceCream();
+        }
     }
 
     public void ResetAnimatorParameters()
     {
-        _animator.SetInteger("giveIceCream", 0);
+        _animator.SetInteger(GiveIceCream, 0);
     }
 
     IEnumerator Delay(float seconds)

@@ -4,12 +4,15 @@ using Random = System.Random;
 
 public class Alien : MonoBehaviour
 {
-    public List<GameObject> iceCreams;
-    private GameObject _selectedIceCream;
+    public List<Sprite> iceCreams;
+    public GameObject selectedIceCreamShower;
+    public GameObject iceCreamHolder;
     public int selectedIceCreamIndex = -1;
     public static Alien currentAlien;
     public static bool isAnimating = true;
-
+    
+    
+    private GameObject _selectedIceCream;
     private AlienSpawner _alienSpawner;
     private Animator _animator;
     private BoxCollider2D _collider;
@@ -25,24 +28,22 @@ public class Alien : MonoBehaviour
     {
         isAnimating = false;
         selectedIceCreamIndex = new Random().Next(0, iceCreams.Count);
-        _selectedIceCream = Instantiate(iceCreams[selectedIceCreamIndex], transform.position,
-            Quaternion.identity);
-        _selectedIceCream.transform.SetParent(transform);
-        _selectedIceCream.transform.localScale = new Vector3(0.7f, 0.7f, 1.0f);
-
-        if (_animator.name.StartsWith("Alien (4)"))
+        if (selectedIceCreamShower != null)
         {
-            _selectedIceCream.transform.localPosition = transform.GetChild(0).transform.localPosition + new Vector3(0, _collider.size.y / 2 + 2f, 0);
+            selectedIceCreamShower.GetComponent<SpriteRenderer>().sprite = iceCreams[selectedIceCreamIndex];
         }
-        else
+        if (iceCreamHolder != null)
         {
-            _selectedIceCream.transform.localPosition = transform.GetChild(0).transform.localPosition + new Vector3(0, _collider.size.y + 2f, 0);
+            iceCreamHolder.SetActive(true);
+            iceCreamHolder.GetComponent<SpriteRenderer>().sprite = iceCreams[selectedIceCreamIndex];
         }
     }
 
+    
+    
     public void DestroyIceCream()
     {
-        transform.GetChild(1).gameObject.SetActive(false);
+        selectedIceCreamShower.SetActive(false);
     }
     
     public void SpawnNewAlien()
