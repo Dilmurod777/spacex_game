@@ -10,8 +10,8 @@ public class Alien : MonoBehaviour
     public int selectedIceCreamIndex = -1;
     public static Alien currentAlien;
     public static bool isAnimating = true;
-    
-    
+
+
     private GameObject _selectedIceCream;
     private AlienSpawner _alienSpawner;
     private Animator _animator;
@@ -30,8 +30,13 @@ public class Alien : MonoBehaviour
         selectedIceCreamIndex = new Random().Next(0, iceCreams.Count);
         if (selectedIceCreamShower != null)
         {
-            selectedIceCreamShower.GetComponent<SpriteRenderer>().sprite = iceCreams[selectedIceCreamIndex];
+            selectedIceCreamShower.transform.GetChild(0).gameObject.SetActive(true);
+            selectedIceCreamShower.transform.GetChild(0).GetChild(0).gameObject.GetComponent<SpriteRenderer>().sprite =
+                iceCreams[selectedIceCreamIndex];
+            
+            selectedIceCreamShower.GetComponent<Animator>().SetTrigger("selectIceCream");
         }
+
         if (iceCreamHolder != null)
         {
             iceCreamHolder.SetActive(true);
@@ -39,13 +44,13 @@ public class Alien : MonoBehaviour
         }
     }
 
-    
-    
+
     public void DestroyIceCream()
     {
-        selectedIceCreamShower.SetActive(false);
+        // selectedIceCreamShower.SetActive(false);
+        selectedIceCreamShower.GetComponent<Animator>().SetTrigger("removeIceCream");
     }
-    
+
     public void SpawnNewAlien()
     {
         // Instantiate next alien
@@ -80,7 +85,7 @@ public class Alien : MonoBehaviour
         _animator.SetTrigger("startSadWalking");
         SpawnNewAlien();
     }
-    
+
     public void ResetAnimatorParameters()
     {
         _animator.SetInteger("failedIceCreamCount", 0);
