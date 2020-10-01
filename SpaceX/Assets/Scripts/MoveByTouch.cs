@@ -11,7 +11,8 @@ public class MoveByTouch : MonoBehaviour
     public GameObject heroRPrefab;
     public GameObject heroSeat;
     public GameObject trees;
-
+    public float treesAnimationDelay = 0.5f;
+    
     private const float Force = 1.1f;
     private const float RotationSpeed = 5f;
     private float _touchPointX;
@@ -43,13 +44,13 @@ public class MoveByTouch : MonoBehaviour
             var rotX = PlayerPrefs.GetFloat("RotationX");
             var rotY = PlayerPrefs.GetFloat("RotationY");
             var rotZ = PlayerPrefs.GetFloat("RotationZ");
-            
+
             transform.position = new Vector3(posX, posY, posZ);
             transform.rotation = Quaternion.Euler(rotX, rotY, rotZ);
             PlayerPrefs.DeleteAll();
-            
+
             // disable default hero
-            hero.SetActive(false); 
+            hero.SetActive(false);
             // place heroR
             var heroR = Instantiate(heroRPrefab, heroSeat.transform.position, quaternion.identity);
             heroR.transform.localScale = heroSeat.transform.localScale;
@@ -66,7 +67,8 @@ public class MoveByTouch : MonoBehaviour
                 if (!_isAngarClosed)
                 {
                     _angarAnimator.SetTrigger("close");
-                    _treesAnimator.SetTrigger("start");
+                    // StartCoroutine("MoveTreesEffect", 0f);
+                    Invoke("MoveTreesEffectFunction", treesAnimationDelay);
                     _isAngarClosed = true;
                 }
 
@@ -113,7 +115,7 @@ public class MoveByTouch : MonoBehaviour
                         else
                         {
                             // decrease field of view - come closer
-                            _cam.fieldOfView = Mathf.Clamp(_cam.fieldOfView - CameraSpeed * Time.fixedDeltaTime,  CameraMinView, CameraMaxView);
+                            _cam.fieldOfView = Mathf.Clamp(_cam.fieldOfView - CameraSpeed * Time.fixedDeltaTime, CameraMinView, CameraMaxView);
                         }
 
                         _prevVelocity = velocity;
@@ -133,5 +135,19 @@ public class MoveByTouch : MonoBehaviour
                 StopAllCoroutines();
             }
         }
+    }
+
+    IEnumerator MoveTreesEffect(float delay)
+    {
+        Debug.Log("Before: " + delay);
+        yield return new WaitForSeconds(delay);
+
+        Debug.Log("After");
+        _treesAnimator.SetTrigger("start");
+    }
+
+    void MoveTreesEffectFunction()
+    {
+        _treesAnimator.SetTrigger("start");
     }
 }
