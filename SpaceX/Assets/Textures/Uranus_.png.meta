@@ -149,6 +149,9 @@ TextureImporter:
   - first:
       213: 4337223328943888350
     second: Uranus_Cloud
+  - first:
+      213: 5055222217249200049
+    second: Uranus_Ui_Home
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -11864,6 +11867,27 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
+    - serializedVersion: 2
+      name: Uranus_Ui_Home
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 2
+        width: 181
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b71dc7a2d1c72640800000000000000
+      internalID: 5055222217249200049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
