@@ -300,7 +300,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1886204612}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -5.92, z: 0}
+  m_LocalPosition: {x: 0, y: -1.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 760118743253079000}
@@ -6824,8 +6824,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   angar: {fileID: 0}
   hero: {fileID: 0}
-  heroRPrefab: {fileID: 0}
-  heroSeat: {fileID: 0}
+  heroRPrefab: {fileID: 5032481598475983518, guid: 74f0d6e8df5a4924281e3a5277f8073c,
+    type: 3}
+  heroSeat: {fileID: 8372016135482267564}
+  trees: {fileID: 0}
 --- !u!60 &613855830493336771
 PolygonCollider2D:
   m_ObjectHideFlags: 0

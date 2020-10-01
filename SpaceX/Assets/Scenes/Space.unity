@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -23941,10 +23941,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1886204613, guid: 5dfdd3d3b13aae4468b2f55463eab926, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.45
-      objectReference: {fileID: 0}
     - target: {fileID: 760118743253078951, guid: 5dfdd3d3b13aae4468b2f55463eab926,
         type: 3}
       propertyPath: m_Name
@@ -24005,11 +24001,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 760118743253079000, guid: 5dfdd3d3b13aae4468b2f55463eab926,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.9271842
-      objectReference: {fileID: 0}
     - target: {fileID: 5647470164223680130, guid: 5dfdd3d3b13aae4468b2f55463eab926,
         type: 3}
       propertyPath: angar
@@ -24017,38 +24008,16 @@ PrefabInstance:
       objectReference: {fileID: 2036116831}
     - target: {fileID: 5647470164223680130, guid: 5dfdd3d3b13aae4468b2f55463eab926,
         type: 3}
-      propertyPath: CameraSpeed
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 5647470164223680130, guid: 5dfdd3d3b13aae4468b2f55463eab926,
-        type: 3}
-      propertyPath: trees
-      value: 
-      objectReference: {fileID: 1835986566}
-    - target: {fileID: 5647470164223680130, guid: 5dfdd3d3b13aae4468b2f55463eab926,
-        type: 3}
-      propertyPath: heroRPrefab
-      value: 
-      objectReference: {fileID: 5032481598475983518, guid: 74f0d6e8df5a4924281e3a5277f8073c,
-        type: 3}
-    - target: {fileID: 5647470164223680130, guid: 5dfdd3d3b13aae4468b2f55463eab926,
-        type: 3}
       propertyPath: hero
       value: 
       objectReference: {fileID: 8837014610082374166}
     - target: {fileID: 5647470164223680130, guid: 5dfdd3d3b13aae4468b2f55463eab926,
         type: 3}
-      propertyPath: heroSeat
+      propertyPath: trees
       value: 
-      objectReference: {fileID: 1111844917}
+      objectReference: {fileID: 1835986566}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5dfdd3d3b13aae4468b2f55463eab926, type: 3}
---- !u!1 &1111844917 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8372016135482267564, guid: 5dfdd3d3b13aae4468b2f55463eab926,
-    type: 3}
-  m_PrefabInstance: {fileID: 1111844916}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1138273319
 GameObject:
   m_ObjectHideFlags: 0
