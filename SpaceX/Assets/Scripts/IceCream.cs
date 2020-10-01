@@ -43,6 +43,7 @@ public class IceCream : MonoBehaviour, IPointerClickHandler
                     // _hero.GiveAlienPickUpIceCream(2, index);
                     CloudIceCream.SetCurrentData(2, index);
                 }
+                
             }
             else
             {

@@ -5,23 +5,26 @@ using UnityEngine;
 
 public class CloudIceCream : MonoBehaviour
 {
-    public static int alienIndex;
-    public static int iceCreamIndex;
+    private static int _alienIndex;
+    private static int _iceCreamIndex;
+    private static Animator _animator;
     private Hero _hero;
     
     private void Start()
     {
         _hero = FindObjectOfType<Hero>();
+        _animator = GetComponent<Animator>();
     }
 
     public static void SetCurrentData(int pAlienIndex, int pIceCreamIndex)
     {
-        alienIndex = pAlienIndex;
-        iceCreamIndex = pIceCreamIndex;
+        _alienIndex = pAlienIndex;
+        _iceCreamIndex = pIceCreamIndex;
+        _animator.SetTrigger("removeIceCream");   
     }
 
     public void StartGivingIceCream()
     {
-        _hero.GiveAlienPickUpIceCream(alienIndex, iceCreamIndex);
+        _hero.GiveAlienPickUpIceCream(_alienIndex, _iceCreamIndex);
     }
 }
