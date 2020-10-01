@@ -22,50 +22,21 @@
     <list default="true" id="b0265033-01b2-4fff-a339-b6368c8667d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Angar.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Angar.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 1/Alien (1)_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 1/Alien (1)_Idle.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 1/Alien (1)_Obida1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 1/Alien (1)_Obida1.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 1/Alien (1)_Walk_Obida.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 1/Alien (1)_Walk_Obida.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 2/Alien (2)_Obida.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 2/Alien (2)_Obida.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 2/Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 2/Idle.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 3/Alien (3)_IceCream_Obida.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 3/Alien (3)_IceCream_Obida.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 3/Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 3/Idle.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 4/Alien (4)_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 4/Alien (4)_Idle.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 4/Alien (4)_Test1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 4/Alien (4)_Test1.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Cloud_Ice_Cream.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Cloud_Ice_Cream.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Ice_cream_Cloud.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Ice_cream_Cloud.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Ice_cream_Cloud_Idle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Ice_cream_Cloud_Idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BlackOutPanel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BlackOutPanel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Draggable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Draggable.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FireCometFalling.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FireCometFalling.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hero.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hero.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HeroSeat.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HeroSeat.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/IceCream.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/IceCream.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/IceCreamScroll.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/IceCreamScroll.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Jupiter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Jupiter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/JupiterMiniGameController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/JupiterMiniGameController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ObjectDetector.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ObjectDetector.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Alien (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Alien (1).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Alien (2).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Alien (2).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Alien (3).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Alien (3).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Alien (4).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Alien (4).prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cloud_Ice_Cream.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Cloud_Ice_Cream.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Alien.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Alien.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AlienDestroyer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AlienDestroyer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/AlienSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AlienSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WashingItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WashingItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hero.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Hero.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IceCream.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IceCream.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +50,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.4.1/Runtime/UniversalAdditionalCameraData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.uiextensions@214b4a1a69/Runtime/Scripts/Utilities/UI_InfiniteScroll.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CloudIceCream.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -117,10 +89,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ChangeScene.cs" />
         <option value="$PROJECT_DIR$/Assets/IceCream.cs" />
         <option value="$PROJECT_DIR$/Assets/Hero.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Alien.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlienDestroyer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlienSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Hero.cs" />
+        <option value="$PROJECT_DIR$/Assets/CloudIceCream.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IceCream.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Alien.cs" />
       </list>
     </option>
   </component>
@@ -200,7 +174,7 @@
       <workItem from="1600685024732" duration="6264000" />
       <workItem from="1600712587150" duration="987000" />
       <workItem from="1601104675437" duration="1463000" />
-      <workItem from="1601543026621" duration="4357000" />
+      <workItem from="1601543026621" duration="7552000" />
     </task>
     <servers />
   </component>

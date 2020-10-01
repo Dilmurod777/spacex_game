@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections;
-using Unity.Mathematics;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class IceCream : MonoBehaviour, IPointerClickHandler
 {
     public int index;
-    private static int _wrongChoiceCount = 0;
+    private static int _wrongChoiceCount;
     private Hero _hero;
+    private static readonly int FailedIceCreamCount = Animator.StringToHash("failedIceCreamCount");
 
     private void Start()
     {
@@ -23,38 +20,45 @@ public class IceCream : MonoBehaviour, IPointerClickHandler
 
     void IceCreamClicked()
     {
-        if (!Alien.currentAlien || Alien.currentAlien.selectedIceCreamIndex == -1 || Alien.isAnimating)
+        Debug.Log("CurrentAlien isAnimation: " + Alien.currentAlien.isAnimating);
+        
+        if (!Alien.currentAlien || Alien.currentAlien.selectedIceCreamIndex == -1 || Alien.currentAlien.isAnimating)
         {
             return;
         }
 
-        if (Alien.currentAlien.selectedIceCreamIndex == index)
+        if (!Alien.currentAlien.isAnimating)
         {
-            // Alien.currentAlien.GotIceCream();
-            // Alien.currentAlien.DestroyIceCream();
-            if (Alien.currentAlien.name.StartsWith("Alien (1)") || Alien.currentAlien.name.StartsWith("Alien (4)") ||
-                Alien.currentAlien.name.StartsWith("Alien (3)"))
+            if (Alien.currentAlien.selectedIceCreamIndex == index)
             {
-                _hero.GiveAlienPickUpIceCream(1, index);
+                Alien.currentAlien.isAnimating = true;
+                if (Alien.currentAlien.name.StartsWith("Alien (1)") || Alien.currentAlien.name.StartsWith("Alien (4)") ||
+                    Alien.currentAlien.name.StartsWith("Alien (3)"))
+                {
+                    // _hero.GiveAlienPickUpIceCream(1, index);
+                    CloudIceCream.SetCurrentData(1, index);
+                }
+                else if (Alien.currentAlien.name.StartsWith("Alien (2)"))
+                {
+                    // _hero.GiveAlienPickUpIceCream(2, index);
+                    CloudIceCream.SetCurrentData(2, index);
+                }
             }
-            else if (Alien.currentAlien.name.StartsWith("Alien (2)"))
+            else
             {
-                _hero.GiveAlienPickUpIceCream(2, index);
-            }
-        }
-        else
-        {
-            _wrongChoiceCount += 1;
-            switch (_wrongChoiceCount)
-            {
-                case 1:
-                    Alien.currentAlien.GetComponent<Animator>().SetInteger("failedIceCreamCount", 1);
-                    break;
-                case 2:
-                    Alien.currentAlien.GetComponent<Animator>().SetInteger("failedIceCreamCount", 2);
-                    Alien.currentAlien.DestroyIceCream();
-                    _wrongChoiceCount = 0;
-                    break;
+                _wrongChoiceCount += 1;
+                Alien.currentAlien.isAnimating = true;
+                switch (_wrongChoiceCount)
+                {
+                    case 1:
+                        Alien.currentAlien.GetComponent<Animator>().SetInteger(FailedIceCreamCount, 1);
+                        break;
+                    case 2:
+                        Alien.currentAlien.GetComponent<Animator>().SetInteger(FailedIceCreamCount, 2);
+                        Alien.currentAlien.DestroyIceCream();
+                        _wrongChoiceCount = 0;
+                        break;
+                }
             }
         }
     }

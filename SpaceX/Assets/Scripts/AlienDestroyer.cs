@@ -15,7 +15,7 @@ public class AlienDestroyer : MonoBehaviour
 
         if (removedAliens == 4)
         {
-            SceneManager.LoadScene("Space");
+            // SceneManager.LoadScene("Space");
         }
     }
 }

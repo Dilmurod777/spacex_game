@@ -111,8 +111,8 @@ public class Hero : MonoBehaviour
     {
         if (Alien.currentAlien.name.Contains(alien.ToString()))
         {
-            Alien.currentAlien.GotIceCream();
             Alien.currentAlien.DestroyIceCream();
+            // Alien.currentAlien.GotIceCream();
         }
     }
 
