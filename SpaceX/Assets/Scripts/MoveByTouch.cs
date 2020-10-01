@@ -10,6 +10,7 @@ public class MoveByTouch : MonoBehaviour
     public GameObject hero;
     public GameObject heroRPrefab;
     public GameObject heroSeat;
+    public GameObject trees;
 
     private const float Force = 1.1f;
     private const float RotationSpeed = 5f;
@@ -24,6 +25,7 @@ public class MoveByTouch : MonoBehaviour
     private Camera _cam;
     private Touch _touch;
     private Animator _angarAnimator;
+    private Animator _treesAnimator;
     private bool _isAngarClosed = false;
 
     private void Start()
@@ -31,6 +33,7 @@ public class MoveByTouch : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _cam = Camera.main;
         _angarAnimator = angar.GetComponent<Animator>();
+        _treesAnimator = trees.GetComponent<Animator>();
 
         if (PlayerPrefs.HasKey("Uranus"))
         {
@@ -63,6 +66,7 @@ public class MoveByTouch : MonoBehaviour
                 if (!_isAngarClosed)
                 {
                     _angarAnimator.SetTrigger("close");
+                    _treesAnimator.SetTrigger("start");
                     _isAngarClosed = true;
                 }
 
