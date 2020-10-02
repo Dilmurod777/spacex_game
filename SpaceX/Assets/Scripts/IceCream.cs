@@ -20,8 +20,6 @@ public class IceCream : MonoBehaviour, IPointerClickHandler
 
     void IceCreamClicked()
     {
-        Debug.Log("CurrentAlien isAnimation: " + Alien.currentAlien.isAnimating);
-        
         if (!Alien.currentAlien || Alien.currentAlien.selectedIceCreamIndex == -1 || Alien.currentAlien.isAnimating)
         {
             return;
@@ -37,11 +35,13 @@ public class IceCream : MonoBehaviour, IPointerClickHandler
                 {
                     // _hero.GiveAlienPickUpIceCream(1, index);
                     CloudIceCream.SetCurrentData(1, index);
+                    CloudIceCream.RemoveIceCream("Success");
                 }
                 else if (Alien.currentAlien.name.StartsWith("Alien (2)"))
                 {
                     // _hero.GiveAlienPickUpIceCream(2, index);
                     CloudIceCream.SetCurrentData(2, index);
+                    CloudIceCream.RemoveIceCream("Success");
                 }
                 
             }
@@ -55,8 +55,9 @@ public class IceCream : MonoBehaviour, IPointerClickHandler
                         Alien.currentAlien.GetComponent<Animator>().SetInteger(FailedIceCreamCount, 1);
                         break;
                     case 2:
-                        Alien.currentAlien.GetComponent<Animator>().SetInteger(FailedIceCreamCount, 2);
-                        Alien.currentAlien.DestroyIceCream();
+                        CloudIceCream.RemoveIceCream("Failed");
+                        // Alien.currentAlien.GetComponent<Animator>().SetInteger(FailedIceCreamCount, 2);
+                        // Alien.currentAlien.DestroyIceCream();
                         _wrongChoiceCount = 0;
                         break;
                 }

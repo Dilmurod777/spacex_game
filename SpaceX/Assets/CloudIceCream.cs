@@ -9,6 +9,8 @@ public class CloudIceCream : MonoBehaviour
     private static int _iceCreamIndex;
     private static Animator _animator;
     private Hero _hero;
+    private static String _status;
+    private static readonly int FailedIceCreamCount = Animator.StringToHash("failedIceCreamCount");
     
     private void Start()
     {
@@ -19,12 +21,25 @@ public class CloudIceCream : MonoBehaviour
     public static void SetCurrentData(int pAlienIndex, int pIceCreamIndex)
     {
         _alienIndex = pAlienIndex;
-        _iceCreamIndex = pIceCreamIndex;
-        _animator.SetTrigger("removeIceCream");   
+        _iceCreamIndex = pIceCreamIndex;  
+    }
+
+    public static void RemoveIceCream(String status)
+    {
+        _status = status;
+        _animator.SetTrigger("removeIceCream"); 
     }
 
     public void StartGivingIceCream()
     {
-        _hero.GiveAlienPickUpIceCream(_alienIndex, _iceCreamIndex);
+        if (_status ==  "Success")
+        {
+            _hero.GiveAlienPickUpIceCream(_alienIndex, _iceCreamIndex);
+        }
+        
+        if(_status == "Failed")
+        {
+            Alien.currentAlien.GetComponent<Animator>().SetInteger(FailedIceCreamCount, 2);
+        }
     }
 }
