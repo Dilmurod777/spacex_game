@@ -38,13 +38,23 @@ public class SetVisibility : MonoBehaviour
         }
         else if (gameObject.CompareTag("Planets"))
         {
-            for (int i = 0; i < gameObject.transform.childCount; i++)
-            {
-                transform.GetChild(i).gameObject.SetActive(false);
+            for (int i = 0; i < transform.childCount; i++)
+            { 
+                if (transform.GetChild(i).gameObject.name.Contains("Angar"))
+                {
+                    for (int j = 0; j < transform.GetChild(i).transform.GetChild(j).transform.childCount; j++)
+                    {
+                        transform.GetChild(i).transform.GetChild(j).gameObject.SetActive(false);
+                    }
+                }
+                else
+                {
+                    transform.GetChild(i).gameObject.SetActive(false);
+                }
             }
         }
     }
-    
+
     public void setVisibility(bool state)
     {
         if (gameObject.CompareTag("Asteroid"))
@@ -63,9 +73,19 @@ public class SetVisibility : MonoBehaviour
         }
         else if (gameObject.CompareTag("Planets"))
         {
-            for (int i = 0; i < gameObject.transform.childCount; i++)
-            {
-                transform.GetChild(i).gameObject.SetActive(state);
+            for (int i = 0; i < transform.childCount; i++)
+            { 
+                if (transform.GetChild(i).gameObject.name.Contains("Angar"))
+                {
+                    for (int j = 0; j < transform.GetChild(i).transform.childCount; j++)
+                    {
+                        transform.GetChild(i).transform.GetChild(j).gameObject.SetActive(state);
+                    }
+                }
+                else
+                {
+                    transform.GetChild(i).gameObject.SetActive(state);
+                }
             }
         }
     }

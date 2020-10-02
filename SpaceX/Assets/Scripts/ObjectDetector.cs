@@ -24,7 +24,6 @@ public class ObjectDetector : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log(other.tag);
         other.GetComponent<SetVisibility>().setVisibility(true);
     }
 
