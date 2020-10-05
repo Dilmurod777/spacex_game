@@ -11,11 +11,13 @@ public class JupiterMiniGameController : MonoBehaviour
     public GameObject playBtn;
     public GameObject planet;
     public GameObject mainCanvas;
+    public GameObject rocketHolder;
+    public GameObject solomka;
     private GameObject _player;
     private Animator _planetAnimator;
 
-    private string[] _FRUITS = {"Apple", "Banana", "Strawberry", "Cherry", "Blackberry", "Blueberry",};
-    public static int _firstSelectedFruitIndex = -1;
+    private string[] _fruits = {"Apple", "Banana", "Strawberry", "Cherry", "Blackberry", "Blueberry",};
+    public static int firstSelectedFruitIndex = -1;
 
     private readonly int[,] _animationOptions =
     {
@@ -33,30 +35,35 @@ public class JupiterMiniGameController : MonoBehaviour
         _planetAnimator = planet.GetComponent<Animator>();
         camera.SetActive(false);
         canvas.SetActive(false);
+        solomka.SetActive(false);
     }
 
     public void StartGame()
     {
         MoveByTouch.enableMoving = false;
-        _player.SetActive(false);
         
+
         mainCamera.SetActive(false);
         playBtn.gameObject.SetActive(false);
         planet.transform.GetChild(0).gameObject.SetActive(true);
         planet.transform.GetChild(1).gameObject.SetActive(false);
         camera.SetActive(true);
         canvas.SetActive(true);
+        // solomka.SetActive(true);
+        _player.transform.position = rocketHolder.transform.position;
+        _player.transform.rotation = rocketHolder.transform.rotation;
+        _player.transform.localScale = rocketHolder.transform.localScale;
     }
 
     public void FruitSelected(int index)
     {
-        if (_firstSelectedFruitIndex == -1)
+        if (firstSelectedFruitIndex == -1)
         {
-            _firstSelectedFruitIndex = index;
+            firstSelectedFruitIndex = index;
         }
         else
         {
-            _planetAnimator.SetInteger("animationOption", _animationOptions[_firstSelectedFruitIndex, index]);
+            _planetAnimator.SetInteger("animationOption", _animationOptions[firstSelectedFruitIndex, index]);
         }
     }
 }

@@ -25,7 +25,7 @@ public class Jupiter : MonoBehaviour
     {
         _animator.ResetTrigger("reset");
         _animator.SetInteger("animationOption", -1);
-        JupiterMiniGameController._firstSelectedFruitIndex = -1;
+        JupiterMiniGameController.firstSelectedFruitIndex = -1;
     }
     
     IEnumerator Delay(float seconds)
