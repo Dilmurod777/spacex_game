@@ -56,7 +56,6 @@ public class JupiterMiniGameController : MonoBehaviour
         _player.transform.position = rocketHolder.transform.position;
         _player.transform.rotation = rocketHolder.transform.rotation;
         _player.transform.localScale = rocketHolder.transform.localScale;
-        Invoke("TurnHeroRWithDelay", 2f);
     }
 
     public void FruitSelected(int index)
@@ -70,14 +69,8 @@ public class JupiterMiniGameController : MonoBehaviour
             else
             {
                 isPlanetAnimating = true;
-                _heroRAnimator.SetTrigger("drink");
                 _planetAnimator.SetInteger("animationOption", _animationOptions[firstSelectedFruitIndex, index]);
             }
         }
-    }
-    
-    void TurnHeroRWithDelay()
-    {
-        _heroRAnimator.SetBool("isJupiter", true);
     }
 }

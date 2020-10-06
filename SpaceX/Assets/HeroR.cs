@@ -5,15 +5,20 @@ using UnityEngine;
 
 public class HeroR : MonoBehaviour
 {
-    private Animator _animator;
+    private static Animator _animator;
 
     private void Start()
     {
         _animator = GetComponent<Animator>();
     }
 
+    public static void HeroRDrink()
+    {
+        _animator.SetBool("drinkStart", true);
+    }
+    
     public void ResetDrinkTrigger()
     {
-        _animator.ResetTrigger("drink");
+        _animator.SetBool("drinkStart", false);
     }
 }

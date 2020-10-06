@@ -18,6 +18,7 @@ public class Jupiter : MonoBehaviour
         {
             StartCoroutine(Delay(2f));
             _animator.SetTrigger("reset");
+            HeroR.HeroRDrink();
         }
     }
 
