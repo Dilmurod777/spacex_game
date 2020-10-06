@@ -6828,6 +6828,7 @@ MonoBehaviour:
     type: 3}
   heroSeat: {fileID: 8372016135482267564}
   trees: {fileID: 0}
+  treesAnimationDelay: 0.25
 --- !u!60 &613855830493336771
 PolygonCollider2D:
   m_ObjectHideFlags: 0

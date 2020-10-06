@@ -4,34 +4,34 @@ using System.Collections;
 [AddComponentMenu("Playground/Movement/Camera Follow")]
 public class CameraFollow : MonoBehaviour
 {
-	[Header("Object to follow")]
-	// This is the object that the camera will follow
-	public Transform target;
-
-    //Bound camera to limits
+	//Bound camera to limits
     public bool limitBounds = false;
     public float left = -5f;
     public float right = 5f;
     public float bottom = -5f;
     public float top = 5f;
 
-	private Vector3 lerpedPosition;
+    private Transform _target;
+	private Vector3 _lerpedPosition;
 
     private Camera _camera;
 
-    private void Awake() {
+    private void Awake()
+    {
+	    _target = FindObjectOfType<Player>().transform;
+	    
         _camera = GetComponent<Camera>();
-        _camera.transform.position = target.position;
+        _camera.transform.position = _target.position;
     }
 
     // FixedUpdate is called every frame, when the physics are calculated
     void FixedUpdate()
 	{
-		if(target != null)
+		if(_target != null)
 		{
 			// Find the right position between the camera and the object
-			lerpedPosition = Vector3.Lerp(transform.position, target.position, Time.deltaTime * 10f);
-			lerpedPosition.z = -10f;
+			_lerpedPosition = Vector3.Lerp(transform.position, _target.position, Time.deltaTime * 10f);
+			_lerpedPosition.z = -10f;
 		}
 	}
 
@@ -40,10 +40,10 @@ public class CameraFollow : MonoBehaviour
 	// LateUpdate is called after all other objects have moved
 	void LateUpdate ()
 	{
-		if(target != null)
+		if(_target != null)
 		{
 			// Move the camera in the position found previously
-			transform.position = lerpedPosition;
+			transform.position = _lerpedPosition;
 
             // Bounds the camera to the limits (if enabled)
             if(limitBounds) {
