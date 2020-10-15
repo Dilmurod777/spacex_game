@@ -527,8 +527,8 @@ MonoBehaviour:
   - {fileID: 3529312506679748288}
   - {fileID: 8976206122228924893}
   m_Bounds:
-    m_Center: {x: -0.0039851665, y: 2.449425, z: 0}
-    m_Extent: {x: 2.306015, y: 2.441145, z: 0}
+    m_Center: {x: -0.0039851665, y: 2.4494252, z: 0}
+    m_Extent: {x: 2.306015, y: 2.4411452, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &2727427515127368050
@@ -784,8 +784,8 @@ MonoBehaviour:
   - {fileID: 4679497252143743904}
   - {fileID: 4332978654283984326}
   m_Bounds:
-    m_Center: {x: 0.000005930662, y: 0.9246757, z: 0}
-    m_Extent: {x: 0.48499537, y: 0.9246758, z: 0}
+    m_Center: {x: 0.000005096197, y: 0.9246758, z: 0}
+    m_Extent: {x: 0.4849953, y: 0.9246758, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &3895092378743771168
@@ -980,8 +980,8 @@ MonoBehaviour:
   - {fileID: 7001003388387234896}
   - {fileID: 4626432523970739612}
   m_Bounds:
-    m_Center: {x: 0.000005096197, y: 0.92467505, z: 0}
-    m_Extent: {x: 0.48499507, y: 0.9246753, z: 0}
+    m_Center: {x: 0.000005066395, y: 0.9246752, z: 0}
+    m_Extent: {x: 0.48499507, y: 0.9246752, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &5114189592376769844
@@ -1198,8 +1198,8 @@ MonoBehaviour:
   - {fileID: 4253194992480327726}
   - {fileID: 1627429191587574574}
   m_Bounds:
-    m_Center: {x: -0.48016298, y: -1.154605, z: 0}
-    m_Extent: {x: 0.73960245, y: 1.4744338, z: 0}
+    m_Center: {x: -0.48016232, y: -1.1546048, z: 0}
+    m_Extent: {x: 0.73960227, y: 1.4744335, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &5400131879740408631
@@ -1419,8 +1419,8 @@ MonoBehaviour:
   - {fileID: 7348895175257125555}
   - {fileID: 2561767494660360926}
   m_Bounds:
-    m_Center: {x: -0.00000011920929, y: -0.00000044703484, z: 0.000000013215491}
-    m_Extent: {x: 0.76999986, y: 0.3550001, z: 0}
+    m_Center: {x: 0.000000059604645, y: -0.000000059604645, z: 0.000000013215491}
+    m_Extent: {x: 0.77, y: 0.35500014, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &7096001904795296203
@@ -1674,7 +1674,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8705832733358487071}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.4700003, y: 0.96, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.6848872, y: 0.6848872, z: 0.6848872}
   m_Children:
   - {fileID: 8313339453786651461}
@@ -1705,6 +1705,7 @@ MonoBehaviour:
   selectedIceCreamShower: {fileID: 6357495842513679331}
   iceCreamHolder: {fileID: 397914986417339507}
   selectedIceCreamIndex: -1
+  isAnimating: 1
 --- !u!95 &-2882522357742246294
 Animator:
   serializedVersion: 3
@@ -1826,8 +1827,8 @@ MonoBehaviour:
   - {fileID: 662687775486137032}
   - {fileID: 5298403036262428823}
   m_Bounds:
-    m_Center: {x: -0.48016208, y: -1.154605, z: 0}
-    m_Extent: {x: 0.73960227, y: 1.4744338, z: 0}
+    m_Center: {x: -0.48016232, y: -1.1546048, z: 0}
+    m_Extent: {x: 0.7396024, y: 1.4744335, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1001 &6650167790020391610

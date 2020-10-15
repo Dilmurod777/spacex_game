@@ -596,6 +596,30 @@ TextureImporter:
   - first:
       213: 4203728911860773112
     second: Roket_7_Hero_Mouth_1
+  - first:
+      213: -9117661631141369610
+    second: Roket_7_Skin_M_3
+  - first:
+      213: -1247993664536554310
+    second: Roket_7_Skin_M_1
+  - first:
+      213: 3726958811325513592
+    second: Roket_7_Skin_M_2
+  - first:
+      213: -2401255584377453427
+    second: Roket_7_Skin_M_4
+  - first:
+      213: -17048506181170868
+    second: Roket_7_Skin_M_5
+  - first:
+      213: -954553739447027487
+    second: Roket_7_Skin_M_6
+  - first:
+      213: 897995380879994083
+    second: Roket_7_Skin_M_6_2
+  - first:
+      213: 1507719421688889085
+    second: Roket_7_Skin_M_4_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -19105,10 +19129,10 @@ TextureImporter:
       - name: bone_1
         position: {x: 26.581299, y: 113.900696, z: 0}
         rotation: {x: 0, y: 0, z: -0.7048216, w: 0.7093846}
-        length: 54.73732
+        length: 54.73735
         parentId: -1
       - name: bone_2
-        position: {x: 54.73732, y: 0.0000014350821, z: 0}
+        position: {x: 54.73735, y: 0.0000012381511, z: 0}
         rotation: {x: 0, y: 0, z: 0.012689014, w: 0.99991953}
         length: 55.470203
         parentId: 0
@@ -19938,10 +19962,10 @@ TextureImporter:
       - name: bone_1
         position: {x: 24.133057, y: 139.08401, z: 0}
         rotation: {x: 0, y: 0, z: -0.7118326, w: 0.7023492}
-        length: 66.93817
+        length: 66.9382
         parentId: -1
       - name: bone_2
-        position: {x: 66.93817, y: -0.0000016405697, z: 0}
+        position: {x: 66.9382, y: -0.0000012312898, z: 0}
         rotation: {x: 0, y: 0, z: 0.0069583966, w: 0.9999758}
         length: 70.0489
         parentId: 0
@@ -28202,15 +28226,15 @@ TextureImporter:
       - name: bone_1
         position: {x: 29.866577, y: 2.4561057, z: 0}
         rotation: {x: 0, y: 0, z: 0.72465324, w: 0.6891137}
-        length: 78.847404
+        length: 78.847374
         parentId: -1
       - name: bone_2
-        position: {x: 78.84741, y: -0.00000786881, z: 0}
+        position: {x: 78.84738, y: -0.0000063354637, z: 0}
         rotation: {x: 0, y: 0, z: -0.05738941, w: 0.9983519}
-        length: 79.29011
+        length: 79.29014
         parentId: 0
       - name: bone_3
-        position: {x: 79.29011, y: -0.000020814969, z: 0}
+        position: {x: 79.29014, y: -0.000009386779, z: 0}
         rotation: {x: 0, y: 0, z: -0.0216932, w: 0.99976474}
         length: 19.18019
         parentId: 1
@@ -28597,17 +28621,17 @@ TextureImporter:
       bones:
       - name: bone_1
         position: {x: 108.99353, y: 5.4649353, z: 0}
-        rotation: {x: 0, y: 0, z: 0.7093997, w: 0.7048064}
+        rotation: {x: 0, y: 0, z: 0.7093996, w: 0.7048065}
         length: 91.213524
         parentId: -1
       - name: bone_2
-        position: {x: 91.213524, y: 0.0000021250462, z: 0}
-        rotation: {x: 0, y: 0, z: -0.00558063, w: 0.99998444}
-        length: 126.74946
+        position: {x: 91.213524, y: 0.000021440803, z: 0}
+        rotation: {x: 0, y: 0, z: -0.0055806297, w: 0.99998444}
+        length: 126.749504
         parentId: 0
       - name: bone_3
-        position: {x: 126.749466, y: -0.00020198699, z: 0}
-        rotation: {x: 0, y: 0, z: 0.002322742, w: 0.9999973}
+        position: {x: 126.74951, y: -0.00010682025, z: 0}
+        rotation: {x: 0, y: 0, z: 0.002323079, w: 0.9999973}
         length: 33.167908
         parentId: 1
       spriteID: d135564260e9221f0800000000000000
@@ -30116,10 +30140,10 @@ TextureImporter:
       - {x: 7.8416767, y: 360.6157}
       - {x: 248.32321, y: 359.3552}
       - {x: 14.112507, y: 98.932175}
-      - {x: 0, y: 186.37665}
+      - {x: 2.5039835, y: 185.78748}
       - {x: 256, y: 183.23145}
       - {x: 256, y: 305.36896}
-      - {x: 0, y: 305.87448}
+      - {x: 3.5228462, y: 306.16803}
       - {x: 237.25815, y: 100.96075}
       - {x: 46.834354, y: 20.000479}
       - {x: 202.84712, y: 20.274025}
@@ -30131,7 +30155,7 @@ TextureImporter:
       - {x: 222.78656, y: 57.70425}
       - {x: 248.98123, y: 141.31685}
       - {x: 4.828238, y: 142.46278}
-      - {x: 0, y: 258.6991}
+      - {x: 2.3771288, y: 258.6991}
       - {x: 256, y: 257.99683}
       - {x: 129.45648, y: 465}
       - {x: 126.50598, y: 0}
@@ -30145,10 +30169,10 @@ TextureImporter:
       - {x: 127.20129, y: 100.87942}
       - {x: 126.88107, y: 59.11392}
       - {x: 126.617355, y: 19.873787}
-      - {x: 0, y: 220.1249}
+      - {x: 2.1028452, y: 220.03346}
       - {x: 256, y: 218.74213}
       - {x: 127.18943, y: 219.4355}
-      indices: 18000000010000001a000000180000001a00000002000000190000002300000000000000230000001900000003000000230000000d00000000000000020000001a0000000e00000023000000030000000c0000001a000000010000000f0000001d0000000500000009000000140000000b000000200000001d000000040000001c0000001a0000001b0000000e0000000d00000023000000220000001200000006000000210000000b0000001300000021000000050000001d0000001c0000001c000000110000001b000000100000001c0000001b0000000f000000100000001b000000110000001c00000004000000150000002000000006000000230000000c000000220000002200000012000000210000000b00000021000000200000001a0000000f0000001b0000000600000020000000210000000e0000001b000000110000001d0000000a000000040000001c00000010000000050000001300000022000000210000000d0000002200000013000000220000000c000000120000001d000000160000000a00000009000000170000001d00000014000000200000001f00000020000000150000001f0000001e000000160000001d0000001f00000015000000070000001d000000170000001e00000008000000140000001f00000025000000260000001e00000026000000240000001e0000001f00000026000000250000001f0000000700000026000000260000000700000024000000160000001e00000024000000250000001e0000001700000025000000080000001f000000
+      indices: 23000000190000000300000018000000010000001a000000190000002300000000000000180000001a000000020000001a000000010000000f000000020000001a0000000e000000230000000d0000000000000023000000030000000c0000001a0000000f0000001b000000230000000c000000220000000d00000023000000220000001a0000001b0000000e0000000e0000001b000000110000000d0000002200000013000000220000000c000000120000000f000000100000001b0000002200000012000000210000001300000022000000210000001c000000110000001b000000100000001c0000001b0000001c00000010000000050000000b0000001300000021000000120000000600000021000000110000001c00000004000000050000001d0000001c0000000b00000021000000200000001d000000040000001c0000000600000020000000210000001d00000005000000090000001500000020000000060000001d0000000a00000004000000140000000b0000002000000020000000150000001f00000009000000170000001d00000014000000200000001f0000001e0000000a0000001d0000001e000000160000000a00000008000000140000001f0000001f00000015000000070000001d000000170000001e000000250000001e000000170000001f0000000700000026000000160000001e0000002400000025000000080000001f00000026000000240000001e0000001f000000260000002500000025000000260000001e000000260000000700000024000000
       edges:
       - {x: 5, y: 9}
       - {x: 4, y: 10}
@@ -31173,7 +31197,7 @@ TextureImporter:
         boneIndex[2]: 0
         boneIndex[3]: 0
       - weight[0]: 0.83
-        weight[1]: 0.17
+        weight[1]: 0.17000002
         weight[2]: 0
         weight[3]: 0
         boneIndex[0]: 0
@@ -31197,7 +31221,7 @@ TextureImporter:
         boneIndex[2]: 0
         boneIndex[3]: 0
       - weight[0]: 0.90999997
-        weight[1]: 0.09
+        weight[1]: 0.09000003
         weight[2]: 0
         weight[3]: 0
         boneIndex[0]: 0
@@ -31205,7 +31229,7 @@ TextureImporter:
         boneIndex[2]: 0
         boneIndex[3]: 0
       - weight[0]: 0.65
-        weight[1]: 0.35
+        weight[1]: 0.35000002
         weight[2]: 0
         weight[3]: 0
         boneIndex[0]: 0
@@ -31253,7 +31277,7 @@ TextureImporter:
         boneIndex[2]: 0
         boneIndex[3]: 0
       - weight[0]: 0.95
-        weight[1]: 0.05
+        weight[1]: 0.050000012
         weight[2]: 0
         weight[3]: 0
         boneIndex[0]: 0
@@ -31281,6 +31305,1014 @@ TextureImporter:
         weight[2]: 0
         weight[3]: 0
         boneIndex[0]: 1
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+    - serializedVersion: 2
+      name: Roket_7_Skin_M_3
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 1116
+        width: 137
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f82c9dcd0f877180800000000000000
+      internalID: -9117661631141369610
+      vertices:
+      - {x: 137, y: 198.72704}
+      - {x: 124.58215, y: 249.30579}
+      - {x: 85.85756, y: 305.45294}
+      - {x: 23.438652, y: 348}
+      - {x: 0, y: 348}
+      - {x: 0, y: 0}
+      - {x: 18.29133, y: 0}
+      - {x: 108.92911, y: 73.5116}
+      - {x: 137, y: 129.61661}
+      - {x: 75.845604, y: 32.305355}
+      indices: 090000000600000005000000020000000400000003000000040000000000000005000000050000000700000009000000000000000800000007000000020000000100000004000000010000000000000004000000070000000500000000000000
+      edges:
+      - {x: 0, y: 1}
+      - {x: 3, y: 4}
+      - {x: 5, y: 6}
+      - {x: 7, y: 8}
+      - {x: 8, y: 0}
+      - {x: 4, y: 5}
+      - {x: 3, y: 2}
+      - {x: 1, y: 2}
+      - {x: 6, y: 9}
+      - {x: 7, y: 9}
+      weights:
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+    - serializedVersion: 2
+      name: Roket_7_Skin_M_1
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1699
+        width: 137
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab45c5fcf5c3eaee0800000000000000
+      internalID: -1247993664536554310
+      vertices:
+      - {x: 53.149433, y: 19.723797}
+      - {x: 80.29137, y: 40.020172}
+      - {x: 108.21071, y: 72.07949}
+      - {x: 137, y: 129.75804}
+      - {x: 14.66721, y: 348}
+      - {x: 0, y: 348}
+      - {x: 0, y: 0}
+      - {x: 15.533894, y: 0}
+      - {x: 137, y: 216.51486}
+      - {x: 107.48213, y: 281.10712}
+      - {x: 69.948784, y: 318.64047}
+      - {x: 42.889866, y: 336.09784}
+      indices: 000000000700000006000000020000000600000005000000040000000b00000005000000050000000b0000000a0000000000000006000000010000000500000008000000020000000300000002000000080000000a0000000900000005000000090000000800000005000000010000000600000002000000
+      edges:
+      - {x: 0, y: 1}
+      - {x: 1, y: 2}
+      - {x: 6, y: 7}
+      - {x: 7, y: 0}
+      - {x: 5, y: 6}
+      - {x: 4, y: 5}
+      - {x: 2, y: 3}
+      - {x: 3, y: 8}
+      - {x: 8, y: 9}
+      - {x: 9, y: 10}
+      - {x: 4, y: 11}
+      - {x: 10, y: 11}
+      weights:
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+    - serializedVersion: 2
+      name: Roket_7_Skin_M_2
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1407
+        width: 137
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fb199ea41d8b330800000000000000
+      internalID: 3726958811325513592
+      vertices:
+      - {x: 112.45481, y: 0}
+      - {x: 137, y: 0.036987305}
+      - {x: 136.36597, y: 348}
+      - {x: 114.811554, y: 348}
+      - {x: 67.28698, y: 316.89993}
+      - {x: 29.995462, y: 282.83667}
+      - {x: 0, y: 219.63852}
+      - {x: 0.79296875, y: 129.42744}
+      - {x: 24.702974, y: 74.91453}
+      - {x: 61.68022, y: 34.31528}
+      indices: 010000000800000007000000040000000600000005000000060000000400000007000000090000000800000001000000070000000400000001000000030000000200000004000000010000000400000002000000000000000900000001000000
+      edges:
+      - {x: 0, y: 1}
+      - {x: 2, y: 3}
+      - {x: 4, y: 5}
+      - {x: 5, y: 6}
+      - {x: 7, y: 8}
+      - {x: 3, y: 4}
+      - {x: 8, y: 9}
+      - {x: 9, y: 0}
+      - {x: 1, y: 2}
+      - {x: 6, y: 7}
+      weights:
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+    - serializedVersion: 2
+      name: Roket_7_Skin_M_4
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 545
+        width: 137
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d844246b4c60daed0800000000000000
+      internalID: -2401255584377453427
+      vertices:
+      - {x: 102.63983, y: 0}
+      - {x: 137, y: 0}
+      - {x: 137, y: 348}
+      - {x: 102.99333, y: 348}
+      - {x: 0, y: 225.88823}
+      - {x: 0, y: 115.54254}
+      - {x: 34.21609, y: 291.35168}
+      - {x: 42.52031, y: 53.081963}
+      indices: 040000000700000005000000040000000600000002000000020000000700000004000000010000000700000002000000020000000600000003000000000000000700000001000000
+      edges:
+      - {x: 0, y: 1}
+      - {x: 2, y: 3}
+      - {x: 1, y: 2}
+      - {x: 4, y: 5}
+      - {x: 4, y: 6}
+      - {x: 3, y: 6}
+      - {x: 5, y: 7}
+      - {x: 0, y: 7}
+      weights:
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+    - serializedVersion: 2
+      name: Roket_7_Skin_M_5
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 972
+        width: 137
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49ce15597e63cff0800000000000000
+      internalID: -17048506181170868
+      vertices:
+      - {x: 137, y: 348}
+      - {x: 111.15556, y: 348}
+      - {x: 35.308075, y: 293.5947}
+      - {x: 0, y: 217.69473}
+      - {x: 0, y: 126.35009}
+      - {x: 40.411064, y: 44.913815}
+      - {x: 115.04105, y: 0}
+      - {x: 137, y: 0}
+      indices: 070000000400000003000000030000000200000000000000050000000400000007000000030000000000000007000000000000000200000001000000070000000600000005000000
+      edges:
+      - {x: 0, y: 1}
+      - {x: 3, y: 4}
+      - {x: 6, y: 7}
+      - {x: 1, y: 2}
+      - {x: 7, y: 0}
+      - {x: 5, y: 6}
+      - {x: 2, y: 3}
+      - {x: 4, y: 5}
+      weights:
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+    - serializedVersion: 2
+      name: Roket_7_Skin_M_6
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 972
+        width: 137
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e83d317e6eb0c2f0800000000000000
+      internalID: -954553739447027487
+      vertices:
+      - {x: 29.249922, y: 0}
+      - {x: 97.10145, y: 52.236557}
+      - {x: 137, y: 122.524796}
+      - {x: 137, y: 217.46823}
+      - {x: 101.00968, y: 296.05927}
+      - {x: 25.65195, y: 347.1522}
+      - {x: 0, y: 348}
+      - {x: 0, y: 0}
+      indices: 070000000600000003000000060000000500000004000000010000000000000007000000030000000200000001000000030000000600000004000000010000000700000003000000
+      edges:
+      - {x: 2, y: 3}
+      - {x: 5, y: 6}
+      - {x: 7, y: 0}
+      - {x: 3, y: 4}
+      - {x: 6, y: 7}
+      - {x: 4, y: 5}
+      - {x: 2, y: 1}
+      - {x: 0, y: 1}
+      weights:
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+    - serializedVersion: 2
+      name: Roket_7_Skin_M_6_2
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 490
+        width: 120
+        height: 226
+      alignment: 9
+      pivot: {x: 0.26456502, y: 0.48999888}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec2b478a02567c00800000000000000
+      internalID: 897995380879994083
+      vertices:
+      - {x: 120, y: 196.02403}
+      - {x: 120, y: 226}
+      - {x: 87.63444, y: 226}
+      - {x: 67.193, y: 209.55858}
+      - {x: 53.311817, y: 184.05739}
+      - {x: 30.26535, y: 183.81448}
+      - {x: 15.522949, y: 215.54999}
+      - {x: 11.459114, y: 224.36559}
+      - {x: 3, y: 224.14911}
+      - {x: 0, y: 208.77669}
+      - {x: 0, y: 149.20041}
+      - {x: 11.638689, y: 113.47247}
+      - {x: 26.314941, y: 93.94958}
+      - {x: 26.210474, y: 24.37084}
+      - {x: 53.57971, y: 23.592913}
+      - {x: 59.456512, y: 0}
+      - {x: 69.698265, y: 0}
+      - {x: 78.80196, y: 11.227468}
+      indices: 0b0000000a000000050000000c0000000b000000040000000b0000000500000004000000060000000900000008000000080000000700000006000000090000000600000005000000050000000a000000090000000e0000000d0000000c000000110000000f0000000e0000000f00000011000000100000000c000000000000001100000000000000040000000300000001000000000000000200000003000000020000000000000004000000000000000c000000110000000e0000000c000000
+      edges:
+      - {x: 0, y: 1}
+      - {x: 2, y: 3}
+      - {x: 5, y: 6}
+      - {x: 6, y: 7}
+      - {x: 7, y: 8}
+      - {x: 12, y: 13}
+      - {x: 13, y: 14}
+      - {x: 14, y: 15}
+      - {x: 15, y: 16}
+      - {x: 16, y: 17}
+      - {x: 4, y: 5}
+      - {x: 11, y: 12}
+      - {x: 17, y: 0}
+      - {x: 1, y: 2}
+      - {x: 3, y: 4}
+      - {x: 8, y: 9}
+      - {x: 9, y: 10}
+      - {x: 10, y: 11}
+      weights:
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+    - serializedVersion: 2
+      name: Roket_7_Skin_M_4_2
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 724
+        width: 150
+        height: 276
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe39b663de7ce410800000000000000
+      internalID: 1507719421688889085
+      vertices:
+      - {x: 27.830723, y: 0}
+      - {x: 91.38286, y: 0.28582478}
+      - {x: 150, y: 31.684168}
+      - {x: 150, y: 252.05136}
+      - {x: 102.818695, y: 276}
+      - {x: 75.861755, y: 164.21864}
+      - {x: 28.500547, y: 120.0471}
+      - {x: 0, y: 80.39666}
+      - {x: 0, y: 24.255386}
+      - {x: 132.74107, y: 276}
+      indices: 070000000000000008000000060000000100000007000000020000000600000005000000000000000700000001000000020000000500000003000000090000000300000004000000030000000500000004000000010000000600000002000000
+      edges:
+      - {x: 1, y: 2}
+      - {x: 4, y: 5}
+      - {x: 7, y: 8}
+      - {x: 6, y: 7}
+      - {x: 0, y: 8}
+      - {x: 1, y: 0}
+      - {x: 2, y: 3}
+      - {x: 5, y: 6}
+      - {x: 3, y: 9}
+      - {x: 4, y: 9}
+      weights:
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
