@@ -21,4 +21,10 @@ public class HeroR : MonoBehaviour
     {
         _animator.SetBool("drinkStart", false);
     }
+
+    public void ResetFruitSelected()
+    {
+        _animator.SetInteger("fruitSelected", -1);
+        JupiterMiniGameController.isPlanetAnimating = false;
+    }
 }

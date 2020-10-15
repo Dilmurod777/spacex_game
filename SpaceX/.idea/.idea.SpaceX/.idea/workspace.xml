@@ -21,11 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b0265033-01b2-4fff-a339-b6368c8667d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Alien 1/Alien (1).controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Alien 1/Alien (1).controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/HeroR/HeroR.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/HeroR/HeroR.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/HeroR/HeroR_Test_2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/HeroR/HeroR_Test_2.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/HeroR/HeroR_Test_3.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/HeroR/HeroR_Test_3.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animation/Jupiter/Jupiter.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Jupiter/Jupiter.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Alien (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Alien (1).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Space.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Space.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AlienSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AlienSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HeroR.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HeroR.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JupiterMiniGameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JupiterMiniGameController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +83,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectDetector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SetVisibility.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Movement/CameraFollow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/JupiterMiniGameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Jupiter.cs" />
-        <option value="$PROJECT_DIR$/Assets/HeroR.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IceCream.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlienSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/JupiterMiniGameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeroR.cs" />
       </list>
     </option>
   </component>
@@ -175,6 +176,7 @@
       <workItem from="1602069588845" duration="2413000" />
       <workItem from="1602221414609" duration="606000" />
       <workItem from="1602754275319" duration="1971000" />
+      <workItem from="1602794756759" duration="3827000" />
     </task>
     <servers />
   </component>

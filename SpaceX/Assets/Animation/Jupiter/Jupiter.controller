@@ -204,7 +204,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter_Strawberry_Bluberry_R
-  m_Speed: -1
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -5892500999758798742}
@@ -446,7 +446,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter_Blackberry_Blackberry_R
-  m_Speed: -1
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -2848293055798235159}
@@ -517,7 +517,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter_Cherry_Blueberry_R
-  m_Speed: -1
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 3485739935907991592}
@@ -767,7 +767,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter_Apple_Banana_R
-  m_Speed: -1
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -8305808271580623297}
@@ -1023,7 +1023,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter_Banana_Banana_R
-  m_Speed: -1
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -9207214311038723193}
@@ -1352,7 +1352,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter_Banana_Blueberry_R
-  m_Speed: -1
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 3015988306692218776}
@@ -1379,7 +1379,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter_Cherry_Blackberry_R
-  m_Speed: -1
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 6802281926539742007}
@@ -1485,7 +1485,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter_Apple_Cherry_R
-  m_Speed: -1
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1735944950952799284}
@@ -1786,7 +1786,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter_Strawberry_Cherry_R
-  m_Speed: -1
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 6290103734835088844}
@@ -2011,7 +2011,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter_Cherry_Cherry_R
-  m_Speed: -1
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -6157740841838178865}
@@ -2060,7 +2060,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter_Apple_Apple_R
-  m_Speed: -2
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -7874461192640602078}
@@ -2211,7 +2211,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter_Blackberry_Blueberry_R
-  m_Speed: -1
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 8733217283129287172}
@@ -2238,7 +2238,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter_Apple_Strawberry_R
-  m_Speed: -1
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -893397765769428062}
@@ -2317,7 +2317,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter_Banana_Cherry_R
-  m_Speed: -1
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -7166596524874821089}
@@ -2344,7 +2344,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter_Blueberry_Blueberry_R
-  m_Speed: -1
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -7651565210825051717}
@@ -2371,7 +2371,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter_Apple_Blueberry_R
-  m_Speed: -1
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -6825883797760895063}
@@ -2522,7 +2522,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter_Banana_Blackberry_R
-  m_Speed: -1
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -66159268820017237}
@@ -2576,7 +2576,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter_Apple_Blackberry_R
-  m_Speed: -1
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -4428728086800968861}
@@ -2727,7 +2727,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter_Strawberry_Blackberry_R
-  m_Speed: -1
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 591233921337037610}
@@ -3011,7 +3011,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter_Strawberry_Strawberry_R
-  m_Speed: -1
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -5726896555360223085}
@@ -3111,7 +3111,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter_Banana_Strawberry_R
-  m_Speed: -1
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 5537961059144084943}

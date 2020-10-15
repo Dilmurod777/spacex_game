@@ -1,7 +1,5 @@
-﻿using System;
+﻿using UnityEngine;
 using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
 public class JupiterMiniGameController : MonoBehaviour
 {
@@ -65,6 +63,10 @@ public class JupiterMiniGameController : MonoBehaviour
             if (firstSelectedFruitIndex == -1)
             {
                 firstSelectedFruitIndex = index;
+                isPlanetAnimating = true;
+
+                var happyIndex = Random.Range(0, 2);
+                _heroRAnimator.SetInteger("fruitSelected", happyIndex);
             }
             else
             {
