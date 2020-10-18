@@ -79,6 +79,7 @@ public class JupiterMiniGameController : MonoBehaviour
 
     public void ExitGame()
     {
+        isRocketMoving = false;
         SceneManager.LoadScene("Space");
     }
 
