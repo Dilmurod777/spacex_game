@@ -1,11 +1,13 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using Random = UnityEngine.Random;
 
 public class JupiterMiniGameController : MonoBehaviour
 {
     public static bool isPlanetAnimating = false;
-    public bool isRocketMoving = true;
+    public static bool isRocketMoving = false;
     public GameObject camera;
     public GameObject mainCamera;
     public GameObject canvas;
@@ -13,10 +15,13 @@ public class JupiterMiniGameController : MonoBehaviour
     public GameObject planet;
     public GameObject mainCanvas;
     public GameObject rocketHolder;
-    public GameObject solomka;
+    public GameObject rocketMovePoints;
+    public FruitSidePanel sidePanel;
     private GameObject _player;
     private Animator _planetAnimator;
     private Animator _heroRAnimator;
+    private int _currentRocketMovePoint = 0;
+    private float _speed = 0.3f;
 
     private string[] _fruits = {"Apple", "Banana", "Strawberry", "Cherry", "Blackberry", "Blueberry",};
     public static int firstSelectedFruitIndex = -1;
@@ -37,22 +42,36 @@ public class JupiterMiniGameController : MonoBehaviour
         _planetAnimator = planet.GetComponent<Animator>();
         camera.SetActive(false);
         canvas.SetActive(false);
-        solomka.SetActive(false);
+    }
+
+    private void FixedUpdate()
+    {
+        if (isRocketMoving)
+        {
+            if (_player.transform.position != rocketMovePoints.transform.GetChild(_currentRocketMovePoint).position)
+            {
+                _player.transform.position = Vector3.MoveTowards(_player.transform.position, rocketMovePoints.transform.GetChild(_currentRocketMovePoint).position,
+                    _speed * Time.deltaTime);
+            }
+            else
+            {
+                _currentRocketMovePoint = (_currentRocketMovePoint + 1) % rocketMovePoints.transform.childCount;
+            }
+        }
     }
 
     public void StartGame()
     {
         MoveByTouch.enableMoving = false;
+        isRocketMoving = true;
         _heroRAnimator = _player.transform.GetChild(_player.transform.childCount - 1).gameObject.GetComponent<Animator>();
         
-
         mainCamera.SetActive(false);
         playBtn.gameObject.SetActive(false);
         planet.transform.GetChild(0).gameObject.SetActive(true);
         planet.transform.GetChild(1).gameObject.SetActive(false);
         camera.SetActive(true);
         canvas.SetActive(true);
-        // solomka.SetActive(true);
         _player.transform.position = rocketHolder.transform.position;
         _player.transform.rotation = rocketHolder.transform.rotation;
         _player.transform.localScale = rocketHolder.transform.localScale;
@@ -63,14 +82,11 @@ public class JupiterMiniGameController : MonoBehaviour
         SceneManager.LoadScene("Space");
     }
 
-    public void RocketMoving()
-    {
-    }
-
     public void FruitSelected(int index)
     {
         if (!isPlanetAnimating)
         {
+            isRocketMoving = false;
             if (firstSelectedFruitIndex == -1)
             {
                 firstSelectedFruitIndex = index;
@@ -82,6 +98,7 @@ public class JupiterMiniGameController : MonoBehaviour
             else
             {
                 isPlanetAnimating = true;
+                sidePanel.MoveAside();
                 _planetAnimator.SetInteger("animationOption", _animationOptions[firstSelectedFruitIndex, index]);
             }
         }

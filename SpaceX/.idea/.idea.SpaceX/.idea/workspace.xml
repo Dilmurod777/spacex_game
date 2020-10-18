@@ -20,18 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0265033-01b2-4fff-a339-b6368c8667d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.plastic/plastic.selector" beforeDir="false" afterPath="$PROJECT_DIR$/../.plastic/plastic.selector" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.plastic/plastic.wktree" beforeDir="false" afterPath="$PROJECT_DIR$/../.plastic/plastic.wktree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/HeroR/HeroR.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/HeroR/HeroR.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animation/HeroR/HeroR_Jupiter_Trubochka.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/HeroR/HeroR_Jupiter_Trubochka.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/HeroR.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HeroR.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/HeroR.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/HeroR.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Solomka.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Solomka.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Space.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Space.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/JupiterMiniGameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JupiterMiniGameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShowPlayButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ShowPlayButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +38,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.uiextensions@214b4a1a69/Runtime/Scripts/Utilities/UI_InfiniteScroll.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FruitSidePanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@7.4.3/Editor/Drawing/Manipulators/WindowDraggable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CloudIceCream.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
@@ -91,8 +86,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IceCream.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlienSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShowPlayButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/HeroR.cs" />
+        <option value="$PROJECT_DIR$/Assets/FruitSidePanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JupiterMiniGameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeroR.cs" />
       </list>
     </option>
   </component>
@@ -182,7 +178,7 @@
       <workItem from="1602221414609" duration="606000" />
       <workItem from="1602754275319" duration="1971000" />
       <workItem from="1602794756759" duration="5098000" />
-      <workItem from="1603025886778" duration="2928000" />
+      <workItem from="1603025886778" duration="7170000" />
     </task>
     <servers />
   </component>
@@ -227,9 +223,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1602013367953" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1600604346093">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1603037929515">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1600604346093" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603037929515" />
   </component>
 </project>

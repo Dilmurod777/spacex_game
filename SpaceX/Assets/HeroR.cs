@@ -7,6 +7,7 @@ public class HeroR : MonoBehaviour
 {
     public GameObject solomka;
     private static Animator _animator;
+    private static FruitSidePanel _sidePanel;
     private SpriteRenderer _solomkaHead;
     private SpriteRenderer _solomkaMiddle;
     private SpriteRenderer _solomkaTail;
@@ -30,17 +31,22 @@ public class HeroR : MonoBehaviour
     public static void HeroRDrink()
     {
         _animator.SetBool("drinkStart", true);
+        _sidePanel = FindObjectOfType<FruitSidePanel>();
     }
     
     public void ResetDrinkTrigger()
     {
         _animator.SetBool("drinkStart", false);
+        _sidePanel.MoveBack();
+        JupiterMiniGameController.isRocketMoving = true;
     }
 
     public void ResetFruitSelected()
     {
         _animator.SetInteger("fruitSelected", -1);
         JupiterMiniGameController.isPlanetAnimating = false;
+        JupiterMiniGameController.isRocketMoving = true;
+        
     }
 
 
