@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class JupiterMiniGameController : MonoBehaviour
 {
     public static bool isPlanetAnimating = false;
+    public bool isRocketMoving = true;
     public GameObject camera;
     public GameObject mainCamera;
     public GameObject canvas;
@@ -54,6 +56,15 @@ public class JupiterMiniGameController : MonoBehaviour
         _player.transform.position = rocketHolder.transform.position;
         _player.transform.rotation = rocketHolder.transform.rotation;
         _player.transform.localScale = rocketHolder.transform.localScale;
+    }
+
+    public void ExitGame()
+    {
+        SceneManager.LoadScene("Space");
+    }
+
+    public void RocketMoving()
+    {
     }
 
     public void FruitSelected(int index)
