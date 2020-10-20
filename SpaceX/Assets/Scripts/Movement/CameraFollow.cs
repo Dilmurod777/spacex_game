@@ -21,7 +21,18 @@ public class CameraFollow : MonoBehaviour
 	    _target = FindObjectOfType<Player>().transform;
 	    
         _camera = GetComponent<Camera>();
-        _camera.transform.position = _target.position;
+        if (PlayerPrefs.GetString("playedMiniGame").Equals("true"))
+        {
+	        var position = _camera.transform.position;
+	        position.x = PlayerPrefs.GetFloat("positionX");
+	        position.y = PlayerPrefs.GetFloat("positionY");
+
+	        _camera.transform.position = position;
+        }
+        else
+        {
+	        _camera.transform.position = _target.position;
+        }
     }
 
     // FixedUpdate is called every frame, when the physics are calculated

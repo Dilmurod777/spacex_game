@@ -33,7 +33,7 @@ public class CameraFollowInspector : InspectorBase
 		}
 		else
 		{
-            EditorGUILayout.PropertyField(serializedObject.FindProperty("target"));
+			EditorGUILayout.PropertyField(serializedObject.FindProperty("target"));
 
             if (!CheckIfAssigned("target", false))
 			{

@@ -1,9 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class AlienSpawner : MonoBehaviour
 {
+    public static bool startSpawning = false;
     public List<GameObject> aliens;
     public static List<int> notSpawnedAliens = new List<int>();
 
@@ -17,8 +20,15 @@ public class AlienSpawner : MonoBehaviour
         {
             notSpawnedAliens.Add(i);
         }
+    }
 
-        StartCoroutine(SpawnAlien(InitialDelay));
+    private void Update()
+    {
+        if (startSpawning)
+        {
+            StartCoroutine(SpawnAlien(0f));
+            startSpawning = false;
+        }
     }
 
     public IEnumerator SpawnAlien(float seconds)
@@ -32,10 +42,9 @@ public class AlienSpawner : MonoBehaviour
         }
 
         var randomAlienIndex = Random.Range(0, notSpawnedAliens.Count); // 0 - 3
-        randomAlienIndex = 0;
         var position = transform.position;
         var spawnedAlien = Instantiate(aliens[notSpawnedAliens[randomAlienIndex]], position, Quaternion.identity);
         Alien.currentAlien = spawnedAlien.GetComponent<Alien>();
-        // notSpawnedAliens.RemoveAt(randomAlienIndex);
+        notSpawnedAliens.RemoveAt(randomAlienIndex);
     }
 }

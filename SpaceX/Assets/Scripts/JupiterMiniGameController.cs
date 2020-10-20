@@ -21,6 +21,7 @@ public class JupiterMiniGameController : MonoBehaviour
     private Animator _planetAnimator;
     private Animator _heroRAnimator;
     private int _currentRocketMovePoint = 0;
+    private Vector3 _currentRocketMovePointPosition;
     private float _speed = 0.3f;
 
     private string[] _fruits = {"Apple", "Banana", "Strawberry", "Cherry", "Blackberry", "Blueberry",};
@@ -42,6 +43,8 @@ public class JupiterMiniGameController : MonoBehaviour
         _planetAnimator = planet.GetComponent<Animator>();
         camera.SetActive(false);
         canvas.SetActive(false);
+
+        _currentRocketMovePointPosition = rocketMovePoints.transform.GetChild(_currentRocketMovePoint).position;
     }
 
     private void FixedUpdate()
@@ -50,12 +53,13 @@ public class JupiterMiniGameController : MonoBehaviour
         {
             if (_player.transform.position != rocketMovePoints.transform.GetChild(_currentRocketMovePoint).position)
             {
-                _player.transform.position = Vector3.MoveTowards(_player.transform.position, rocketMovePoints.transform.GetChild(_currentRocketMovePoint).position,
+                _player.transform.position = Vector3.MoveTowards(_player.transform.position, _currentRocketMovePointPosition,
                     _speed * Time.deltaTime);
             }
             else
             {
                 _currentRocketMovePoint = (_currentRocketMovePoint + 1) % rocketMovePoints.transform.childCount;
+                _currentRocketMovePointPosition = rocketMovePoints.transform.GetChild(_currentRocketMovePoint).position;
             }
         }
     }
@@ -65,7 +69,7 @@ public class JupiterMiniGameController : MonoBehaviour
         MoveByTouch.enableMoving = false;
         isRocketMoving = true;
         _heroRAnimator = _player.transform.GetChild(_player.transform.childCount - 1).gameObject.GetComponent<Animator>();
-        
+
         mainCamera.SetActive(false);
         playBtn.gameObject.SetActive(false);
         planet.transform.GetChild(0).gameObject.SetActive(true);
@@ -75,12 +79,6 @@ public class JupiterMiniGameController : MonoBehaviour
         _player.transform.position = rocketHolder.transform.position;
         _player.transform.rotation = rocketHolder.transform.rotation;
         _player.transform.localScale = rocketHolder.transform.localScale;
-    }
-
-    public void ExitGame()
-    {
-        isRocketMoving = false;
-        SceneManager.LoadScene("Space");
     }
 
     public void FruitSelected(int index)

@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Angar : MonoBehaviour
 {
+    public bool doOpenAngar = true;
     private GameObject _player;
 
     private void Start()
@@ -44,6 +45,14 @@ public class Angar : MonoBehaviour
             {
                 element.GetComponent<SpriteRenderer>().sortingLayerName = layerName;
             }
+        }
+    }
+
+    public void openAngar()
+    {
+        if (doOpenAngar)
+        {
+            GetComponent<Animator>().SetTrigger("open");
         }
     }
 

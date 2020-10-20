@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0265033-01b2-4fff-a339-b6368c8667d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.plastic/plastic.selector" beforeDir="false" afterPath="$PROJECT_DIR$/../.plastic/plastic.selector" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.plastic/plastic.wktree" beforeDir="false" afterPath="$PROJECT_DIR$/../.plastic/plastic.wktree" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Space.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Space.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JupiterMiniGameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JupiterMiniGameController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,23 +68,27 @@
         <option value="$PROJECT_DIR$/Assets/ObjectDetector.cs" />
         <option value="$PROJECT_DIR$/Assets/JupiterMiniGameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IceCreamScriptController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ChangeScene.cs" />
         <option value="$PROJECT_DIR$/Assets/IceCream.cs" />
         <option value="$PROJECT_DIR$/Assets/Hero.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Alien.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlienDestroyer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MoveByTouch.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Hero.cs" />
         <option value="$PROJECT_DIR$/Assets/CloudIceCream.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectDetector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SetVisibility.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Movement/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Jupiter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IceCream.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AlienSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShowPlayButton.cs" />
         <option value="$PROJECT_DIR$/Assets/FruitSidePanel.cs" />
         <option value="$PROJECT_DIR$/Assets/HeroR.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Angar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveByTouch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Hero.cs" />
+        <option value="$PROJECT_DIR$/Assets/_INTERNAL_/Scripts/Editor/Movement/CameraFollowInspector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Movement/CameraFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AlienSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BlackOutPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChangeScene.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JupiterMiniGameController.cs" />
       </list>
     </option>
@@ -101,7 +105,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion.Presentation" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -175,7 +179,8 @@
       <workItem from="1602221414609" duration="606000" />
       <workItem from="1602754275319" duration="1971000" />
       <workItem from="1602794756759" duration="5098000" />
-      <workItem from="1603025886778" duration="7839000" />
+      <workItem from="1603025886778" duration="8349000" />
+      <workItem from="1603167298057" duration="16813000" />
     </task>
     <servers />
   </component>
@@ -197,6 +202,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -204,10 +217,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="767" y="240" key="RiderGenerateDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599586098696" />
-    <state x="461" y="185" key="SettingsEditor" timestamp="1600594896772">
+    <state x="461" y="185" key="SettingsEditor" timestamp="1603172645302">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="461" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1600594896772" />
+    <state x="461" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1603172645302" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1600594820007">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

@@ -11635,6 +11635,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9516ade73138e1447a8558e10d06b96e, type: 3}
+--- !u!1 &162211327 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2364735300414634696, guid: 3be9ab09aeb281644a709fae014bfa71,
+    type: 3}
+  m_PrefabInstance: {fileID: 1993257185}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &177136515
 GameObject:
   m_ObjectHideFlags: 0
@@ -22173,8 +22179,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1603632282}
-        m_MethodName: ExitGame
+      - m_Target: {fileID: 1160079253}
+        m_MethodName: JupyterExitBtnHandler
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -38860,7 +38866,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1992703531}
   m_LocalRotation: {x: 0, y: 0, z: -0.029756567, w: 0.99955726}
-  m_LocalPosition: {x: 4.032, y: 77.76, z: 0}
+  m_LocalPosition: {x: 4.372, y: 77.216, z: 0}
   m_LocalScale: {x: 2.4583719, y: 2.4583719, z: 2.4583719}
   m_Children:
   - {fileID: 370723583}
@@ -38896,6 +38902,19 @@ PrefabInstance:
       propertyPath: trees
       value: 
       objectReference: {fileID: 1835986566}
+    - target: {fileID: 1993257190, guid: 3be9ab09aeb281644a709fae014bfa71, type: 3}
+      propertyPath: hero
+      value: 
+      objectReference: {fileID: 8837014610082374167}
+    - target: {fileID: 1993257190, guid: 3be9ab09aeb281644a709fae014bfa71, type: 3}
+      propertyPath: heroSeat
+      value: 
+      objectReference: {fileID: 162211327}
+    - target: {fileID: 1993257190, guid: 3be9ab09aeb281644a709fae014bfa71, type: 3}
+      propertyPath: heroRPrefab
+      value: 
+      objectReference: {fileID: 5032481598475983518, guid: 74f0d6e8df5a4924281e3a5277f8073c,
+        type: 3}
     - target: {fileID: 2472650998467032904, guid: 3be9ab09aeb281644a709fae014bfa71,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -39587,6 +39606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed71e03f53cba3c4d8d3787f36a2c533, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  doOpenAngar: 1
 --- !u!1 &2038578718
 GameObject:
   m_ObjectHideFlags: 0
@@ -71262,43 +71282,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Spline:
     m_IsOpenEnded: 0
-    m_ControlPoints:
-    - position: {x: 2.176047, y: 10.256167, z: 0}
-      leftTangent: {x: -1.2513924, y: -0.55981636, z: 0}
-      rightTangent: {x: 0.5906477, y: 0.2642374, z: 0}
-      mode: 1
-      height: 1
-      bevelCutoff: 0
-      bevelSize: 0
-      spriteIndex: 0
-      corner: 1
-    - position: {x: 4.264807, y: 9.343762, z: 0}
-      leftTangent: {x: -0.49765515, y: 1.4647713, z: 0}
-      rightTangent: {x: 0.267869, y: -0.78843594, z: 0}
-      mode: 1
-      height: 1
-      bevelCutoff: 0
-      bevelSize: 0
-      spriteIndex: 0
-      corner: 1
-    - position: {x: 3.921921, y: 6.8130713, z: 0}
-      leftTangent: {x: 0.59399295, y: 0.5390258, z: 0}
-      rightTangent: {x: -0.6693821, y: -0.6074357, z: 0}
-      mode: 1
-      height: 1
-      bevelCutoff: 0
-      bevelSize: 0
-      spriteIndex: 0
-      corner: 1
-    - position: {x: 1.4388655, y: 7.569412, z: 0}
-      leftTangent: {x: 0.4878062, y: -0.9632039, z: 0}
-      rightTangent: {x: -0.42838192, y: 0.8458729, z: 0}
-      mode: 1
-      height: 1
-      bevelCutoff: 0
-      bevelSize: 0
-      spriteIndex: 0
-      corner: 1
+    m_ControlPoints: []
   m_SpriteShape: {fileID: 11400000, guid: 49b54ba35aabcee40a799dd659a85f21, type: 2}
   m_FillPixelPerUnit: 100
   m_StretchTiling: 1
@@ -88910,6 +88894,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 8837014610082374165}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8837014610082374167 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1485123243, guid: a2150abc7cd189741922f94465cfedd9,
+    type: 3}
+  m_PrefabInstance: {fileID: 8837014610082374165}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8837014610082374166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca14fa20414b7d244a845a626c7332c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &8946982358113222033
 MonoBehaviour:
   m_ObjectHideFlags: 0

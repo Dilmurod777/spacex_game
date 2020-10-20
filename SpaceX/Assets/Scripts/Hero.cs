@@ -29,21 +29,28 @@ public class Hero : MonoBehaviour
         var layerName = "Default";
         var orderOffset = 0;
 
-        if (SceneManager.GetActiveScene().name == "Space")
+        if (ChangeScene.currentScene == "Space")
         {
-            _player = FindObjectOfType<Player>().transform;
-            _heroRSeat = FindObjectOfType<Player>().transform.Find("HeroSeat");
             layerName = "Player";
             orderOffset = 0;
+            ChangeSortingLayer(transform.GetChild(0), layerName, orderOffset);
+            
+            _player = FindObjectOfType<Player>().transform;
+            _heroRSeat = FindObjectOfType<Player>().transform.Find("HeroSeat");
         }
-        else if (SceneManager.GetActiveScene().name == "Uranus")
+        else if (ChangeScene.currentScene == "Uranus")
         {
             _animator.SetBool(StaticStanding, true);
         }
 
         ChangeSortingLayer(transform.GetChild(0), layerName, orderOffset);
 
-        if (SceneManager.GetActiveScene().name == "Space")
+        bool startOver = true;
+        if (PlayerPrefs.HasKey("playedMiniGame"))
+        {
+            startOver = PlayerPrefs.GetString("playedMiniGame") == "true";
+        }
+        if (ChangeScene.currentScene == "Space" && startOver)
         {
             // Hero Start Jumping
             StartCoroutine(Delay(2f));
