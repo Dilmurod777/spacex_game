@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class ShowPlayButton : MonoBehaviour
 {
-    public GameObject playBtn;
-    public Canvas canvas;
+    public GameObject playBtn;    
     private Player _player;
 
     // Start is called before the first frame update
