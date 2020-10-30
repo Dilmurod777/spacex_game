@@ -87,6 +87,7 @@ public class BlackOutPanel : MonoBehaviour
         if (ChangeScene.currentScene == "Uranus")
         {
             AlienSpawner.startSpawning = true;
+            ExitButton.appear = true;
         }
     }
 
@@ -96,6 +97,7 @@ public class BlackOutPanel : MonoBehaviour
         {
             if (!ChangeScene.currentScene.Equals("Space"))
             {
+                
                 SceneManager.LoadScene("Space");
             }
         }
