@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
-    public static String currentScene = "Uranus";
+    public static String currentScene = "Space";
     public BlackOutPanel blackOutPanel;
     public GameObject asteroids;
     public GameObject stars;
