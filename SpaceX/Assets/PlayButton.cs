@@ -20,7 +20,7 @@ public class PlayButton : MonoBehaviour
         {
             var distance = (_player.transform.position - transform.position).magnitude;
             
-            if (distance < 5)
+            if (distance < 7.5)
             {
                 if (!_isAppeared)
                 {

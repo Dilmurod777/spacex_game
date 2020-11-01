@@ -4,7 +4,7 @@ using UnityEngine.EventSystems;
 public class IceCream : MonoBehaviour, IPointerClickHandler
 {
     public int index;
-    private static int _wrongChoiceCount;
+    public static int wrongChoiceCount;
     private Hero _hero;
     private static readonly int FailedIceCreamCount = Animator.StringToHash("failedIceCreamCount");
 
@@ -44,16 +44,16 @@ public class IceCream : MonoBehaviour, IPointerClickHandler
             }
             else
             {
-                _wrongChoiceCount += 1;
+                wrongChoiceCount += 1;
                 Alien.currentAlien.isAnimating = true;
-                switch (_wrongChoiceCount)
+                switch (wrongChoiceCount)
                 {
                     case 1:
                         Alien.currentAlien.GetComponent<Animator>().SetInteger(FailedIceCreamCount, 1);
                         break;
                     case 2:
                         CloudIceCream.RemoveIceCream("Failed");
-                        _wrongChoiceCount = 0;
+                        wrongChoiceCount = 0;
                         break;
                 }
             }

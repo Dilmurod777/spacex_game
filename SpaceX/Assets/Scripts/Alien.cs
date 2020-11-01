@@ -26,7 +26,7 @@ public class Alien : MonoBehaviour
 
     public void SelectIceCream()
     {
-        isAnimating = true;
+        isAnimating = false;
         selectedIceCreamIndex = new Random().Next(0, iceCreams.Count);
         if (selectedIceCreamShower != null)
         {
@@ -91,6 +91,11 @@ public class Alien : MonoBehaviour
         _animator.SetInteger("failedIceCreamCount", 0);
         _animator.ResetTrigger("startHappyWalking");
         _animator.ResetTrigger("startSadWalking");
+    }
+
+    public void StartAnimatingState()
+    {
+        isAnimating = true;
     }
 
     public void ResetAnimatingState()
