@@ -14149,6 +14149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4207bd1127ce92b4f89e271ae65c8e2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  blackOutPanel: {fileID: 1340349544}
 --- !u!50 &1444710260
 Rigidbody2D:
   serializedVersion: 4

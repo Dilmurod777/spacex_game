@@ -91,8 +91,11 @@ public class JupiterMiniGameController : MonoBehaviour
                 firstSelectedFruitIndex = index;
                 isPlanetAnimating = true;
 
-                var happyIndex = Random.Range(0, 2);
-                _heroRAnimator.SetInteger("fruitSelected", happyIndex);
+                var happyIndex = Random.Range(0, 3); // 0 1 => animations, 2 => do nothing
+                if (happyIndex != 2)
+                {
+                    _heroRAnimator.SetInteger("fruitSelected", happyIndex);
+                }
             }
             else
             {

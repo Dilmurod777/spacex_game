@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 public class AlienDestroyer : MonoBehaviour
 {
     public static int removedAliens = 0;
+    public static int totalNumberOfSpawns = 4;
+    public BlackOutPanel blackOutPanel;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -13,9 +15,11 @@ public class AlienDestroyer : MonoBehaviour
             removedAliens += 1;
         }
 
-        if (removedAliens == 4)
+        if (removedAliens == totalNumberOfSpawns)
         {
-            // SceneManager.LoadScene("Space");
+            ChangeScene.currentScene = "Space";
+            blackOutPanel.fadeInPanel();
+            BlackOutPanel.doExitMiniGame = true;
         }
     }
 }
