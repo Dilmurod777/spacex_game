@@ -287,7 +287,7 @@ GameObject:
   - component: {fileID: 1886204614}
   m_Layer: 8
   m_Name: Particle System
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6823,10 +6823,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   angar: {fileID: 0}
-  hero: {fileID: 0}
-  heroRPrefab: {fileID: 5032481598475983518, guid: 74f0d6e8df5a4924281e3a5277f8073c,
-    type: 3}
-  heroSeat: {fileID: 8372016135482267564}
   trees: {fileID: 0}
   treesAnimationDelay: 0.25
 --- !u!60 &613855830493336771
@@ -6885,6 +6881,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2f2630001b834943bb8ad0cd414388b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hero: {fileID: 0}
+  heroRPrefab: {fileID: 0}
+  heroSeat: {fileID: 0}
 --- !u!1 &760118743257049577
 GameObject:
   m_ObjectHideFlags: 0

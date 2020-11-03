@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8453068524443916530}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HeroSeat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103046487859882}
   - component: {fileID: 4724103046487859885}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Flame (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122,7 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103046494483235}
   - component: {fileID: 4724103046494483234}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Camouflage_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -204,7 +204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103046517546940}
   - component: {fileID: 4724103046517546943}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Flame_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -287,7 +287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103046530278662}
   - component: {fileID: 4724103046530278665}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Captain_America_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -369,7 +369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103046531520568}
   - component: {fileID: 4724103046531520571}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Light_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -452,7 +452,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103046621559524}
   - component: {fileID: 4724103046621559527}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Cyrcle (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -533,7 +533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103046700566734}
   - component: {fileID: 4724103046700566737}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Cyrcle (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -614,7 +614,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103046741206755}
   - component: {fileID: 4724103046741206754}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Cyrcle (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -695,7 +695,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103046763533522}
   - component: {fileID: 4724103046763533525}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Techno_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -777,7 +777,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103046892907604}
   - component: {fileID: 4724103046892907607}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_12 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -858,7 +858,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103046922553727}
   - component: {fileID: 4724103046922553726}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Captain_America_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -941,7 +941,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103046937149329}
   - component: {fileID: 4724103046937149328}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Captain_America_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1023,7 +1023,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103046947967239}
   - component: {fileID: 4724103046947967238}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Wing_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1106,7 +1106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103046996943603}
   - component: {fileID: 4724103046996943602}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1188,9 +1188,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4724103047003729790}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1221,7 +1221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103047026228607}
   - component: {fileID: 4724103047026228606}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Body_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1304,7 +1304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103047036745872}
   - component: {fileID: 4724103047036745875}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Wing_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1386,7 +1386,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103047064883745}
   - component: {fileID: 4724103047064883744}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_9 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1468,7 +1468,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103047200217269}
   - component: {fileID: 4724103047200217268}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Flame_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1550,7 +1550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103047226838701}
   - component: {fileID: 4724103047226838700}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Captain_America_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1633,7 +1633,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103047367132976}
   - component: {fileID: 4724103047367132979}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Cyrcle (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1714,7 +1714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103047435065616}
   - component: {fileID: 4724103047435065619}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Light_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1796,7 +1796,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103047462588765}
   - component: {fileID: 4724103047462588764}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Body (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1878,7 +1878,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103047695803104}
   - component: {fileID: 4724103047695803107}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Body_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1960,7 +1960,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103047711312750}
   - component: {fileID: 4724103047711312753}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Frame (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2042,7 +2042,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103047795549965}
   - component: {fileID: 4724103047795549964}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2125,7 +2125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103047864818343}
   - component: {fileID: 4724103047864818342}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Techno_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2207,7 +2207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103047964359844}
   - component: {fileID: 4724103047964359847}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Light_4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2289,7 +2289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103048085700784}
   - component: {fileID: 4724103048085700787}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Techno_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2371,7 +2371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103048104551908}
   - component: {fileID: 4724103048104551911}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Wing_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2453,7 +2453,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103048169081109}
   - component: {fileID: 4724103048169081108}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Window (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2535,7 +2535,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103048173723289}
   - component: {fileID: 4724103048173723288}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Folder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2610,7 +2610,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103048180193832}
   - component: {fileID: 4724103048180193835}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2693,7 +2693,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103048187225239}
   - component: {fileID: 4724103048187225238}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Flame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2776,7 +2776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103048334830994}
   - component: {fileID: 4724103048334830997}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Light_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2859,7 +2859,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103048351232147}
   - component: {fileID: 4724103048351232146}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Camouflage_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2941,7 +2941,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103048393519693}
   - component: {fileID: 4724103048393519692}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Camouflage_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3023,7 +3023,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103048452042974}
   - component: {fileID: 4724103048452042977}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3105,7 +3105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103048488104384}
   - component: {fileID: 4724103048488104387}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Cyrcle (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3186,7 +3186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103048605260078}
   - component: {fileID: 4724103048605260081}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3269,7 +3269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724103048623376576}
   - component: {fileID: 4724103048623376579}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Roket_2_Wing_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
