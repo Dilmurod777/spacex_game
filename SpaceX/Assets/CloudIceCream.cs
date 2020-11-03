@@ -38,7 +38,7 @@ public class CloudIceCream : MonoBehaviour
         
         if(_status == "Failed")
         {
-            _hero.GiveAlienWrongIceCream(_iceCreamIndex);
+            _hero.GiveAlienWrongIceCream(2, _iceCreamIndex);
         }
     }
 }

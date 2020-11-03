@@ -9,6 +9,7 @@ public class Hero : MonoBehaviour
     public GameObject heroRPrefab;
     public List<Sprite> iceCreams;
     public GameObject iceCreamHolder;
+    private int _wrongIceCreamTryCount = 0;
     private Animator _animator;
     private Transform _player;
     private Transform _heroRSeat;
@@ -35,7 +36,7 @@ public class Hero : MonoBehaviour
             layerName = "Player";
             orderOffset = 0;
             ChangeSortingLayer(transform.GetChild(0), layerName, orderOffset);
-            
+
             _player = FindObjectOfType<Player>().transform;
             _heroRSeat = FindObjectOfType<Player>().transform.Find("HeroSeat");
         }
@@ -51,6 +52,7 @@ public class Hero : MonoBehaviour
         {
             startOver = PlayerPrefs.GetString("playedMiniGame") == "true";
         }
+
         if (ChangeScene.currentScene == "Space" && startOver)
         {
             // Hero Start Jumping
@@ -89,7 +91,6 @@ public class Hero : MonoBehaviour
         var heroR = Instantiate(heroRPrefab, _heroRSeat.localPosition, quaternion.identity);
         heroR.transform.localScale = _heroRSeat.transform.localScale;
         heroR.transform.SetParent(_player.transform);
-        
     }
 
     public void Disable()
@@ -114,16 +115,25 @@ public class Hero : MonoBehaviour
                 break;
         }
     }
-    
-    public void GiveAlienWrongIceCream(int iceCream)
+
+    public void GiveAlienWrongIceCream(int tryCount, int iceCream)
     {
+        _wrongIceCreamTryCount = tryCount;
         iceCreamHolder.GetComponent<SpriteRenderer>().sprite = iceCreams[iceCream];
         _animator.SetInteger(GiveIceCream, 3);
     }
 
     public void AlienFailedIceCreamStart()
     {
-        Alien.currentAlien.GetComponent<Animator>().SetInteger(FailedIceCreamCount, 2);
+        switch (_wrongIceCreamTryCount)
+        {
+            case 1:
+                Alien.currentAlien.GetComponent<Animator>().SetInteger(FailedIceCreamCount, 1);
+                break;
+            case 2:
+                Alien.currentAlien.GetComponent<Animator>().SetInteger(FailedIceCreamCount, 2);
+                break;
+        }
     }
 
     public void AlienPickUpIceCream(int alien)

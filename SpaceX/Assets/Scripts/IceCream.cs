@@ -49,7 +49,7 @@ public class IceCream : MonoBehaviour, IPointerClickHandler
                 switch (wrongChoiceCount)
                 {
                     case 1:
-                        Alien.currentAlien.GetComponent<Animator>().SetInteger(FailedIceCreamCount, 1);
+                        _hero.GiveAlienWrongIceCream(1, index);
                         break;
                     case 2:
                         if (Alien.currentAlien.name.StartsWith("Alien (1)") || Alien.currentAlien.name.StartsWith("Alien (4)") ||
