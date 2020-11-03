@@ -52,6 +52,16 @@ public class IceCream : MonoBehaviour, IPointerClickHandler
                         Alien.currentAlien.GetComponent<Animator>().SetInteger(FailedIceCreamCount, 1);
                         break;
                     case 2:
+                        if (Alien.currentAlien.name.StartsWith("Alien (1)") || Alien.currentAlien.name.StartsWith("Alien (4)") ||
+                            Alien.currentAlien.name.StartsWith("Alien (3)"))
+                        {
+                            CloudIceCream.SetCurrentData(1, index);
+                        }
+                        else if (Alien.currentAlien.name.StartsWith("Alien (2)"))
+                        {
+                            CloudIceCream.SetCurrentData(2, index);
+                        }
+
                         CloudIceCream.RemoveIceCream("Failed");
                         wrongChoiceCount = 0;
                         break;

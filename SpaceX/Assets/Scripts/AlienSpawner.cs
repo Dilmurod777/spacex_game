@@ -44,12 +44,12 @@ public class AlienSpawner : MonoBehaviour
         if (notSpawnedAliens.Count > 0)
         {
             var randomAlienIndex = Random.Range(0, notSpawnedAliens.Count); // 0 - 3
-            randomAlienIndex = 3;
+            // randomAlienIndex = 3;
             var position = transform.position;
             var spawnedAlien = Instantiate(aliens[notSpawnedAliens[randomAlienIndex]], position, Quaternion.identity);
             Alien.currentAlien = spawnedAlien.GetComponent<Alien>();
-            IceCream.wrongChoiceCount = -1;
-            // notSpawnedAliens.RemoveAt(randomAlienIndex);
+            IceCream.wrongChoiceCount = 0;
+            notSpawnedAliens.RemoveAt(randomAlienIndex);
         }
     }
 }

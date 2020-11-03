@@ -10,7 +10,6 @@ public class CloudIceCream : MonoBehaviour
     private static Animator _animator;
     private Hero _hero;
     private static String _status;
-    private static readonly int FailedIceCreamCount = Animator.StringToHash("failedIceCreamCount");
     
     private void Start()
     {
@@ -32,14 +31,14 @@ public class CloudIceCream : MonoBehaviour
 
     public void StartGivingIceCream()
     {
-        if (_status ==  "Success")
+        if (_status == "Success")
         {
             _hero.GiveAlienPickUpIceCream(_alienIndex, _iceCreamIndex);
         }
         
         if(_status == "Failed")
         {
-            Alien.currentAlien.GetComponent<Animator>().SetInteger(FailedIceCreamCount, 2);
+            _hero.GiveAlienWrongIceCream(_iceCreamIndex);
         }
     }
 }

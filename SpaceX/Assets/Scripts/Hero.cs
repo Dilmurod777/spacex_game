@@ -15,6 +15,7 @@ public class Hero : MonoBehaviour
     private static readonly int GiveIceCream = Animator.StringToHash("giveIceCream");
     private static readonly int StaticStanding = Animator.StringToHash("staticStanding");
     private static readonly int HeroStart = Animator.StringToHash("heroStart");
+    private static readonly int FailedIceCreamCount = Animator.StringToHash("failedIceCreamCount");
 
     // Start is called before the first frame update
     void Start()
@@ -112,6 +113,17 @@ public class Hero : MonoBehaviour
             default:
                 break;
         }
+    }
+    
+    public void GiveAlienWrongIceCream(int iceCream)
+    {
+        iceCreamHolder.GetComponent<SpriteRenderer>().sprite = iceCreams[iceCream];
+        _animator.SetInteger(GiveIceCream, 3);
+    }
+
+    public void AlienFailedIceCreamStart()
+    {
+        Alien.currentAlien.GetComponent<Animator>().SetInteger(FailedIceCreamCount, 2);
     }
 
     public void AlienPickUpIceCream(int alien)
