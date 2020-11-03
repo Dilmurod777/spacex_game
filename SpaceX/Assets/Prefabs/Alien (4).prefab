@@ -501,6 +501,7 @@ MonoBehaviour:
   selectedIceCreamShower: {fileID: 511807289962321946}
   iceCreamHolder: {fileID: 3800637100421576301}
   selectedIceCreamIndex: -1
+  isAnimating: 1
 --- !u!1 &3585792738056710621
 GameObject:
   m_ObjectHideFlags: 0
@@ -578,8 +579,8 @@ SpriteMask:
   m_BackSortingLayerID: 0
   m_FrontSortingLayer: 0
   m_BackSortingLayer: 0
-  m_FrontSortingOrder: 32
-  m_BackSortingOrder: 30
+  m_FrontSortingOrder: 37
+  m_BackSortingOrder: 35
   m_IsCustomRangeActive: 1
   m_SpriteSortPoint: 0
 --- !u!1 &3800637100421576301
@@ -872,7 +873,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 31
+  m_SortingOrder: 36
   m_Sprite: {fileID: 2363717596045520484, guid: ece810c6ac8539c41931debd7610ecc9,
     type: 3}
   m_Color: {r: 0.107467055, g: 0.6462984, b: 0.6509434, a: 1}
