@@ -620,6 +620,18 @@ TextureImporter:
   - first:
       213: 1507719421688889085
     second: Roket_7_Skin_M_4_2
+  - first:
+      213: -6547326016834880107
+    second: Roket_7_Soplo_1
+  - first:
+      213: 1700929392965881446
+    second: Roket_7_Soplo_2
+  - first:
+      213: -5292539183952715675
+    second: Roket_7_Soplo_3
+  - first:
+      213: 1829045642987236160
+    second: Roket_7_Soplo_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -19129,10 +19141,10 @@ TextureImporter:
       - name: bone_1
         position: {x: 26.581299, y: 113.900696, z: 0}
         rotation: {x: 0, y: 0, z: -0.7048216, w: 0.7093846}
-        length: 54.73736
+        length: 54.737366
         parentId: -1
       - name: bone_2
-        position: {x: 54.73736, y: 0.0000011889183, z: 0}
+        position: {x: 54.737366, y: 0.0000011396855, z: 0}
         rotation: {x: 0, y: 0, z: 0.012689014, w: 0.99991953}
         length: 55.470203
         parentId: 0
@@ -19962,10 +19974,10 @@ TextureImporter:
       - name: bone_1
         position: {x: 24.133057, y: 139.08401, z: 0}
         rotation: {x: 0, y: 0, z: -0.7118326, w: 0.7023492}
-        length: 66.93821
+        length: 66.93822
         parentId: -1
       - name: bone_2
-        position: {x: 66.93821, y: -0.0000011289699, z: 0}
+        position: {x: 66.93822, y: -0.0000010266499, z: 0}
         rotation: {x: 0, y: 0, z: 0.0069583966, w: 0.9999758}
         length: 70.0489
         parentId: 0
@@ -28226,16 +28238,16 @@ TextureImporter:
       - name: bone_1
         position: {x: 29.866577, y: 2.4561057, z: 0}
         rotation: {x: 0, y: 0, z: 0.72465324, w: 0.6891137}
-        length: 78.84737
+        length: 78.84736
         parentId: -1
       - name: bone_2
-        position: {x: 78.847374, y: -0.000005952127, z: 0}
-        rotation: {x: 0, y: 0, z: -0.057389412, w: 0.9983519}
-        length: 79.290146
+        position: {x: 78.84737, y: -0.0000055687906, z: 0}
+        rotation: {x: 0, y: 0, z: -0.05738941, w: 0.9983519}
+        length: 79.29015
         parentId: 0
       - name: bone_3
-        position: {x: 79.290146, y: -0.0000062928393, z: 0}
-        rotation: {x: 0, y: 0, z: -0.021693192, w: 0.9997647}
+        position: {x: 79.29015, y: -0.000009386779, z: 0}
+        rotation: {x: 0, y: 0, z: -0.0216932, w: 0.99976474}
         length: 19.18019
         parentId: 1
       spriteID: 1b9bcdb4e3c3a7e40800000000000000
@@ -28412,8 +28424,8 @@ TextureImporter:
         boneIndex[1]: 2
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0.58165973
-        weight[1]: 0.27443776
+      - weight[0]: 0.5816598
+        weight[1]: 0.2744378
         weight[2]: 0.1439025
         weight[3]: 0
         boneIndex[0]: 1
@@ -28476,8 +28488,8 @@ TextureImporter:
         boneIndex[1]: 1
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0.48767963
-        weight[1]: 0.46725285
+      - weight[0]: 0.48767966
+        weight[1]: 0.46725288
         weight[2]: 0.045067463
         weight[3]: 0
         boneIndex[0]: 1
@@ -28492,8 +28504,8 @@ TextureImporter:
         boneIndex[1]: 2
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0.5670409
-        weight[1]: 0.31564474
+      - weight[0]: 0.567041
+        weight[1]: 0.31564477
         weight[2]: 0.117314294
         weight[3]: 0
         boneIndex[0]: 1
@@ -28626,12 +28638,12 @@ TextureImporter:
         parentId: -1
       - name: bone_2
         position: {x: 91.213524, y: 0.000021440803, z: 0}
-        rotation: {x: 0, y: 0, z: -0.00558063, w: 0.99998444}
-        length: 126.74952
+        rotation: {x: 0, y: 0, z: -0.0055806297, w: 0.99998444}
+        length: 126.749535
         parentId: 0
       - name: bone_3
-        position: {x: 126.74953, y: -0.000091282345, z: 0}
-        rotation: {x: 0, y: 0, z: 0.0023231213, w: 0.9999973}
+        position: {x: 126.74954, y: -0.000076160606, z: 0}
+        rotation: {x: 0, y: 0, z: 0.0023231632, w: 0.9999974}
         length: 33.167908
         parentId: 1
       spriteID: d135564260e9221f0800000000000000
@@ -32268,6 +32280,330 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+    - serializedVersion: 2
+      name: Roket_7_Soplo_1
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 841
+        width: 178
+        height: 91
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d32e94da93325a0800000000000000
+      internalID: -6547326016834880107
+      vertices:
+      - {x: 148.10307, y: 0}
+      - {x: 178, y: 79.33961}
+      - {x: 178, y: 91}
+      - {x: 0, y: 91}
+      - {x: 0, y: 78.91297}
+      - {x: 29.73852, y: 0}
+      indices: 010000000400000003000000050000000400000000000000030000000200000001000000000000000400000001000000
+      edges:
+      - {x: 1, y: 2}
+      - {x: 3, y: 4}
+      - {x: 2, y: 3}
+      - {x: 1, y: 0}
+      - {x: 5, y: 0}
+      - {x: 4, y: 5}
+      weights:
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+    - serializedVersion: 2
+      name: Roket_7_Soplo_2
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 940
+        width: 178
+        height: 91
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e80cf554aea9710800000000000000
+      internalID: 1700929392965881446
+      vertices:
+      - {x: 147.51537, y: 0}
+      - {x: 178, y: 83.82158}
+      - {x: 178, y: 91}
+      - {x: 0, y: 91}
+      - {x: 0, y: 83.73137}
+      - {x: 30.399443, y: 0}
+      indices: 010000000400000003000000050000000400000000000000030000000200000001000000000000000400000001000000
+      edges:
+      - {x: 0, y: 1}
+      - {x: 3, y: 4}
+      - {x: 2, y: 3}
+      - {x: 1, y: 2}
+      - {x: 4, y: 5}
+      - {x: 5, y: 0}
+      weights:
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+    - serializedVersion: 2
+      name: Roket_7_Soplo_3
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 841
+        width: 178
+        height: 91
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560a9ac37af1d86b0800000000000000
+      internalID: -5292539183952715675
+      vertices:
+      - {x: 147.1901, y: 0}
+      - {x: 178, y: 83.590775}
+      - {x: 178, y: 91}
+      - {x: 0, y: 91}
+      - {x: 0, y: 84.32967}
+      - {x: 30.456375, y: 0}
+      indices: 020000000400000003000000050000000400000000000000040000000200000001000000000000000400000001000000
+      edges:
+      - {x: 1, y: 2}
+      - {x: 3, y: 4}
+      - {x: 2, y: 3}
+      - {x: 4, y: 5}
+      - {x: 0, y: 1}
+      - {x: 5, y: 0}
+      weights:
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+    - serializedVersion: 2
+      name: Roket_7_Soplo_4
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 935
+        width: 182
+        height: 96
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bea345253126910800000000000000
+      internalID: 1829045642987236160
+      vertices:
+      - {x: 156.07964, y: 0}
+      - {x: 182, y: 77.158356}
+      - {x: 182, y: 96}
+      - {x: 0, y: 96}
+      - {x: 0, y: 78.06919}
+      - {x: 26.130869, y: 0}
+      indices: 020000000400000003000000050000000400000001000000040000000200000001000000000000000500000001000000
+      edges:
+      - {x: 1, y: 2}
+      - {x: 3, y: 4}
+      - {x: 2, y: 3}
+      - {x: 4, y: 5}
+      - {x: 0, y: 1}
+      - {x: 5, y: 0}
+      weights:
       - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
